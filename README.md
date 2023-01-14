@@ -56,7 +56,7 @@ Para cada página de artigo, o conteúdo é renderizado em uma rota dinâmica *p
 
 #### Tratamento de Rotas
 
-Caso algum direcionamento de rota de erro uma página 404 é renderizada com um cachorro salsicha informando possíveis causas e um botão de voltar a página anterior, seja ela Home, Sobre Mim ou de algum Projeto.
+Caso aconteça algum direcionamento de rota de erro, uma página 404 é renderizada com um cachorro salsicha informando possíveis causas e um botão de voltar a página anterior, seja ela Home, Sobre Mim ou de algum Projeto.
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/212457678-36a7f64c-ff5f-4c2e-934f-9dbd5ded9db9.gif)
 

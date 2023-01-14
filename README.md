@@ -9,7 +9,7 @@ Portifólio implementado com [Create React App](https://github.com/facebook/crea
 | :rocket: URL         | https://hello-world-lucassmaniotto.vercel.app/
 | 🖥 Curso    | https://www.alura.com.br/curso-online-React-desenvolvendo-react-router-javaScript
 
-![image](https://user-images.githubusercontent.com/101435037/212450714-100b5e9c-fe52-41c1-a83d-1fc2024ad079.png#vitrinedev)
+![Banner](https://user-images.githubusercontent.com/101435037/212458417-c9a682a5-3211-489b-a9d4-8f433fff03ad.png#vitrinedev)
 
 ## Detalhes do projeto
 

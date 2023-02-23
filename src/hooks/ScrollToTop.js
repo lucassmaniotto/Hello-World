@@ -6,11 +6,13 @@ export default function ScrollToTop() {
   const title = document.querySelector('#root > main > article > h2');
 
   useEffect(() => {
-    if (title) {
-      title.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    setTimeout(() => {
+      if (title) {
+        title.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }, 100);
   }, [pathname, title]);
 
   return null;

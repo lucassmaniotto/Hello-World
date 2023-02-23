@@ -23,7 +23,7 @@ export default function Projects() {
 
   const recommendedProjects = posts
     .filter((post) => post.id !== Number(params.id))
-    .sort((a, b) => b.id - a.id)
+    .sort(() => Math.random() - 0.5)
     .slice(0, 4);
   
   return (

@@ -6,18 +6,20 @@ import Home from "./pages/Home";
 import DefaultPage from 'components/DefaultPage';
 import Projects from 'pages/Projects';
 import NotFound from 'pages/NotFound';
+import ScrollToTop from 'hooks/ScrollToTop';
 
 function AppRoutes() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Menu />
       <Routes>
-        <Route path="/" element={<DefaultPage />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<AboutMe />} />
-        </Route>
-        <Route path="projects/:id" element={<Projects />} />
-        <Route path='*' element={<NotFound />} />
+          <Route path="/" element={<DefaultPage />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<AboutMe />} />
+          </Route>
+          <Route path="projects/:id" element={<Projects />} />
+          <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -94,7 +94,7 @@
 
     .images > .myPhoto {
         width: 170px;
-        transform: translate(5rem, 0px);
+        transform: translate(4rem, 0px);
     }
 
     .images > .coloredCircle {

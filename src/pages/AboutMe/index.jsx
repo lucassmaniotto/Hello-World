@@ -1,5 +1,6 @@
 import styles from "./AboutMe.module.css";
 import PagesModel from "components/PagesModel";
+import TecnologiesGrid from "components/TecnologiesGrid";
 import photoCover from "assets/about_me_cover.jpg";
 import photoAboutMe from "assets/about_me_photo.jpg";
 
@@ -31,6 +32,8 @@ export default function AboutMe() {
         <p className={styles.paragraph}>
           Se você chegou até aqui, obrigado por ler e querer me conhecer um pouquinho! Espero que tenha gostado do meu site e que possamos nos conhecer melhor. Se quiser entrar em contato comigo, pode me mandar um e-mail em <a className={styles.ancor} href="mailto:lucas91755@gmail.com">lucas91755@gmail.com</a> ou em <a className={styles.ancor} href="mailto:lucas.schuch@estudante.ufss.edu.br">lucas.schuch@estudante.ufss.edu.br</a>. Aproveite sua estadia por aqui e volte sempre! :D
         </p>
+        <h3 className={styles.subtitle}>Tecnologias</h3>
+        <TecnologiesGrid />
       </PagesModel>
     </main>
   )

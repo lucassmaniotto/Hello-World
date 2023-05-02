@@ -6,12 +6,12 @@ import photoAboutMe from "assets/about_me_photo.jpg";
 
 export default function AboutMe() {
   return (
-    <main>
+    <>
       <PagesModel
         photoCover={photoCover}
         title="Sobre mim"
       >
-        <h3 className={styles.subtitle}>Olá, eu sou o Lucas :)</h3>
+        <h2 className={styles.subtitle}>Olá, eu sou o Lucas :)</h2>
         <img 
           src={photoAboutMe}
           alt="Foto de Lucas Smaniotto Schuch"
@@ -35,6 +35,6 @@ export default function AboutMe() {
         <h3 className={styles.subtitle}>Tecnologias</h3>
         <TecnologiesGrid />
       </PagesModel>
-    </main>
+    </>
   )
 }

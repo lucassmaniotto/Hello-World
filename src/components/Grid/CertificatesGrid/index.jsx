@@ -1,5 +1,5 @@
 import styles from './CertificatesGrid.module.css';
-import CardAncor from '../CardAncor';
+import CardAncor from '../../Card/CardAncor';
 
 export default function TecnologiesGrid() {
   return (
@@ -159,16 +159,17 @@ export default function TecnologiesGrid() {
         icon={"https://www.alura.com.br/assets/api/cursos/selenium-testes-automatizados-aceitacao-java.svg"}
       />
       <CardAncor
-        title={"JavaScript: consumindo e tratando dados de uma API"}
+        title={"JS: consumindo e tratando dados de uma API"}
         paragraph={"Alura"}
         date={"15/12/2022"}
         link={"https://cursos.alura.com.br/user/lucassmaniotto/course/javascript-consumindo-tratando-dados-api/certificate"}
         icon={"https://www.alura.com.br/assets/api/cursos/javascript-consumindo-tratando-dados-api.svg"}
       />
       <CardAncor
-        title={"JavaScript: criando requisições"}
+        title={"JS: criando requisições"}
         paragraph={"Alura"}
         date={"30/12/2022"}
+        // eslint-disable-next-line
         link={"https://cursos.alura.com.br/user/lucassmaniotto/course/javascript-criando-requisicoes/certificate"}
         icon={"https://www.alura.com.br/assets/api/cursos/javascript-criando-requisicoes.svg"}
       />

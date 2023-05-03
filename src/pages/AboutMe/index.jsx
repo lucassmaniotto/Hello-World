@@ -1,9 +1,9 @@
 import styles from "./AboutMe.module.css";
 import PagesModel from "components/PagesModel";
-import TecnologiesGrid from "components/TecnologiesGrid";
+import TecnologiesGrid from "components/Grid/TecnologiesGrid";
 import photoCover from "assets/about_me_cover.jpg";
 import photoAboutMe from "assets/about_me_photo.jpg";
-import CertificatesGrid from "components/CertificatesGrid";
+import CertificatesGrid from "components/Grid/CertificatesGrid";
 
 export default function AboutMe() {
   return (

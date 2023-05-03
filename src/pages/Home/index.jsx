@@ -1,15 +1,15 @@
-import Card from 'components/Card';
+import Card from 'components/Card/CardProjects';
 import styles from './Home.module.css';
 
-import posts from 'json/posts.json';
+import projects from 'json/projects.json';
 
 
 export default function Home() {
   return (
-    <ul className={styles.posts}>
-      {posts.map((post) => (
-        <li key={post.id}>
-          <Card post={post} />
+    <ul className={styles.projects}>
+      {projects.map((project) => (
+        <li key={project.id}>
+          <Card project={project} />
         </li>
       ))}
     </ul>

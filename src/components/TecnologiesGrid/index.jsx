@@ -53,6 +53,10 @@ export default function TecnologiesGrid() {
         name="PostgreSQL"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        name="Docker"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
         name="Git"
       />

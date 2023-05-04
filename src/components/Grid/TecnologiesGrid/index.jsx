@@ -1,9 +1,10 @@
-import Badge from 'components/Badge';
-import styles from './TecnologiesGrid.module.css';
+import Badge from 'components/Badge/TechBadge';
+
+import { TechContainer } from './styles'
 
 export default function TecnologiesGrid() {
   return (
-    <div className={styles.technologiesContainer}>
+    <TechContainer>
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
         name="HTML5"
@@ -76,6 +77,6 @@ export default function TecnologiesGrid() {
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
         name="Canva"
       />
-    </div>
+    </TechContainer>
   )
 }

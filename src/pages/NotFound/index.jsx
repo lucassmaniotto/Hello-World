@@ -1,6 +1,6 @@
 import styles from './NotFound.module.css';
 import error404 from 'assets/error_404.png';
-import MainButton from 'components/MainButton';
+import LargeButton from 'components/Button/LargeButton';
 import { useNavigate } from 'react-router-dom';
 
 export default function NotFound() {
@@ -17,11 +17,7 @@ export default function NotFound() {
                     className={styles.buttonContainer}
                     onClick={() => navegate(-1)}
                 >
-                    <MainButton
-                        size={'lg'}
-                    >
-                        Voltar
-                    </MainButton>
+                    <LargeButton>Voltar</LargeButton>
                 </div>
                 <img 
                     className={styles.imageDog} 

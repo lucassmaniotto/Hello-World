@@ -1,18 +1,18 @@
-import styles from './PagesModel.module.css';
+import { PageModelContainer, PageModelPhotoCover, PageModelTitle, PageModelContent } from './styles'
 
 export default function PagesModel({ children, photoCover, title }) {
   return (
-    <article className={styles.pageModelContainer}>
-      <div 
-        className={styles.photoCover}
+    <PageModelContainer>
+      <PageModelPhotoCover 
+       
         style={{ backgroundImage: `url(${photoCover})` }}
       />
-      <h2 className={styles.title}>
+      <PageModelTitle>
         {title}
-      </h2>
-      <div className={styles.pageContentContainer}>
+      </PageModelTitle>
+      <PageModelContent>
         {children}
-      </div>
-    </article>
+      </PageModelContent>
+    </PageModelContainer>
   )
 }

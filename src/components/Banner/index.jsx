@@ -1,26 +1,26 @@
-import styles from './Banner.module.css';
 import coloredCircle from 'assets/colored_circle.png';
+import { BannerContainer, BannerText, BannerImage } from './styles';
 
 export default function Banner() {
   return (
-    <div className={styles.banner}>
-      <div className={styles.intro}>
-        <h1 className={styles.title}>Olá Mundo!</h1>
-        <p className={styles.paragraph}>Boas vindas ao meu espaço pessoal! Meu nome é Lucas Smaniotto Schuch, sou estudante de Ciência da Computação em formação, e é aqui que você pode conhecer a mim e meus projetos. Espero que goste :)</p>
-      </div>
-      <div className={styles.images}>
+    <BannerContainer>
+      <BannerText>
+        <h1>Olá Mundo!</h1>
+        <p>Boas vindas ao meu espaço pessoal! Meu nome é Lucas Smaniotto Schuch, sou estudante de Ciência da Computação em formação, e é aqui que você pode conhecer a mim e meus projetos. Espero que goste :)</p>
+      </BannerText>
+      <BannerImage>
         <img 
-          className={styles.coloredCircle} 
+          className="colored-circle"
           src={coloredCircle}
           aria-hidden="true"
           alt="Círculo colorido atrás da foto"
           />
         <img 
-          className={styles.myPhoto}
+          className="photo"
           src="https://github.com/lucassmaniotto.png"
-          alt="Foto de Lucas Smaniotto sorrindo"
+          alt="Foto de Lucas Smaniotto Schuch"
         />
-      </div>
-    </div>
+      </BannerImage>
+    </BannerContainer>
   )
 }

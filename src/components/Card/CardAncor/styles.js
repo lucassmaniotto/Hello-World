@@ -1,4 +1,6 @@
-.certificateItem {
+import styled from 'styled-components';
+
+const CardAncorContainer = styled.a`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.75fr;
@@ -18,27 +20,29 @@
     background: -o-linear-gradient(var(--dark-blue), var(--medium-blue) 100%);
     background: linear-gradient(var(--dark-blue), var(--medium-blue) 100%);
     
-    -webkit-transition: background 0.5s ease-out;  
-    -moz-transition: background 0.5s ease-out;  
-    -o-transition: background 0.5s ease-out;  
-    transition: background 0.5s ease-out; 
+    -webkit-transition: background 0.35s ease-out;  
+    -moz-transition: background 0.35s ease-out;  
+    -o-transition: background 0.35s ease-out;  
+    transition: background 0.35s ease-out; 
     background-size: 100% 200%;
-}
 
-.certificateItem:hover {
-    background-position: 100px;
-    color: var(--white);
-    cursor: pointer;
-}
+    &:hover {
+        background-position: 100px;
+        color: var(--white);
+        cursor: pointer;
+    }
+`;
 
-.certificateItemTitle {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: .5rem;
-}
-
-.certificateItemIcon {
+const CardAncorIcon = styled.img`
     width: 5rem;
     max-height: 5rem;
     margin: 0 auto 1rem;
-}
+`;
+
+const CardAncorTitle = styled.h4`
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+`;
+
+export { CardAncorContainer, CardAncorIcon, CardAncorTitle };

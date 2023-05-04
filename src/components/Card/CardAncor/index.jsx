@@ -1,19 +1,17 @@
-import styles from './CardAncor.module.css';
+import { CardAncorContainer, CardAncorIcon, CardAncorTitle  } from './styles';
 
 export default function CardAncor({ title, paragraph, date, link, icon }) {
   return (
-    <a 
+    <CardAncorContainer 
       href={link}
-      className={styles.certificateItem}
     >
-      <img
+      <CardAncorIcon
         src={icon}
         alt={title}
-        className={styles.certificateItemIcon}
       />
-      <h4 className={styles.certificateItemTitle}>{title}</h4>
-      <p className={styles.certificateItemParagraph}>{paragraph}</p>
-      <p className={styles.certificateItemParagraph}>{date}</p>
-    </a>
+      <CardAncorTitle>{title}</CardAncorTitle>
+      <p>{paragraph}</p>
+      <p>{date}</p>
+    </CardAncorContainer>
   )
 }

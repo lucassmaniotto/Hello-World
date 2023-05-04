@@ -1,9 +1,10 @@
-import styles from './CertificatesGrid.module.css';
 import CardAncor from '../../Card/CardAncor';
+
+import { CertificatesContainer } from './styles';
 
 export default function TecnologiesGrid() {
   return (
-    <div className={styles.certificates}>
+    <CertificatesContainer>
       <CardAncor
         title={"Ciência da Computação"}
         paragraph={"Universidade Federal da Fronteira Sul - Chapecó/SC"}
@@ -77,9 +78,16 @@ export default function TecnologiesGrid() {
       <CardAncor
         title={"SQL Server: SQL com Microsoft SQL Server 2019"}
         paragraph={"Alura"}
-        date={"12/02/2022"}
+        date={"12/06/2022"}
         link={"https://cursos.alura.com.br/user/lucassmaniotto/course/sql-server-microsoft-sql-server-2019/certificate"}
         icon={"https://www.alura.com.br/assets/api/cursos/sql-server-microsoft-sql-server-2019.svg"}
+      />
+      <CardAncor
+        title={"SQL Server: consultas avançadas com Microsoft SQL Server 2019"}
+        paragraph={"Alura"}
+        date={"22/06/2022"}
+        link={"https://cursos.alura.com.br/certificate/8bc90011-3027-41e6-a5b6-6f2cd3b3bb2d"}
+        icon={"https://www.alura.com.br/assets/api/cursos/consultas-sql-server-2017.svg"}
       />
       <CardAncor
         title={"Organização de Equipes Ágeis: os papéis existentes em uma equipe"}
@@ -174,13 +182,6 @@ export default function TecnologiesGrid() {
         icon={"https://www.alura.com.br/assets/api/cursos/javascript-criando-requisicoes.svg"}
       />
       <CardAncor
-        title={"React: como os componentes funcionam"}
-        paragraph={"Alura"}
-        date={"06/01/2023"}
-        link={"https://cursos.alura.com.br/user/lucassmaniotto/course/react-componentes-funcionam/certificate"}
-        icon={"https://www.alura.com.br/assets/api/cursos/react-componentes-funcionam.svg"}
-      />
-      <CardAncor
         title={"React com JavaScript: lidando com arquivos estáticos"}
         paragraph={"Alura"}
         date={"10/01/2023"}
@@ -215,6 +216,6 @@ export default function TecnologiesGrid() {
         link={"https://cursos.alura.com.br/user/lucassmaniotto/course/react-migrando-typescript/certificate"}
         icon={"https://www.alura.com.br/assets/api/cursos/react-migrando-typescript.svg"}
       />
-    </div>
+    </CertificatesContainer>
   )
 }

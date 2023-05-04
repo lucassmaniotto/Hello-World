@@ -5,7 +5,7 @@ Portifólio implementado com [Create React App](https://github.com/facebook/crea
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Hello World!**
-| :label: Tecnologias | javascript, html, css, module css, npm, react, jsx
+| :label: Tecnologias | javascript, html, styled-components, npm, react
 | :rocket: URL         | https://hello-world-lucassmaniotto.vercel.app/
 | 🖥 Curso    | https://www.alura.com.br/curso-online-React-desenvolvendo-react-router-javaScript
 

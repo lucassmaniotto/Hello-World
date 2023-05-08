@@ -2,7 +2,7 @@
 .page-markdown-container h4,
 .page-markdown-container h5,
 .page-markdown-container h6 {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--secondary-font);
 }
 
 .page-markdown-container h3 {

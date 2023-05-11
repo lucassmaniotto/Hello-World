@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import { pageFontColor, secondaryFont } from 'components/UI/variables';
 
 const PageModelContainer = styled.article`
-    color: var(--page-font-color);
+    color: ${pageFontColor};
     position: relative;
 `;
 
@@ -23,7 +24,7 @@ const PageModelPhotoCover = styled.div`
 
 const PageModelTitle = styled.h2`
     height: 204px;
-    font-family: var(--secondary-font);
+    font-family: ${secondaryFont};
     padding: 0 7.5rem;
     font-size: 4rem;
     display: flex;

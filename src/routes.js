@@ -7,9 +7,12 @@ import DefaultPage from 'components/DefaultPage';
 import Projects from 'pages/Projects';
 import NotFound from 'pages/NotFound';
 import ScrollToTop from 'hooks/ScrollToTop';
+import { GlobalStyle } from 'components/GlobalStyle';
 
 function AppRoutes() {
   return (
+    <>
+    <GlobalStyle />
     <BrowserRouter>
       <ScrollToTop />
       <Menu />
@@ -23,6 +26,7 @@ function AppRoutes() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    </>
   );
 }
 

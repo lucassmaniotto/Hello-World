@@ -1,4 +1,5 @@
 import { AiOutlineTwitter, AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
+
 import { FooterStyled, FooterLinks } from './styles';
 
 export default function Footer() {

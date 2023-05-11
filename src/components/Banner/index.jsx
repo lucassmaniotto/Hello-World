@@ -1,4 +1,5 @@
 import coloredCircle from 'assets/colored_circle.png';
+
 import { BannerContainer, BannerText, BannerImage } from './styles';
 
 export default function Banner() {

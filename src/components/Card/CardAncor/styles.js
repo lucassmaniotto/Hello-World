@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { primaryColor, whiteColor, tertiaryColor } from 'components/UI/variables';
 
 const CardAncorContainer = styled.a`
     display: grid;
@@ -12,13 +13,13 @@ const CardAncorContainer = styled.a`
     margin: 0 1rem 1rem 0;
     width: 100%;
     
-    box-shadow: 2px 2px 4px var(--medium-blue);
-    color: var(--white);
+    box-shadow: 2px 2px 4px ${tertiaryColor};
+    color: ${whiteColor};
     
-    background: -webkit-linear-gradient(var(--dark-blue), var(--medium-blue) 100%);
-    background: -moz-linear-gradient(var(--dark-blue), var(--medium-blue) 100%);
-    background: -o-linear-gradient(var(--dark-blue), var(--medium-blue) 100%);
-    background: linear-gradient(var(--dark-blue), var(--medium-blue) 100%);
+    background: -webkit-linear-gradient(${primaryColor}, ${tertiaryColor} 100%);
+    background: -moz-linear-gradient(${primaryColor}, ${tertiaryColor} 100%);
+    background: -o-linear-gradient(${primaryColor}, ${tertiaryColor} 100%);
+    background: linear-gradient(${primaryColor}, ${tertiaryColor} 100%);
     
     -webkit-transition: background 0.35s ease-out;  
     -moz-transition: background 0.35s ease-out;  
@@ -28,7 +29,7 @@ const CardAncorContainer = styled.a`
 
     &:hover {
         background-position: 100px;
-        color: var(--white);
+        color: ${whiteColor};
         cursor: pointer;
     }
 `;

@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import { primaryColor, whiteColor, secondaryFont } from 'components/UI/variables';
 
 const BannerContainer = styled.div`
     padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--dark-blue);
-    color: var(--white);
+    background-color: ${primaryColor};
+    color: ${whiteColor};
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -19,14 +20,14 @@ const BannerContainer = styled.div`
 
 const BannerText = styled.div`
     h1 {
-        font-family: var(--secondary-font);
+        font-family: ${secondaryFont};
         font-size: 4rem;
         margin-top: 4.875rem;
         margin-bottom: 2rem;
     }
 
     p {
-        font-family: var(--secondary-font);
+        font-family: ${secondaryFont};
         font-size: 1.5rem;
         line-height: 2rem;
         margin-bottom: 2rem;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { secondaryFont, primaryColor } from 'components/UI/variables';
 
 const CardProjectContainer = styled.div`
     text-align: center;
@@ -22,9 +23,9 @@ const CardProjectCover = styled.img`
 `;
 
 const CardProjectTitle = styled.h2`
-    font-family: var(--secondary-font);
+    font-family: ${secondaryFont};
     font-size: 1.25rem;
-    color: var(--dark-blue);
+    color: ${primaryColor};
     line-height: 1.75rem;
     margin: 1.5rem 0 1.75rem;
 

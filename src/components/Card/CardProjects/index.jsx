@@ -1,5 +1,7 @@
-import MainButton from 'components/Button/MainButton';
 import { Link } from 'react-router-dom';
+
+import MainButton from 'components/Button/MainButton';
+
 import { CardProjectContainer, CardProjectCover, CardProjectTitle } from './styles';
 
 export default function Card({ project }) {

@@ -1,31 +1,32 @@
-import styles from './NotFound.module.css';
-import error404 from 'assets/error_404.png';
-import LargeButton from 'components/Button/LargeButton';
 import { useNavigate } from 'react-router-dom';
+
+import LargeButton from 'components/Button/LargeButton';
+
+import { ContentContainer, TextError404, Title, Text, ButtonContainer, ImageDog, BlankSpace } from './styles';
+
+import error404 from 'assets/error_404.png';
 
 export default function NotFound() {
     const navegate = useNavigate();
 
     return (
         <>
-            <div className={styles.contentContainer}>
-                <span className={styles.text404}>404</span>
-                <h1 className={styles.title}>Ops! Página não encontrada.</h1>
-                <p className={styles.paragraph}>Tem certeza de que era isso que você estava procurando?</p>
-                <p className={styles.paragraph}>Aguarde uns instantes e recarregue a página ou volte para a página inicial</p>
-                <div 
-                    className={styles.buttonContainer}
+            <ContentContainer>
+                <TextError404>404</TextError404>
+                <Title>Ops! Página não encontrada.</Title>
+                <Text>Tem certeza de que era isso que você estava procurando?</Text>
+                <Text>Aguarde uns instantes e recarregue a página ou volte para a página inicial</Text>
+                <ButtonContainer 
                     onClick={() => navegate(-1)}
                 >
                     <LargeButton>Voltar</LargeButton>
-                </div>
-                <img 
-                    className={styles.imageDog} 
+                </ButtonContainer>
+                <ImageDog 
                     src={error404} 
-                    alt="Cachorro Salsicha mexendo no computador de óculos" 
+                    alt="Cachorro Salsicha usando óculos de grau e mexendo no computador" 
                 />
-            </div>    
-            <div className={styles.blankSpace}></div>
+            </ContentContainer>    
+            <BlankSpace />
         </>
     )
 }

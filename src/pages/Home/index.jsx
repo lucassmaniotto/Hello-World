@@ -1,17 +1,17 @@
 import Card from 'components/Card/CardProjects';
-import styles from './Home.module.css';
+
+import { HomeProjectsUl } from './styles';
 
 import projects from 'json/projects.json';
 
-
 export default function Home() {
   return (
-    <ul className={styles.projects}>
+    <HomeProjectsUl>
       {projects.map((project) => (
         <li key={project.id}>
           <Card project={project} />
         </li>
       ))}
-    </ul>
+    </HomeProjectsUl>
   )
 }

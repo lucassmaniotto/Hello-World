@@ -1,14 +1,16 @@
 import { Route, Routes, useParams } from "react-router-dom"
-import projects from "json/projects.json"
 import ReactMarkdown from "react-markdown";
 
-import './Projects.css'
-import styles from './Projects.module.css'
+import NotFound from "pages/NotFound";
 
 import PagesModel from "components/PagesModel";
-import NotFound from "pages/NotFound";
 import DefaultPage from "components/DefaultPage";
 import Card from "components/Card/CardProjects";
+
+import { PageMarkdownContainer } from "./markdown-styles";
+import { TitleOtherProjects, RecommendedProjectsUl } from "./styles";
+
+import projects from "json/projects.json"
 
 export default function Projects() {
   const params = useParams();
@@ -34,19 +36,19 @@ export default function Projects() {
           photoCover={`/assets/image/projects/${project.id}/cover_projects.jpg`}
           title={project.title}
         >
-          <div className="page-markdown-container">
+          <PageMarkdownContainer>
             <ReactMarkdown>
               {project.text}
             </ReactMarkdown>
-          </div>
-          <h2 className={styles.titleOtherProjects}>Outros projetos que você pode gostar:</h2>
-          <ul className={styles.recommendedProjects}>
+          </PageMarkdownContainer>
+          <TitleOtherProjects>Outros projetos que você pode gostar:</TitleOtherProjects>
+          <RecommendedProjectsUl>
             {recommendedProjects.map((project) => (
               <li key={project.id}>
                 <Card project={project} />
               </li>
             ))}
-          </ul>
+          </RecommendedProjectsUl>
         </PagesModel>
       } />
       </Route>

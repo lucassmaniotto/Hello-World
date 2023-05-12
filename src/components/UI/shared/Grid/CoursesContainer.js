@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const CertificatesContainer = styled.div`
+const CoursesContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
@@ -24,4 +24,4 @@ const CertificatesContainer = styled.div`
     }
 `;
 
-export { CertificatesContainer };
+export { CoursesContainer };

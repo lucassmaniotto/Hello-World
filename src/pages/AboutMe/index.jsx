@@ -6,6 +6,7 @@ import { AboutMePhoto, AboutMeSubTitle, AboutMeText, AboutMeAncor } from "./styl
 
 import photoCover from "assets/about_me_cover.jpg";
 import photoAboutMe from "assets/about_me_photo.jpg";
+import QualificationsGrid from "components/Grid/QualificationsGrid";
 
 export default function AboutMe() {
   return (
@@ -41,7 +42,9 @@ export default function AboutMe() {
           <TecnologiesGrid />
         </section>
         <section>
-          <AboutMeSubTitle>Formações e certificados</AboutMeSubTitle>
+          <AboutMeSubTitle>Formações</AboutMeSubTitle>
+          <QualificationsGrid />
+          <AboutMeSubTitle>Certificados</AboutMeSubTitle>
           <CertificatesGrid />
         </section>
       </PagesModel>

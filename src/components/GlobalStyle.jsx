@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { mainFont } from "./UI/variables";
+import { mainFont, primaryColor, whiteColor } from "./UI/variables";
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -43,16 +43,16 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px var(--dark-blue); 
+        box-shadow: inset 0 0 5px ${primaryColor};
         border-radius: 10px;
     }
 
     ::-webkit-scrollbar-thumb {
-        background: var(--dark-blue);
+        background: ${primaryColor};
         border-radius: 10px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background: var(--white); 
+        background: ${whiteColor};
     }
 `;

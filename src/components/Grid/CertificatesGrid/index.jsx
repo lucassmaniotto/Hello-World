@@ -1,52 +1,10 @@
 import CardAncor from '../../Card/CardAncor';
 
-import { CertificatesContainer } from './styles';
+import { CoursesContainer } from 'components/UI/shared/Grid/CoursesContainer';
 
-export default function TecnologiesGrid() {
+export default function CertificatesGrid() {
   return (
-    <CertificatesContainer>
-      <CardAncor
-        title={"Ciência da Computação"}
-        paragraph={"Universidade Federal da Fronteira Sul - Chapecó/SC"}
-        date={"2021 - Atualmente"}
-        link={"https://cc.uffs.edu.br/"}
-        icon={"https://cc.uffs.edu.br/images/avatars/coordenacao.png"}
-      />
-      <CardAncor
-        title={"Formação React com JavaScript"}
-        paragraph={"Alura"}
-        date={"31/01/2023"}
-        link={"https://cursos.alura.com.br/degree/certificate/e3daef71-12e9-4253-81cc-0cc4c6ecbfee"}
-        icon={"https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg"}
-      />
-      <CardAncor
-        title={"Formação JavaScript para Front-end"}
-        paragraph={"Alura"}
-        date={"02/01/2023"}
-        link={"https://cursos.alura.com.br/degree/certificate/e073304a-fc7f-4c88-97fd-12864f221ef7"}
-        icon={"https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg"}
-      />
-      <CardAncor
-        title={"Formação HTML e CSS"}
-        paragraph={"Alura"}
-        date={"29/11/2022"}
-        link={"https://cursos.alura.com.br/degree/certificate/3b13b8ca-42a3-4491-b003-4ab0bacedcbe"}
-        icon={"https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg"}
-      />
-      <CardAncor
-        title={"Formação QA: processos e automação de testes"}
-        paragraph={"Alura"}
-        date={"04/08/2022"}
-        link={"https://cursos.alura.com.br/degree/certificate/465bbfb9-30e8-4b65-907d-326218ebf87f"}
-        icon={"https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg"}
-      />
-      <CardAncor
-        title={"Formação JavaScript para Back-end"}
-        paragraph={"Alura"}
-        date={"31/10/2022"}
-        link={"https://cursos.alura.com.br/degree/certificate/c355e96a-817b-40d2-9150-3cbda076bd64"}
-        icon={"https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg"}
-      />
+    <CoursesContainer>
       <CardAncor
         title={"Python: começando com a linguagem"}
         paragraph={"Alura"}
@@ -60,6 +18,48 @@ export default function TecnologiesGrid() {
         date={"20/04/2022"}
         link={"https://cursos.alura.com.br/user/lucassmaniotto/course/python-3-avancando-na-linguagem/certificate"}
         icon={"https://www.alura.com.br/assets/api/cursos/python-3-avancando-na-linguagem.svg"}
+      />
+      <CardAncor
+        title={"HTML5 e CSS3 parte 1: crie uma página da Web"}
+        paragraph={"Alura"}
+        date={"03/05/2022"}
+        link={"https://cursos.alura.com.br/certificate/696d39e0-db92-4b0b-b28d-3ca5989a9bd3"}
+        icon={"https://www.alura.com.br/assets/api/cursos/html5-css3-primeiros-passos.svg"}
+      />
+      <CardAncor
+        title={"HTML5 e CSS3 parte 2: posicionamento, listas e navegação"}
+        paragraph={"Alura"}
+        date={"26/10/2022"}
+        link={"https://cursos.alura.com.br/certificate/3617a492-505f-4063-bf10-66fd65f433f0"}
+        icon={"https://www.alura.com.br/assets/api/cursos/html5-css3-posicionamento-listas-navegacao.svg"}
+      />
+      <CardAncor
+        title={"HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas"}
+        paragraph={"Alura"}
+        date={"31/10/2022"}
+        link={"https://cursos.alura.com.br/certificate/d4f694ae-0ee4-440e-9610-b858264858a9"}
+        icon={"https://www.alura.com.br/assets/api/cursos/html5-css3-formularios-tabelas.svg"}
+      />
+      <CardAncor
+        title={"HTML5 e CSS3 parte 4: avançando no CSS"}
+        paragraph={"Alura"}
+        date={"03/11/2022"}
+        link={"https://cursos.alura.com.br/certificate/4de75dbd-a1ea-4d96-a0dd-db1fac794d61"}
+        icon={"https://www.alura.com.br/assets/api/cursos/html5-css3-avancando-css.svg"}
+      />
+      <CardAncor
+        title={"CSS: dispondo elementos com Flexbox e Grid"}
+        paragraph={"Alura"}
+        date={"17/11/2022"}
+        link={"https://cursos.alura.com.br/certificate/605f300a-6431-449a-ae45-727dc0352616"}
+        icon={"https://www.alura.com.br/assets/api/cursos/css-dispondo-elementos-flexbox-grid.svg"}
+      />
+      <CardAncor
+        title={"HTML e CSS: responsividade com mobile-first"}
+        paragraph={"Alura"}
+        date={"29/11/2022"}
+        link={"https://cursos.alura.com.br/certificate/a6d715be-86f3-4e9c-b6c4-78bd09b9cf4b"}
+        icon={"https://www.alura.com.br/assets/api/cursos/html-css-responsividade-mobile-first.svg"}
       />
       <CardAncor
         title={"C: conhecendo a Linguagem das Linguagens"}
@@ -90,11 +90,39 @@ export default function TecnologiesGrid() {
         icon={"https://www.alura.com.br/assets/api/cursos/consultas-sql-server-2017.svg"}
       />
       <CardAncor
+        title={"Quality Assurance: plano de testes e gestão de bugs"}
+        paragraph={"Alura"}
+        date={"02/08/2022"}
+        link={"https://cursos.alura.com.br/certificate/edc3619b-888f-4b91-8140-9abe736172d8"}
+        icon={"https://www.alura.com.br/assets/api/cursos/quality-assurance-plano-testes-gestao-bugs.svg"}
+      />
+      <CardAncor
         title={"Organização de Equipes Ágeis: os papéis existentes em uma equipe"}
         paragraph={"Alura"}
         date={"03/08/2022"}
         link={"https://cursos.alura.com.br/user/lucassmaniotto/course/organizando-equipes-ageis/certificate"}
         icon={"https://www.alura.com.br/assets/api/cursos/organizando-equipes-ageis.svg"}
+      />
+      <CardAncor
+        title={"Cypress: automação de testes E2E"}
+        paragraph={"Alura"}
+        date={"04/08/2022"}
+        link={"https://cursos.alura.com.br/certificate/96dced62-c27a-497b-af03-dab231e64f7c"}
+        icon={"https://www.alura.com.br/assets/api/cursos/cypress-automacao-testes-e2e.svg"}
+      />
+      <CardAncor
+        title={"Git e Github: controle e compartilhe seu código"}
+        paragraph={"Alura"}
+        date={"03/08/2022"}
+        link={"https://cursos.alura.com.br/certificate/2b01e06e-0141-4005-ade0-3d3329884c62"}
+        icon={"https://www.alura.com.br/assets/api/cursos/git-github-controle-de-versao.svg"}
+      />
+      <CardAncor
+        title={"Git e GitHub: repositório, commit e versões"}
+        paragraph={"Alura"}
+        date={"14/11/2022"}
+        link={"https://cursos.alura.com.br/certificate/507a72c0-b9f9-417e-9701-ad1d6e4a9c9e"}
+        icon={"https://www.alura.com.br/assets/api/cursos/git-github-repositorio-commit-versoes.svg"}
       />
       <CardAncor
         title={"Maven: gerenciando dependências em build de aplicações Java"}
@@ -167,6 +195,76 @@ export default function TecnologiesGrid() {
         icon={"https://www.alura.com.br/assets/api/cursos/selenium-testes-automatizados-aceitacao-java.svg"}
       />
       <CardAncor
+        title={"HTTP: Entendendo a web por baixo dos panos"}
+        paragraph={"Alura"}
+        date={"21/06/2022"}
+        link={"https://cursos.alura.com.br/certificate/14c5a3ee-32e7-45e4-a885-a04cc55ac91d"}
+        icon={"https://www.alura.com.br/assets/api/cursos/http-fundamentos.svg"}
+      />
+      <CardAncor
+        title={"JS: tipos, variáveis e funções"}
+        paragraph={"Alura"}
+        date={"08/09/2022"}
+        link={"https://cursos.alura.com.br/certificate/5eba2943-bc59-467b-895d-8930512a4d35"}
+        icon={"https://www.alura.com.br/assets/api/cursos/fundamentos-javascript-tipos-variaveis-funcoes.svg"}
+      />
+      <CardAncor
+        title={"JS: Arrays"}
+        paragraph={"Alura"}
+        date={"21/09/2022"}
+        link={"https://cursos.alura.com.br/certificate/bbf24af3-d4d2-4721-a3ab-1a475f567529"}
+        icon={"https://www.alura.com.br/assets/api/cursos/javascript-arrays.svg"}
+      />
+      <CardAncor
+        title={"JS: Objetos"}
+        paragraph={"Alura"}
+        date={"03/10/2022"}
+        link={"https://cursos.alura.com.br/certificate/64ca163c-685c-4e43-8441-390d7334e8c5"}
+        icon={"https://www.alura.com.br/assets/api/cursos/fundamentos-javascript-objetos.svg"}
+      />
+      <CardAncor
+        title={"JS: programação orientada a objetos"}
+        paragraph={"Alura"}
+        date={"03/10/2022"}
+        link={"https://cursos.alura.com.br/certificate/dc9836c5-7b14-47cf-a9be-635d0f4ffba2"}
+        icon={"https://www.alura.com.br/assets/api/cursos/javascript-passos-programacao-orientada-objetos.svg"}
+      />
+      <CardAncor
+        title={"JS para Web: Crie páginas dinâmicas"}
+        paragraph={"Alura"}
+        date={"09/11/2022"}
+        link={"https://cursos.alura.com.br/certificate/60b53aa5-aa88-4c1a-a935-d0256e56e650"}
+        icon={"https://www.alura.com.br/assets/api/cursos/javascript-web-paginas-dinamicas.svg"}
+      />
+      <CardAncor
+        title={"JS: manipulando o DOM"}
+        paragraph={"Alura"}
+        date={"30/11/2022"}
+        link={"https://cursos.alura.com.br/certificate/c7d95980-571a-4a19-9c78-bc1ad68269a7"}
+        icon={"https://www.alura.com.br/assets/api/cursos/javascript-manipulando-dom.svg"}
+      />
+      <CardAncor
+        title={"JS na Web: armazenando dados no navegador"}
+        paragraph={"Alura"}
+        date={"06/12/2022"}
+        link={"https://cursos.alura.com.br/certificate/105b0f9d-26ea-4243-8387-29820b7f75df"}
+        icon={"https://www.alura.com.br/assets/api/cursos/javascript-web-armazenando-dados-navegador.svg"}
+      />
+      <CardAncor
+        title={"JS: validações e reconhecimento de voz"}
+        paragraph={"Alura"}
+        date={"13/12/2022"}
+        link={"https://cursos.alura.com.br/certificate/986b1de7-3d25-4f0b-968e-1fb05f045d30"}
+        icon={"https://www.alura.com.br/assets/api/cursos/javascript-validacoes-reconhecimento-voz.svg"}
+      />
+      <CardAncor
+        title={"JS: métodos de array"}
+        paragraph={"Alura"}
+        date={"22/12/2022"}
+        link={"https://cursos.alura.com.br/certificate/101b27c1-d559-436b-9bc3-9b41f13403bc"}
+        icon={"https://www.alura.com.br/assets/api/cursos/javascript-metodos-array.svg"}
+      />
+      <CardAncor
         title={"JS: consumindo e tratando dados de uma API"}
         paragraph={"Alura"}
         date={"15/12/2022"}
@@ -177,9 +275,15 @@ export default function TecnologiesGrid() {
         title={"JS: criando requisições"}
         paragraph={"Alura"}
         date={"30/12/2022"}
-        // eslint-disable-next-line
         link={"https://cursos.alura.com.br/user/lucassmaniotto/course/javascript-criando-requisicoes/certificate"}
         icon={"https://www.alura.com.br/assets/api/cursos/javascript-criando-requisicoes.svg"}
+      />
+      <CardAncor
+        title={"JS: validando formulários"}
+        paragraph={"Alura"}
+        date={"02/02/2023"}
+        link={"https://cursos.alura.com.br/certificate/fe460514-9cfa-47bd-bd70-9bfabe36a2b5"}
+        icon={"https://www.alura.com.br/assets/api/cursos/javascript-validando-formularios.svg"}
       />
       <CardAncor
         title={"React com JavaScript: lidando com arquivos estáticos"}
@@ -216,6 +320,6 @@ export default function TecnologiesGrid() {
         link={"https://cursos.alura.com.br/user/lucassmaniotto/course/react-migrando-typescript/certificate"}
         icon={"https://www.alura.com.br/assets/api/cursos/react-migrando-typescript.svg"}
       />
-    </CertificatesContainer>
+    </CoursesContainer>
   )
 }

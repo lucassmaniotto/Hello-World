@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { primaryColor, whiteColor, tertiaryColor } from 'components/UI/variables';
+import { primaryColor, whiteColor, tertiaryColor, fifthColor, blackMarkdown } from 'components/UI/variables';
 
 const CardAncorContainer = styled.a`
     display: grid;
@@ -9,11 +9,12 @@ const CardAncorContainer = styled.a`
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    border: 1.5px solid ${primaryColor};
     padding: 1rem;
     margin: 0 1rem 1rem 0;
     width: 100%;
     
-    box-shadow: 2px 2px 4px ${tertiaryColor};
+    box-shadow: 5px 5px 10px ${blackMarkdown};
     color: ${whiteColor};
     
     background: -webkit-linear-gradient(${primaryColor}, ${tertiaryColor} 100%);
@@ -24,12 +25,17 @@ const CardAncorContainer = styled.a`
     -webkit-transition: background 0.35s ease-out;  
     -moz-transition: background 0.35s ease-out;  
     -o-transition: background 0.35s ease-out;  
-    transition: background 0.35s ease-out; 
+    transition: all 0.35s ease-out; 
     background-size: 100% 200%;
 
     &:hover {
+        position: relative;
+        top: 2px;
+        left: 2px;
         background-position: 100px;
         color: ${whiteColor};
+        box-shadow: 0px 0px 7.5px ${fifthColor};
+        border: 1.5px solid ${fifthColor};
         cursor: pointer;
     }
 `;

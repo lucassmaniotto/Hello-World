@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { primaryColor, whiteColor, secondaryFont, fourthColor } from 'components/UI/variables';
 
 export const ContentContainer = styled.div`
     position: relative;
     text-align: center;
-    background-color: var(--dark-blue);
-    color: var(--white);
+    background-color: ${primaryColor};
+    color: ${whiteColor};
     padding: 0 1.5rem 6.5rem;
 
     @media screen and (max-width: 744px) {
@@ -14,8 +15,8 @@ export const ContentContainer = styled.div`
 
 export const TextError404 = styled.span`
     display: block;
-    color: var(--blue);
-    font-family: var(--secondary-font);
+    color: ${fourthColor};
+    font-family: ${secondaryFont};
     font-size: 6rem;
     font-weight: 700;
     margin-bottom: 2rem;
@@ -30,7 +31,7 @@ export const TextError404 = styled.span`
 `;
 
 export const Title = styled.h1`
-    font-family: var(--secondary-font);
+    font-family: ${secondaryFont};
     font-size: 3rem;
     margin-bottom: 2rem;
 

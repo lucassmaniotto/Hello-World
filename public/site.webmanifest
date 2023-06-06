@@ -1,19 +1,29 @@
 {
-    "name":"",
-    "short_name":"",
-    "icons":[
+    "name":"Hello World - Lucas Smaniotto Portfolio",
+    "short_name":"Hello World",
+    "icons": [
         {
-            "src":"assets/image/favicon/android-chrome-192x192.png",
-            "sizes":"192x192",
-            "type":"image/png"
-        },
-        {
-            "src":"assets/image/favicon/android-chrome-512x512.png",
-            "sizes":"512x512",
-            "type":"image/png"
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
         }
     ],
-    "theme_color":"#ffffff",
-    "background_color":"#ffffff",
-    "display":"standalone"
+    "start_url":".",
+    "display":"standalone",
+    "fonts": [
+        {
+            "family": "Playfair",
+            "variants": [
+                "400",
+                "600",
+                "700"
+            ]
+        },
+        {
+            "family": "Raleway",
+            "variants": [
+                "400"
+            ]
+        }
+    ]
 }

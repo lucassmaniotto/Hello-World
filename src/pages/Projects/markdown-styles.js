@@ -90,5 +90,14 @@ export const PageMarkdownContainer = styled.div`
     img {
       width: 100%;
     }
+
+    ul {
+      margin: 1rem;;
+    }
+    
+    li {
+      font-size: 1rem;
+      line-height: 1.75rem;
+    }
   }
 `;

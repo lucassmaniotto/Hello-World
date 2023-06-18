@@ -42,8 +42,12 @@ export default function TecnologiesGrid() {
         name="Node.js"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        name="Express"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
-        name="SQL Server"
+        name="MS SQL Server"
       />
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
@@ -72,10 +76,6 @@ export default function TecnologiesGrid() {
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
         name="Figma"
-      />
-      <Badge
-        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
-        name="Canva"
       />
     </TechContainer>
   )

@@ -41,10 +41,9 @@ export const PageMarkdownContainer = styled.div`
   }
 
   ul > li {
-    margin-bottom: 1rem;
+    margin: 0.5rem 2rem;
     list-style: disc;
   }
-
   pre,
   blockquote {
     margin-bottom: 1.5rem;

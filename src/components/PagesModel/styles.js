@@ -4,6 +4,7 @@ import { pageFontColor, secondaryFont } from 'components/UI/variables';
 const PageModelContainer = styled.article`
     color: ${pageFontColor};
     position: relative;
+    background-color: ${props => props.theme.lightGray};
 `;
 
 const PageModelPhotoCover = styled.div`
@@ -33,7 +34,7 @@ const PageModelTitle = styled.h2`
     @media screen and (max-width: 744px) {
         height: 104px;
         padding: 0 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 `;
 

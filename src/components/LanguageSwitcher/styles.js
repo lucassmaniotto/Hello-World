@@ -1,4 +1,4 @@
-const { styled } = require("styled-components");
+import styled from "styled-components";
 
 const LanguageButton = styled.button`
   display: flex;
@@ -47,7 +47,4 @@ const LanguageSwitcherWrapper = styled.div`
   }
 `;
 
-module.exports = {
-  LanguageButton,
-  LanguageSwitcherWrapper,
-};
+export { LanguageButton, LanguageSwitcherWrapper };

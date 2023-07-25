@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import PagesModel from "components/PagesModel";
 import TecnologiesGrid from "components/Grid/TecnologiesGrid";
 import CertificatesGrid from "components/Grid/CertificatesGrid";
@@ -14,116 +15,60 @@ import photoAboutMe from "assets/about_me_photo.jpg";
 import QualificationsGrid from "components/Grid/QualificationsGrid";
 
 export default function AboutMe() {
+  const { t } = useTranslation();
+
   return (
     <>
-      <PagesModel photoCover={photoCover} title="Sobre mim">
+      <PagesModel photoCover={photoCover} title={t("about-title").toString()}>
         <section>
-          <AboutMeSubTitle>Olá, eu sou o Lucas :)</AboutMeSubTitle>
+          <AboutMeSubTitle>{t("about-subtitle")}</AboutMeSubTitle>
           <AboutMePhoto
             src={photoAboutMe}
             alt="Foto de Lucas Smaniotto Schuch"
           />
+          <AboutMeText>{t("about-paragraph-1")}</AboutMeText>
           <AboutMeText>
-            Como Obi-Wan Kenobi diria, hello there! Sou estudante de programação
-            em formação, apaixonado por tecnologia e muito interessado em
-            assuntos relacionados a programação Front-end, Back-end e UX &
-            Design. Sempre busco o aperfeiçoamento e o estudo das várias áreas
-            da Computação.
-          </AboutMeText>
-          <AboutMeText>
-            Começei a programar em 2016 em aulas de robótica no meu colégio de
-            ensino médio com Lego Mindstorms e Arduino até 2017 quando me
-            formei. Desde então, decidi me aprofundar mais na área e resolvi
-            cursar Ciência da Computação, onde estou atualmente no 5º semestre
-            do curso de Ciência da Computação da{" "}
+            {t("about-paragraph-2")}{" "}
             <AboutMeAncor href="https://cc.uffs.edu.br/">
               Universidade Federal da Fronteira Sul (UFFS)
             </AboutMeAncor>{" "}
-            em Chapecó/SC. Também em meu tempo livre gosto muito de estudar
-            sobre programação e sempre que posso estou fazendo um curso novo da
-            área, seja em plataformas como{" "}
+            {t("about-paragraph-3")}{" "}
             <AboutMeAncor href="https://www.udemy.com/">Udemy</AboutMeAncor>,{" "}
-            <AboutMeAncor href="https://www.alura.com.br/">Alura</AboutMeAncor>{" "}
-            ou{" "}
+            <AboutMeAncor href="https://www.alura.com.br/">Alura</AboutMeAncor>,{" "}
             <AboutMeAncor href="https://www.coursera.org/">
-              Coursera
+              Coursera...
             </AboutMeAncor>
-            .
           </AboutMeText>
-          <AboutMeText>
-            Atualmente sou QA na Expresso São Miguel, localizada em Chapecó-SC e
-            estou focado em desenvolvimento com React e em Back-end com Node,
-            utilizando tanto JavaScript, como TypeScript. Além disso, tenho
-            conhecimentos nas linguagens C, Java, e Python, e conhecimentos em
-            HTML, CSS e SQL. Pretendo me aprofundar mais em UX & Design e também
-            aperfeiçoar meus conhecimentos com Back-end, ja possuindo alguns
-            conhecimentos dos dois, como por exemplo, as ferramentas de edição e
-            o Figma, além do consumo e desenvolvimento de API's com Express,
-            integralçao e utilização de bancos de dados relacionais e não
-            relacionais.
-          </AboutMeText>
-          <AboutMeText>
-            Quando terminar o bacharel em Ciência da Computação, pretendo fazer
-            mestrado em Ciência da Computação, focando em Inteligência
-            Artificial e Machine Learning. Meu objetivo é me consolidar como
-            desenvolvedor Full Stack e trabalhar com desenvolvimento de
-            software, principalmente com desenvolvimento de aplicações web e
-            mobile. Também tenho muita vontade de aprender e trabalhar com
-            desenvolvimento de jogos, sendo um grande sonho meu trabalhar em
-            alguma empresa grande como a CD Projekt Red, a Rockstar Games ou a
-            Naughty Dog, ou em empresas de tecnologia como a Google e Spotify.
-          </AboutMeText>
+          <AboutMeText>{t("about-paragraph-4")}</AboutMeText>
+          <AboutMeText>{t("about-paragraph-5")}</AboutMeText>
         </section>
+        <AboutMeText>{t("about-paragraph-6")}</AboutMeText>
         <AboutMeText>
-          Além de programar, gosto muito de jogar videogame, principalmente
-          jogos de RPG, como The Witcher, Skyrim, Cyberpunk 2077 e entre outros.
-          Sendo um apaixonado pelo gênero, minha paixão é RPG's de mesa, sejam
-          eles Dungeons & Dragons, Call of Cthulhu, Cyberpunk 2020, Cyberpunk
-          RED, Tormenta20, ou Ordem Paranormal. Uma das coisas que me fizeram um
-          grande fã de RPG foi a trilogia O Senhor dos Anéis, sendo essa os meus
-          livros favoritos, e sou apaixonado por qualquer mídia do Homem Aranha,
-          seja ela quadrinhos, jogos, desenhos ou filmes. Amo assistir séries e
-          filmes clássicos, desde Star Wars, Blade Runner, Matrix a séries como
-          Friends, HIMYM, Atlanta, The Office e The Mandalorian, e até desenhos
-          que vão de Cowboy Bebop e Cyberpunk Edgerunners até Ursos Sem Curso e
-          The Owl House. Falando em animações, amo todas as obras do Studio
-          Ghibli e meu filme de animação favorito é a Saga Spiderverse, que
-          contempla as histórias de Miles Morales pelo multiverso do
-          Homem-Aranha.
-        </AboutMeText>
-        <AboutMeText>
-          Confesso que possuo uma paixão fervorosa por música e sou viciado em
-          criar playlists o tempo todo no meu Spotify, me considerando um grande
-          fã de rock, metal, punk, indie, rap e música brasileira em geral, com um
-          pezinho em música eletrônica. (Se quiser me seguir no
-          spotify, meu perfil é{" "}
+          {t("about-paragraph-7")}{" "}
           <AboutMeAncor href="https://open.spotify.com/user/22gktbankxa4r3eaxarfxdzgi">
             Lucas Smaniotto
           </AboutMeAncor>
-          )
+          ).
         </AboutMeText>
         <AboutMeText>
-          Se você chegou até aqui, obrigado por ler e querer me conhecer um
-          pouquinho! Espero que tenha gostado do meu site e que possamos nos
-          conhecer melhor. Se quiser entrar em contato comigo, pode me mandar um
-          e-mail em{" "}
+          {t("about-paragraph-8")}{" "}
           <AboutMeAncor href="mailto:lucas91755@gmail.com">
             lucas91755@gmail.com
           </AboutMeAncor>{" "}
-          ou em{" "}
+          {t("about-paragraph-9")}{" "}
           <AboutMeAncor href="mailto:lucas.schuch@estudante.uffs.edu.br">
             lucas.schuch@estudante.uffs.edu.br
           </AboutMeAncor>
-          . Aproveite sua estadia por aqui e volte sempre! :D
+          {t("about-paragraph-10")}
         </AboutMeText>
         <section>
-          <AboutMeSubTitle>Tecnologias</AboutMeSubTitle>
+          <AboutMeSubTitle>{t("about-section-tech")}</AboutMeSubTitle>
           <TecnologiesGrid />
         </section>
         <section>
-          <AboutMeSubTitle>Formações</AboutMeSubTitle>
+          <AboutMeSubTitle>{t("about-section-qualifications")}</AboutMeSubTitle>
           <QualificationsGrid />
-          <AboutMeSubTitle>Certificados</AboutMeSubTitle>
+          <AboutMeSubTitle>{t("about-section-certificates")}</AboutMeSubTitle>
           <CertificatesGrid />
         </section>
       </PagesModel>

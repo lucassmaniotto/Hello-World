@@ -4,7 +4,6 @@ import { pageFontColor, secondaryFont } from 'components/UI/variables';
 const PageModelContainer = styled.article`
     color: ${pageFontColor};
     position: relative;
-    background-color: ${props => props.theme.lightGray};
 `;
 
 const PageModelPhotoCover = styled.div`

@@ -59,8 +59,9 @@ export default function AboutMe() {
           <AboutMeAncor href="mailto:lucas.schuch@estudante.uffs.edu.br">
             lucas.schuch@estudante.uffs.edu.br
           </AboutMeAncor>
-          {t("about-paragraph-10")}
+          .
         </AboutMeText>
+        <AboutMeText>{t("about-paragraph-10")}</AboutMeText>
         <section>
           <AboutMeSubTitle>{t("about-section-tech")}</AboutMeSubTitle>
           <TecnologiesGrid />

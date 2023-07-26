@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import br from "../../assets/flags/br.svg";
 import us from "../../assets/flags/us.svg";
@@ -27,6 +28,24 @@ const languageOptions = [
 
 export const LanguageSwitcher = () => {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem("selectedLanguage");
+    if (savedLanguage && languageOptions.some((option) => option.value === savedLanguage)) {
+      i18n.changeLanguage(savedLanguage);
+    }
+  }, [i18n]);
+
+  const handleLanguageChange = (languageValue) => {
+    i18n.changeLanguage(languageValue);
+    localStorage.setItem("selectedLanguage", languageValue);
+
+    if (location.pathname.startsWith("/projects/")) {
+      navigate(location.pathname, { replace: true });
+    }
+  };
 
   return (
     <LanguageSwitcherWrapper>
@@ -34,7 +53,7 @@ export const LanguageSwitcher = () => {
         <LanguageButton
           key={language.value}
           selected={i18n.language === language.value}
-          onClick={() => i18n.changeLanguage(language.value)}
+          onClick={() => handleLanguageChange(language.value)}
         >
           <img src={language.flag} alt={language.name} />
           <span>{t(language.name)}</span>

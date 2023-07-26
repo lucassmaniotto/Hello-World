@@ -12,6 +12,14 @@ const Link = styled(NavLink)`
         text-decoration: underline;
 
     }
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
+
+    @media (max-width: 576px) {
+        font-size: 0.875rem;
+    }
 `;
 
 export { Link };

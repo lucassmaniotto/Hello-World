@@ -30,10 +30,14 @@ const PageModelTitle = styled.h2`
     display: flex;
     align-items: center;
 
+    @media screen and (max-width: 777px) {
+        font-size: 3rem;
+    }
+
     @media screen and (max-width: 744px) {
         height: 104px;
         padding: 0 1rem;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 `;
 

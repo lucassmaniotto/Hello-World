@@ -2,12 +2,18 @@ import Card from 'components/Card/CardProjects';
 
 import { HomeProjectsUl } from './styles';
 
-import projects from 'json/projects.json';
+import projects_ptBR from 'json/projects_ptBR.json';
+import projects_en from 'json/projects_en.json';
+import projects_fr from 'json/projects_fr.json';
 
 export default function Home() {
+  const selectedLanguage = localStorage.getItem("selectedLanguage") || "ptBR";
+
+  const projectsData = selectedLanguage === "ptBR" ? projects_ptBR : selectedLanguage === "en" ? projects_en : projects_fr;
+
   return (
-    <HomeProjectsUl>
-      {projects.map((project) => (
+    <HomeProjectsUl key={projectsData.id}>
+      {projectsData.map((project) => (
         <li key={project.id}>
           <Card project={project} />
         </li>

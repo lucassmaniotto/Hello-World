@@ -34,9 +34,6 @@ const LanguageSwitcherWrapper = styled.div`
   @media (max-width: 768px) {
     position: relative;
     right: 0;
-  }
-
-  @media (max-width: 480px) {
     font-size: 0.8rem;
   }
 

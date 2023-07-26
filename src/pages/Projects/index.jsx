@@ -1,4 +1,5 @@
 import { Route, Routes, useParams } from "react-router-dom"
+import { useTranslation } from "react-i18next";
 import ReactMarkdown from "react-markdown";
 
 import NotFound from "pages/NotFound";
@@ -10,12 +11,19 @@ import Card from "components/Card/CardProjects";
 import { PageMarkdownContainer } from "./markdown-styles";
 import { TitleOtherProjects, RecommendedProjectsUl } from "./styles";
 
-import projects from "json/projects.json"
+import projects_ptBR from "json/projects_ptBR.json"
+import projects_en from "json/projects_en.json"
+import projects_fr from "json/projects_fr.json"
 
 export default function Projects() {
   const params = useParams();
+  const { t } = useTranslation();
 
-  const project = projects.find((project) => {
+  const selectedLanguage = localStorage.getItem("selectedLanguage") || "ptBR";
+
+  const projectsData = selectedLanguage === "ptBR" ? projects_ptBR : selectedLanguage === "en" ? projects_en : projects_fr;
+
+  const project = projectsData.find((project) => {
     return project.id === Number(params.id);
   })
 
@@ -23,7 +31,7 @@ export default function Projects() {
     return <NotFound />
   }
 
-  const recommendedProjects = projects
+  const recommendedProjects = projects_ptBR
     .filter((project) => project.id !== Number(params.id))
     .sort(() => Math.random() - 0.5)
     .slice(0, 4);
@@ -41,7 +49,7 @@ export default function Projects() {
               {project.text}
             </ReactMarkdown>
           </PageMarkdownContainer>
-          <TitleOtherProjects>Outros projetos que você pode gostar:</TitleOtherProjects>
+          <TitleOtherProjects>{t("article-sugestion")}</TitleOtherProjects>
           <RecommendedProjectsUl>
             {recommendedProjects.map((project) => (
               <li key={project.id}>

@@ -35,6 +35,8 @@ export const LanguageSwitcher = () => {
     const savedLanguage = localStorage.getItem("selectedLanguage");
     if (savedLanguage && languageOptions.some((option) => option.value === savedLanguage)) {
       i18n.changeLanguage(savedLanguage);
+    } else {
+      i18n.changeLanguage("ptBR");
     }
   }, [i18n]);
 

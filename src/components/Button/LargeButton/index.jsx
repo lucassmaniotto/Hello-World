@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button } from './styles';
 
-export default function MainButton({ children }) {
+function MainButton({ children }) {
   return <Button>{children}</Button>;
 }
+
+export default MainButton;

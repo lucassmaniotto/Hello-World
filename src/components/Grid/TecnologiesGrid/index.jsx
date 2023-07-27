@@ -3,7 +3,7 @@ import Badge from 'components/Badge/TechBadge';
 
 import { TechContainer } from './styles';
 
-export default function TecnologiesGrid() {
+function TecnologiesGrid() {
   return (
     <TechContainer>
       <Badge
@@ -81,3 +81,5 @@ export default function TecnologiesGrid() {
     </TechContainer>
   );
 }
+
+export default TecnologiesGrid;

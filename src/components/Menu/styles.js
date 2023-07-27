@@ -12,4 +12,4 @@ const Nav = styled.nav`
   }
 `;
 
-export { Nav };
+export default Nav;

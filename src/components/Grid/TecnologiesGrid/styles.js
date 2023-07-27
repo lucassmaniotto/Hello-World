@@ -20,4 +20,4 @@ const TechContainer = styled.div`
   }
 `;
 
-export { TechContainer };
+export default TechContainer;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from './styles';
 
-export default function MenuLink({ children, to }) {
+function MenuLink({ children, to }) {
   return (
     <Link
       to={to}
@@ -14,3 +14,5 @@ export default function MenuLink({ children, to }) {
     </Link>
   );
 }
+
+export default MenuLink;

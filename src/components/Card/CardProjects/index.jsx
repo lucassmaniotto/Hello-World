@@ -7,6 +7,7 @@ import {
   CardProjectContainer,
   CardProjectCover,
   CardProjectTitle,
+  Tag,
 } from './styles';
 
 export default function Card({ project }) {
@@ -18,6 +19,17 @@ export default function Card({ project }) {
           alt={project.title}
         />
         <CardProjectTitle>{project.title}</CardProjectTitle>
+        {project.tags ? (
+          <label>
+            {project.tags.map((tag) => (
+              <Tag key={tag.id} type={tag.type}>
+                {tag.name}
+              </Tag>
+            ))}
+          </label>
+        ) : (
+          <label>?</label>
+        )}
         <MainButton>Ver projeto</MainButton>
       </CardProjectContainer>
     </Link>

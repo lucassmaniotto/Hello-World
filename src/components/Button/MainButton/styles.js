@@ -12,6 +12,7 @@ const Button = styled.button`
   border: 3px solid ${fourthColor};
   cursor: pointer;
   transition: 0.2s;
+  margin-top: 1rem;
 
   &:hover {
     background-color: ${primaryColor};

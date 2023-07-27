@@ -16,6 +16,11 @@ const CardProjectContainer = styled.div`
   @media screen and (max-width: 1100px) {
     width: 336px;
   }
+
+  label {
+    display: block;
+    margin: 0px;
+  }
 `;
 
 const CardProjectCover = styled.img`
@@ -27,11 +32,40 @@ const CardProjectTitle = styled.h2`
   font-size: 1.25rem;
   color: ${primaryColor};
   line-height: 1.75rem;
-  margin: 1.5rem 0 1.75rem;
+  margin: 1.5rem 0;
 
   @media screen and (max-width: 1100px) {
     font-weight: 600;
   }
 `;
 
-export { CardProjectContainer, CardProjectCover, CardProjectTitle };
+const Tag = styled.span`
+  display: inline-block;
+  margin-right: 5px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: ${({ type }) => {
+    switch (type) {
+      case 'frontend':
+        return '#61dafb';
+      case 'backend':
+        return '#32cd32';
+      case 'database':
+        return '#fcd53f';
+      case 'tools':
+        return '#a537f0';
+      case 'web':
+        return '#ff7f50';
+      case 'desktop':
+        return '#e91e63';
+      default:
+        return 'gray';
+    }
+  }};
+`;
+
+export { CardProjectContainer, CardProjectCover, CardProjectTitle, Tag };

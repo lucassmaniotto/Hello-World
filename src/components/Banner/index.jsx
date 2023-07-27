@@ -1,7 +1,7 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-
-import { BannerContainer, BannerText, BannerImage } from './styles';
 import coloredCircle from 'assets/colored_circle.png';
+import { BannerContainer, BannerText, BannerImage } from './styles';
 
 export default function Banner() {
   const { t } = useTranslation();

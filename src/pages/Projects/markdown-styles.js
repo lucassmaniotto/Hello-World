@@ -5,7 +5,7 @@ import {
   whiteMarkdown,
 } from 'components/UI/variables';
 
-export const PageMarkdownContainer = styled.div`
+const PageMarkdownContainer = styled.div`
   h3,
   h4,
   h5,
@@ -104,3 +104,5 @@ export const PageMarkdownContainer = styled.div`
     }
   }
 `;
+
+export default PageMarkdownContainer;

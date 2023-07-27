@@ -1,6 +1,7 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import MenuLink from './MenuLink';
 import { LanguageSwitcher } from 'components/LanguageSwitcher';
+import MenuLink from './MenuLink';
 
 import { Nav } from './styles';
 

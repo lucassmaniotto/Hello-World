@@ -1,3 +1,4 @@
+import React from 'react';
 import { Route, Routes, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ReactMarkdown from 'react-markdown';
@@ -8,12 +9,11 @@ import PagesModel from 'components/PagesModel';
 import DefaultPage from 'components/DefaultPage';
 import Card from 'components/Card/CardProjects';
 
-import { PageMarkdownContainer } from './markdown-styles';
-import { TitleOtherProjects, RecommendedProjectsUl } from './styles';
-
 import projects_ptBR from 'json/projects_ptBR.json';
 import projects_en from 'json/projects_en.json';
 import projects_fr from 'json/projects_fr.json';
+import { TitleOtherProjects, RecommendedProjectsUl } from './styles';
+import PageMarkdownContainer from './markdown-styles';
 
 export default function Projects() {
   const params = useParams();
@@ -28,9 +28,9 @@ export default function Projects() {
       ? projects_en
       : projects_fr;
 
-  const project = projectsData.find((project) => {
-    return project.id === Number(params.id);
-  });
+  const project = projectsData.find(
+    (project) => project.id === Number(params.id),
+  );
 
   if (!project) {
     return <NotFound />;

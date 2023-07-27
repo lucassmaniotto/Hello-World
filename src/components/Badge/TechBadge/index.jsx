@@ -1,3 +1,4 @@
+import React from 'react';
 import { TechBadgeWrapper, TechBadgeIcon, TechBadgeName } from './styles';
 
 export default function TechBadge({ name, icon }) {

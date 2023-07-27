@@ -1,10 +1,10 @@
+import React from 'react';
 import Card from 'components/Card/CardProjects';
-
-import { HomeProjectsUl } from './styles';
 
 import projects_ptBR from 'json/projects_ptBR.json';
 import projects_en from 'json/projects_en.json';
 import projects_fr from 'json/projects_fr.json';
+import { HomeProjectsUl } from './styles';
 
 export default function Home() {
   const selectedLanguage = localStorage.getItem('selectedLanguage') || 'ptBR';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { CardAncorContainer, CardAncorIcon, CardAncorTitle } from './styles';
 
 export default function CardAncor({ title, paragraph, date, link, icon }) {

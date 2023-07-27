@@ -1,7 +1,9 @@
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import LargeButton from 'components/Button/LargeButton';
 
+import error404 from 'assets/error_404.png';
 import {
   ContentContainer,
   TextError404,
@@ -11,8 +13,6 @@ import {
   ImageDog,
   BlankSpace,
 } from './styles';
-
-import error404 from 'assets/error_404.png';
 
 export default function NotFound() {
   const navegate = useNavigate();

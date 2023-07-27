@@ -26,7 +26,7 @@ const languageOptions = [
   },
 ];
 
-export const LanguageSwitcher = () => {
+export function LanguageSwitcher() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
@@ -66,4 +66,6 @@ export const LanguageSwitcher = () => {
       ))}
     </LanguageSwitcherWrapper>
   );
-};
+}
+
+export default LanguageSwitcher;

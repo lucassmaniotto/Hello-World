@@ -1,8 +1,9 @@
-import CardAncor from '../../Card/CardAncor';
+import React from 'react';
 
 import qualifications from 'json/qualifications.json';
 
-import { CoursesContainer } from 'components/UI/shared/Grid/CoursesContainer';
+import CoursesContainer from 'components/UI/shared/Grid/CoursesContainer';
+import CardAncor from '../../Card/CardAncor';
 
 export default function QualificationsGrid() {
   return (

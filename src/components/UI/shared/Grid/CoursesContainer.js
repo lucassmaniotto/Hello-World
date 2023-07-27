@@ -24,4 +24,4 @@ const CoursesContainer = styled.div`
   }
 `;
 
-export { CoursesContainer };
+export default CoursesContainer;

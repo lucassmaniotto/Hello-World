@@ -11,9 +11,9 @@ i18n.use(initReactI18next).init({
     escapeValue: false,
   },
   resources: {
-    ptBR: ptBR,
-    en: en,
-    fr: fr,
+    ptBR,
+    en,
+    fr,
   },
 });
 

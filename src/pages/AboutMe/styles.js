@@ -5,7 +5,7 @@ import {
   tertiaryColor,
 } from 'components/UI/variables';
 
-export const AboutMePhoto = styled.img`
+const AboutMePhoto = styled.img`
   margin-bottom: 0.5rem;
   margin-left: 1.5rem;
   width: 35vw;
@@ -23,7 +23,7 @@ export const AboutMePhoto = styled.img`
   }
 `;
 
-export const AboutMeSubTitle = styled.h3`
+const AboutMeSubTitle = styled.h3`
   margin-bottom: 2rem;
   font-size: 2.5rem;
   font-family: ${secondaryFont};
@@ -35,7 +35,7 @@ export const AboutMeSubTitle = styled.h3`
   }
 `;
 
-export const AboutMeText = styled.p`
+const AboutMeText = styled.p`
   text-align: justify;
   font-size: 1.5rem;
   line-height: 2.25rem;
@@ -51,7 +51,7 @@ export const AboutMeText = styled.p`
   }
 `;
 
-export const AboutMeAncor = styled.a`
+const AboutMeAncor = styled.a`
   color: var(--dark-blue);
   font-weight: 700;
 
@@ -61,3 +61,5 @@ export const AboutMeAncor = styled.a`
     transition: all 0.3s ease-in-out;
   }
 `;
+
+export { AboutMePhoto, AboutMeSubTitle, AboutMeText, AboutMeAncor };

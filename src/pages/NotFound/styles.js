@@ -6,7 +6,7 @@ import {
   fourthColor,
 } from 'components/UI/variables';
 
-export const ContentContainer = styled.div`
+const ContentContainer = styled.div`
   position: relative;
   text-align: center;
   background-color: ${primaryColor};
@@ -18,7 +18,7 @@ export const ContentContainer = styled.div`
   }
 `;
 
-export const TextError404 = styled.span`
+const TextError404 = styled.span`
   display: block;
   color: ${fourthColor};
   font-family: ${secondaryFont};
@@ -35,7 +35,7 @@ export const TextError404 = styled.span`
   }
 `;
 
-export const Title = styled.h1`
+const Title = styled.h1`
   font-family: ${secondaryFont};
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -46,7 +46,7 @@ export const Title = styled.h1`
   }
 `;
 
-export const Text = styled.p`
+const Text = styled.p`
   font-size: 1.5rem;
   line-height: 1.75rem;
 
@@ -56,7 +56,7 @@ export const Text = styled.p`
   }
 `;
 
-export const ButtonContainer = styled.div`
+const ButtonContainer = styled.div`
   text-align: start;
   margin-top: 3.5rem;
   margin-left: 30vw;
@@ -73,7 +73,7 @@ export const ButtonContainer = styled.div`
   }
 `;
 
-export const ImageDog = styled.img`
+const ImageDog = styled.img`
   position: absolute;
   height: 25vw;
   bottom: calc(-25vw * 0.5);
@@ -98,7 +98,7 @@ export const ImageDog = styled.img`
   }
 `;
 
-export const BlankSpace = styled.div`
+const BlankSpace = styled.div`
   height: 40vh;
 
   @media screen and (max-width: 1100px) {
@@ -109,3 +109,13 @@ export const BlankSpace = styled.div`
     height: calc(94vw * 0.5);
   }
 `;
+
+export {
+  ContentContainer,
+  TextError404,
+  Title,
+  Text,
+  ButtonContainer,
+  ImageDog,
+  BlankSpace,
+};

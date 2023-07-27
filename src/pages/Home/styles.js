@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeProjectsUl = styled.ul`
+const HomeProjectsUl = styled.ul`
   padding: 0 6vw 3.625rem;
   display: flex;
   justify-content: center;
@@ -18,3 +18,5 @@ export const HomeProjectsUl = styled.ul`
     padding: 2rem 1rem 3rem;
   }
 `;
+
+export default HomeProjectsUl;

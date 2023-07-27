@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from './styles';
+import Link from './styles';
 
 function MenuLink({ children, to }) {
   return (

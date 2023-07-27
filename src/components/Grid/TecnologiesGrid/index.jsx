@@ -1,7 +1,7 @@
 import React from 'react';
 import Badge from 'components/Badge/TechBadge';
 
-import { TechContainer } from './styles';
+import TechContainer from './styles';
 
 function TecnologiesGrid() {
   return (

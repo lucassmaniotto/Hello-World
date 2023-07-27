@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from 'components/LanguageSwitcher';
 import MenuLink from './MenuLink';
 
-import { Nav } from './styles';
+import Nav from './styles';
 
 export default function Menu() {
   const { t } = useTranslation();

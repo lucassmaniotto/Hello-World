@@ -1,16 +1,15 @@
-import { Link } from "./styles"
+import { Link } from './styles';
 
 export default function MenuLink({ children, to }) {
-
-    return (
-        <Link
-            to={to}
-            className={({ isActive }) => `
+  return (
+    <Link
+      to={to}
+      className={({ isActive }) => `
                 ${isActive ? 'active' : ''}
             `}
-            end
-        >
-            {children}
-        </Link>
-    )
+      end
+    >
+      {children}
+    </Link>
+  );
 }

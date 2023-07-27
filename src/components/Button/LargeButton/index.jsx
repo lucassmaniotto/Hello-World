@@ -1,9 +1,5 @@
-import { Button } from "./styles";
+import { Button } from './styles';
 
-export default function MainButton({ children}) {
-  return (
-    <Button>
-      {children}
-    </Button>
-  )
+export default function MainButton({ children }) {
+  return <Button>{children}</Button>;
 }

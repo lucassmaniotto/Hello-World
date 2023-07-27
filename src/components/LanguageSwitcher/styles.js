@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const LanguageButton = styled.button`
   display: flex;
@@ -17,7 +17,7 @@ const LanguageButton = styled.button`
   }
 
   span {
-    font-weight: ${({ selected }) => (selected ? "bold" : "normal")};
+    font-weight: ${({ selected }) => (selected ? 'bold' : 'normal')};
   }
 
   @media (max-width: 480px) {

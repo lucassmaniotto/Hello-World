@@ -1,6 +1,6 @@
 import CardAncor from '../../Card/CardAncor';
 
-import certificates from 'json/certificates.json'
+import certificates from 'json/certificates.json';
 
 import { CoursesContainer } from 'components/UI/shared/Grid/CoursesContainer';
 

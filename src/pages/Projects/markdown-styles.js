@@ -1,5 +1,9 @@
 import styled from 'styled-components';
-import { secondaryFont, fifthColor, whiteMarkdown } from 'components/UI/variables';
+import {
+  secondaryFont,
+  fifthColor,
+  whiteMarkdown,
+} from 'components/UI/variables';
 
 export const PageMarkdownContainer = styled.div`
   h3,
@@ -91,9 +95,9 @@ export const PageMarkdownContainer = styled.div`
     }
 
     ul {
-      margin: 1rem;;
+      margin: 1rem;
     }
-    
+
     li {
       font-size: 1rem;
       line-height: 1.75rem;

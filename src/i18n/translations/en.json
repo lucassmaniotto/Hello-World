@@ -19,6 +19,13 @@
     "about-section-tech": "Technologies",
     "about-section-qualifications": "Education",
     "about-section-certificates": "Certificates",
-    "article-sugestion": "Other projects you may like:"
+    "article-sugestion": "Other projects you may like:",
+    "404Title": "Oops! Page not found.",
+    "404Text-1": "Are you sure that's what you were looking for?",
+    "404Text-2": "Wait a moment and reload the page or go back to the homepage.",
+    "404Button": "Go Back",
+    "404Alt": "Dachshund dog wearing eyeglasses and using a computer.",
+    "footer-1": "Developed by",
+    "footer-2": "myself"
   }
 }

@@ -19,6 +19,13 @@
     "about-section-tech": "Tecnologias",
     "about-section-qualifications": "Formações",
     "about-section-certificates": "Certificados",
-    "article-sugestion": "Outros projetos que você pode gostar:"
+    "article-sugestion": "Outros projetos que você pode gostar:",
+    "404Title": "Ops! Página não encontrada.",
+    "404Text-1": "Tem certeza de que era isso que você estava procurando?",
+    "404Text-2": "Aguarde uns instantes e recarregue a página ou volte para a página inicial",
+    "404Button": "Voltar",
+    "404Alt": "Cachorro Salsicha usando óculos de grau e mexendo no computador",
+    "footer-1": "Desenvolvido por",
+    "footer-2": "mim mesmo"
   }
 }

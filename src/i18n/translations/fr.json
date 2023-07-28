@@ -19,6 +19,13 @@
     "about-section-tech": "Technologies",
     "about-section-qualifications": "Formations",
     "about-section-certificates": "Certificats",
-    "article-sugestion": "D'autres projets que vous pourriez aimer:"
+    "article-sugestion": "D'autres projets que vous pourriez aimer:",
+    "404Title": "Oops! Page non trouvée.",
+    "404Text-1": "Êtes-vous sûr(e) que c'est ce que vous cherchiez ?",
+    "404Text-2": "Attendez un instant et rechargez la page ou retournez à la page d'accueil.",
+    "404Button": "Retourner",
+    "404Alt": "Chien teckel portant des lunettes et utilisant un ordinateur.",
+    "footer-1": "Développé par",
+    "footer-2": "moi-même"
   }
 }

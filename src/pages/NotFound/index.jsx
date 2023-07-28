@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 import LargeButton from 'components/Button/LargeButton';
 
@@ -16,24 +17,19 @@ import {
 
 export default function NotFound() {
   const navegate = useNavigate();
+  const { t } = useTranslation();
 
   return (
     <>
       <ContentContainer>
         <TextError404>404</TextError404>
-        <Title>Ops! Página não encontrada.</Title>
-        <Text>Tem certeza de que era isso que você estava procurando?</Text>
-        <Text>
-          Aguarde uns instantes e recarregue a página ou volte para a página
-          inicial
-        </Text>
+        <Title>{t('404Title')}</Title>
+        <Text>{t('404Text-1')}</Text>
+        <Text>{t('404Text-2')}</Text>
         <ButtonContainer onClick={() => navegate(-1)}>
-          <LargeButton>Voltar</LargeButton>
+          <LargeButton>{t('404Button')}</LargeButton>
         </ButtonContainer>
-        <ImageDog
-          src={error404}
-          alt="Cachorro Salsicha usando óculos de grau e mexendo no computador"
-        />
+        <ImageDog src={error404} alt={t('404Alt')} />
       </ContentContainer>
       <BlankSpace />
     </>

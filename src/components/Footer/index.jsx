@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import {
   AiOutlineTwitter,
   AiFillGithub,
@@ -8,16 +9,17 @@ import {
 import { FooterStyled, FooterLinks } from './styles';
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <FooterStyled>
       <p>
-        Deselvolvido por{' '}
+        {t('footer-1')}{' '}
         <a
           href="https://github.com/lucassmaniotto"
           target="_blank"
           rel="noreferrer"
         >
-          mim mesmo
+          {t('footer-2')}
         </a>{' '}
         😃
       </p>

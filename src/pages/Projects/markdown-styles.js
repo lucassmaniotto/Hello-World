@@ -40,14 +40,22 @@ const PageMarkdownContainer = styled.div`
     width: 40%;
   }
 
-  ul {
+  ul,
+  ol {
     font-size: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   ul > li {
     margin: 0.5rem 2rem;
     list-style: disc;
   }
+
+  ol > li {
+    margin: 0.5rem 2rem;
+    list-style: decimal;
+  }
+
   pre,
   blockquote {
     margin-bottom: 1.5rem;
@@ -58,6 +66,13 @@ const PageMarkdownContainer = styled.div`
 
   pre {
     overflow-x: auto;
+  }
+
+  code {
+    background-color: ${whiteMarkdown};
+    padding: 0 0.25rem;
+    margin: 0 0.1rem;
+    border-radius: 5px;
   }
 
   @media screen and (max-width: 1500px) {
@@ -83,6 +98,12 @@ const PageMarkdownContainer = styled.div`
       font-size: 1.5rem;
       line-height: 2rem;
       margin-bottom: 1.5rem;
+    }
+
+    h4 {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      margin-bottom: 1.25rem;
     }
 
     p {

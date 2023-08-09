@@ -57,6 +57,18 @@ const BannerText = styled.div`
       margin-bottom: 2rem;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      margin: 0;
+    }
+  }
 `;
 
 const BannerImage = styled.div`

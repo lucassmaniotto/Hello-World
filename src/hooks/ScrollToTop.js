@@ -10,7 +10,7 @@ export default function ScrollToTop() {
       if (title) {
         title.scrollIntoView({ behavior: 'smooth' });
       } else {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo(0, 0);
       }
     }, 100);
   }, [pathname, title]);

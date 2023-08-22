@@ -1,5 +1,9 @@
 import styled from 'styled-components';
-import { secondaryFont, primaryColor } from 'components/UI/variables';
+import {
+  secondaryFont,
+  primaryColor,
+  whiteColor,
+} from 'components/UI/variables';
 
 const CardProjectContainer = styled.div`
   text-align: center;
@@ -8,6 +12,9 @@ const CardProjectContainer = styled.div`
   border-radius: 0px 0px 10px 10px;
   padding-bottom: 1.5rem;
   transition: transform 0.2s;
+  background: ${whiteColor};
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 
   &:hover {
     transform: translate(0, -1rem);

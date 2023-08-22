@@ -1,3 +1,4 @@
+import { whiteColor } from 'components/UI/variables';
 import styled from 'styled-components';
 
 const Nav = styled.nav`
@@ -6,6 +7,7 @@ const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   column-gap: 3rem;
+  background-color: ${whiteColor};
 
   @media screen and(max-width: 744px) {
     height: 72px;

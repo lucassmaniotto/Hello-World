@@ -358,5 +358,29 @@
     "date": "31/01/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/react-migrando-typescript/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/react-migrando-typescript.svg"
+  },
+  {
+    "id": 46,
+    "title": "TS I: evoluindo seu JavaScript",
+    "paragraph": "Alura",
+    "date": "02/02/2023",
+    "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/typescript-evoluindo-javascript/certificate",
+    "icon": "https://www.alura.com.br/assets/api/cursos/typescript-evoluindo-javascript.svg"
+  },
+  {
+    "id": 47,
+    "title": "TS II: avançando na linguagem",
+    "paragraph": "Alura",
+    "date": "28/10/2023",
+    "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/typescript-avancando-linguagem/certificate",
+    "icon": "https://www.alura.com.br/assets/api/cursos/typescript-avancando-linguagem.svg"
+  },
+  {
+    "id": 48,
+    "title": "TS III: mais técnicas e boas práticas",
+    "paragraph": "Alura",
+    "date": "27/10/2023",
+    "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/typescript-tecnicas-boas-praticas/certificate",
+    "icon": "https://www.alura.com.br/assets/api/cursos/typescript-tecnicas-boas-praticas.svg"
   }
 ]

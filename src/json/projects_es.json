@@ -1,0 +1,358 @@
+[
+  {
+    "id": 10,
+    "title": "Proyecto Integrador - UFFS",
+     "text": "> Puedes consultar el desarrollo del proyecto en mi repositorio de [Github](https://github.com/ValtemirJr/ProjetoIntegrador)\n\nEl Proyecto Integrador se desarrolló en 2023 con el objetivo de integrar disciplinas del curso de Ciencias de la Computación de la UFFS, impartidas por Felipe Grando (Programación II), Denio Duarte (Bases de Datos I), Marina Girolimetto y Raquel Aparecida Pegoraro (Ingeniería de Software I), con el propósito de desarrollar un sistema web para resolver un problema real.\n\n ### Descripción del Proyecto 📝 \n El proyecto consiste en un sistema de gestión de la clínica de terapia y estética [CETAC Chapecó](https://cetac-web.vercel.app), en el cual se desarrolló un sitio web para que los clientes soliciten citas y un área administrativa para que las empleadas de la clínica gestionen las citas, clientes, sesiones, servicios y paquetes.\nDurante el desarrollo se cumplieron los siguientes requisitos:\n#### Requisitos Funcionales:\n - Área pública con espacio para solicitudes de contacto;\n - Área privada con inicio de sesión y autenticación de usuarios\n - Mantenimiento de Clientes\n - Mantenimiento de Servicios\n - Mantenimiento de Citas\n #### Requisitos No Funcionales:\n - Usabilidad\n - Seguridad \n - Compatibilidad\n - Disponibilidad\n - Requisitos Legales\n\n ### Documentación 📚\n\n - Requisitos de Usuario: [`docs/Requisitos del Usuario.pdf`](https://github.com/ValtemirJr/ProjetoIntegrador/blob/main/docs/Requisitos%20del%20Usuario.pdf)\n - Modelo Conceptual: [`docs/Modelo Conceptual.png`](https://github.com/ValtemirJr/ProjetoIntegrador/blob/main/docs/Modelo%20Conceptual.png)\n - Modelo Lógico Relacional: [`docs/Modelo Lógico Relacional.sql`](https://github.com/ValtemirJr/ProjetoIntegrador/blob/main/db/Modelo%20Lógico%20Relacional.sql)\n - Modelo Físico: [`db/Modelo Físico.sql`](https://github.com/ValtemirJr/ProjetoIntegrador/blob/main/db/Modelo%20Físico.sql)\n\n ### Estructura del Proyecto 📁\nEl proyecto se dividió en dos carpetas, `server` y `client`. La carpeta `server` contiene el código del servidor/backend, mientras que la carpeta `client` contiene el código del cliente/frontend.\n\nEl proyecto también cuenta con una carpeta `docs`, que contiene la documentación del proyecto, requisitos de usuario, modelo conceptual y modelo lógico relacional.\n\nLa carpeta `server` contiene las siguientes carpetas:\n\n `src`: Contiene el código del servidor.\n - `config`: Contiene los archivos de configuración del servidor.\n - `controllers`: Contiene los controladores del servidor.\n - `base de datos`: Contiene los archivos de configuración de la base de datos.\n - `middlewares`: Contiene los middlewares del servidor.\n - `models`: Contiene los modelos de la base de datos.\n - `routes`: Contiene las rutas del servidor.\n - `app.js`: Archivo de configuración del servidor.\n - `server.js`: Archivo de inicio del servidor.\n\n La carpeta `cliente` contiene las siguientes carpetas:\n\n`src`: Contiene el código del cliente.\n - `assets`: Contiene las imágenes de los componentes y del carrusel.\n - `components`: Contiene los componentes del cliente.\n - `pages`: Contiene las páginas del cliente. Se divide en `público` y `seguro`\n - `util`: Contiene scripts de utilidad del cliente.\n - `api`: Contiene consumidores de la API del servidor.\n\n `público`: Contiene los archivos públicos del cliente.\n\n ### Configuración del Proyecto ⚙️\n\nEl proyecto se desarrolló con el administrador de paquetes [npm](https://www.npmjs.com/), por lo que es necesario tenerlo instalado en su máquina. Para instalar las dependencias del proyecto, ejecute el comando `npm install` en la carpeta raíz de las carpetas `server` y `client`.\n\n Para ejecutar el proyecto, es necesario configurar la base de datos. Para ello, cree una base de datos PostgreSQL y configure las variables de entorno del proyecto siguiendo el archivo `.env.ejemplo` en la carpeta `server`, además de ejecutar las migraciones de la base de datos con el comando `npx sequelize db:migrate`.\n\n ### Ejecución del Proyecto ▶️\n\nPara ejecutar el proyecto, el servidor y el cliente deben ejecutarse por separado.\n\n Para ejecutar el servidor, ejecute el comando `npm run dev` en la carpeta `server`, y el servidor se ejecutará en el puerto `3333` en modo de desarrollo. Para ejecutar el servidor en modo de producción, ejecute el comando `npm run start` en la carpeta `server`.\n\n Para ejecutar el cliente, ejecute el comando `npm run start-dev` en la carpeta `cliente` y el cliente se ejecutará en el puerto `3000` en modo de desarrollo. Para ejecutar el cliente en modo de producción, ejecute el comando `npm start` en la carpeta `cliente`.\n\n Para la ejecución de compilaciones, consulte los archivos `package.json` de las carpetas `server` y `client`. \n\n ### Tecnologías Utilizadas 🛠️\n\n #### [Node.js](https://nodejs.org/en/): lenguaje de programación utilizado para desarrollar el servidor.\n\n - [Express](https://expressjs.com/pt-br/): utilizado para definir los endpoints del servidor.\n - [Sequelize](https://sequelize.org/): utilizado para realizar la conexión con la base de datos, definir los modelos y realizar las migraciones.\n - [Nodemon](https://nodemon.io/): utilizado para reiniciar el servidor automáticamente cuando se modifica un archivo.\n - [Bcrypt](https://www.npmjs.com/package/bcrypt): utilizado para cifrar datos sensibles.\n - [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken): utilizado para autenticar a los usuarios.\n - [Cors](https://www.npmjs.com/package/cors): utilizado para permitir el acceso al servidor desde otros dominios.\n - [Dotenv](https://www.npmjs.com/package/dotenv): utilizado para cargar las variables de entorno del servidor.\n - [Pg](https://www.npmjs.com/package/pg) y [Pg-hstore](https://www.npmjs.com/package/pg-hstore): utilizados para convertir datos de la base de datos PostgreSQL.\n - [Eslint](https://eslint.org/): utilizado para estandarizar el código.\n\n #### [React](https://pt-br.reactjs.org/): biblioteca utilizada para desarrollar el cliente.\n - [React Router Dom](https://reactrouter.com/web/guides/quick-start): utilizado para definir las rutas del cliente.\n - [React Icons](https://react-icons.github.io/react-icons/): utilizado para utilizar íconos .svg.\n - [Styled Components](https://styled-components.com/): utilizado para estilizar los componentes sin necesidad de archivos .css y para reutilizar componentes.\n - [Eslint](https://eslint.org/): utilizado para estandarizar el código.\n - [Prettier](https://prettier.io/): utilizado para estandarizar el código.\n - [React Slick](https://react-slick.neostack.com/), [Slick Carousel](https://kenwheeler.github.io/slick/), [Framer Motion](https://www.framer.com/motion/): utilizado para crear el carrusel de imágenes.\n - [React Google Maps API](https://react-google-maps-api-docs.netlify.app/): utilizado para crear el mapa de ubicación de la clínica.\n - [Sweet Alert2](https://sweetalert2.github.io/): utilizado para crear mensajes de alerta con estilo.\n - [env-cmd](https://www.npmjs.com/package/env-cmd): utilizado para cargar las variables de entorno del cliente.\n\n #### [PostgreSQL](https://www.postgresql.org/): SGBD utilizado para almacenar los datos del proyecto.\n\n ### Diagramas 📊 \n\n #### Casos de Uso\n\n ![diagrama de casos de uso](https://github.com/ValtemirJr/ProjetoIntegrador/assets/101435037/ec3b17c9-8f9e-4957-984a-3a42fd79d6c3)\n\n #### Modelo Conceptual de la Base de Datos\n\n ![modelo conceptual de la base de datos](https://raw.githubusercontent.com/ValtemirJr/ProjetoIntegrador/main/docs/Conceptual%20Model.png)\n\n #### Modelo Relacional de la Base de Datos ![modelo relacional de la base de datos](https://raw.githubusercontent.com/ValtemirJr/ProjetoIntegrador/main/docs/Relational%20Logical%20Model.png)",
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "type": "frontend"
+      },
+      {
+        "id": 2,
+        "name": "Node",
+        "type": "backend"
+      },
+      {
+        "id": 3,
+        "name": "Express",
+        "type": "backend"
+      },
+      {
+        "id": 4,
+        "name": "PostgreSQL",
+        "type": "database"
+      },
+      {
+        "id": 11,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 12,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Moody 🌦️",
+    "text": "> Puede verificar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/Moody)\n\nCRUD Full-stack desarrollado en ReactJS, NodeJS, con integración a Microsoft SQL Server para el registro diario del estado de ánimo.\n\n🏷️ Tecnologías: javascript, html, css, styled-components, npm, react, node, express, mssql, insomnia, vercel\n\n🚀 URL: [moody-murex.vercel.app/](https://moody-murex.vercel.app/)\n\n![Banner](https://user-images.githubusercontent.com/101435037/248930118-ad96402b-8b4a-43b2-9fcb-01a6b4ca617c.png)\n\n## Detalles del proyecto\n\nMoody es un proyecto de sistema web que incluye un CRUD (Crear, Leer, Actualizar, Borrar) para el registro diario del estado de ánimo, así como un sistema de registro y inicio de sesión de usuarios. El proyecto se desarrolló con el objetivo de poner en práctica los conocimientos adquiridos en ReactJS (useState, useEffect, useContext, useNavigate), NodeJS (Express e integración con la base de datos) y Microsoft SQL Server.\n\n### ⚙️ Configuración del proyecto\n\nEl proyecto se desarrolló con el administrador de paquetes [npm](https://www.npmjs.com/), por lo que para ejecutar el proyecto, debe tener Node instalado en su computadora. Para instalar las dependencias del proyecto, ejecute el siguiente comando en los directorios `Moody/frontend` y `Moody/backend`:\n\n```bash\nnpm install\n```\n\n### 📁 Estructura del proyecto\n\nEl proyecto se dividió en dos carpetas principales:\n* **backend**: contiene el código del servidor, desarrollado en NodeJS con Express e integración con Microsoft SQL Server.\n* **frontend**: contiene el código del cliente, desarrollado en ReactJS con Styled Components.\n\nAdemás, el proyecto cuenta con una carpeta **docs** que contiene los archivos relacionados con el esquema de la base de datos y el archivo de rutas de Insomnia para probar las solicitudes de la API. También en la carpeta **db**, hay un archivo de creación de la base de datos y sus tablas, así como un archivo de inserción de datos para pruebas.\n\n### ▶️ Ejecución del proyecto\n\nEn el directorio `Moody/frontend`, puede ejecutar el siguiente comando para ejecutar el Frontend:\n```bash\nnpm start\n\n```\n\nCon el comando anterior, ejecutará el proyecto en modo de desarrollo, al que puede acceder en [http://localhost:3000](http://localhost:3000) en su navegador.\n\nPara ejecutar el Backend, puede ejecutar el siguiente comando en el directorio `Moody/backend`:\n```bash\nnpm start\n\n```\n\nCon el comando anterior, ejecutará el proyecto en modo de desarrollo, al que puede acceder en [http://localhost:3333](http://localhost:3333) en su navegador.\n\n### 📚 Bibliotecas\n#### Frontend\n* [create-react-app](https://www.npmjs.com/package/create-react-app)\n* [react-router-dom](https://www.npmjs.com/package/react-router-dom)\n* [react-icons](https://www.npmjs.com/package/react-icons)\n* [styled-components](https://www.npmjs.com/package/styled-components)\n* [sweetalert2](https://www.npmjs.com/package/sweetalert2)\n* [eslint](https://www.npmjs.com/package/eslint#installation-and-usage)\n* [prettier](https://prettier.io/)\n\n#### Backend\n* [express](https://www.npmjs.com/package/express)\n* [nodemon](https://www.npmjs.com/package/nodemon)\n* [mssql](https://www.npmjs.com/package/mssql)\n* [cors](https://www.npmjs.com/package/cors)\n* [dotenv](https://www.npmjs.com/package/dotenv)\n* [bcrypt](https://www.npmjs.com/package/bcrypt)\n* [eslint](https://www.npmjs.com/package/eslint#installation-and-usage)\n* [prettier](https://prettier.io/)\n\n### 💡 Características\n#### Registro e Inicio de Sesión de Usuarios\n\nMoody cuenta con un formulario de registro e inicio de sesión de usuarios, donde el usuario puede registrarse y iniciar sesión para acceder al sistema. Para el registro, el usuario debe proporcionar un nombre, un correo electrónico y una contraseña, y los datos se envían a la API, que los inserta en la base de datos. Para iniciar sesión, el usuario debe ingresar el correo electrónico y la contraseña, y los datos se envían a la API, que verifica si el usuario existe y si la contraseña es correcta. Si el usuario no existe o la contraseña es incorrecta, se muestra un mensaje de error al usuario.\n\n ![Inicio de sesión](https://github.com/lucassmaniotto/Moody/assets/101435037/672dbd02-8e64-4d0b-a913-9c96fffc49a7) \n\n ![Registro](https://github.com/lucassmaniotto/Moody/assets/101435037/ae951289-db0b-4c3d-8e5b-8fff67abf879)\n\n Una vez que el usuario inicia sesión en el sistema, se utiliza el contexto de React API para almacenar su ID y nombre, lo que permite mostrar los registros relacionados con su código. Si el usuario no tiene ningún registro, se muestra un mensaje indicando que no hay registros relacionados con su usuario en la tabla.\n\n ![Robert Smith](https://user-images.githubusercontent.com/101435037/248930118-ad96402b-8b4a-43b2-9fcb-01a6b4ca617c.png)\n\n ![Sin datos](https://github.com/lucassmaniotto/Moody/assets/101435037/ae966fda-df25-4b6c-a95c-4d6cb4e5b7c2)\n\n **NOTA:** El sistema no tiene una función de recuperación de contraseña, la funcionalidad de autenticación no está implementada y las validaciones de inicio de sesión se realizan solo con el contexto de React API.\n\n #### CRUD del estado de ánimo \n\n Moody tiene un CRUD del estado de ánimo, donde el usuario puede registrar su estado de ánimo diario. Para hacerlo, el usuario debe ingresar un tipo de estado de ánimo preregistrado en la base de datos, así como una descripción. Cuando se insertan los datos, se registran en la base de datos y se insertan en la tabla, donde se muestra el tipo de estado de ánimo con un emoji que representa el estado de ánimo, la descripción y la fecha en que se registró el estado de ánimo. El usuario también puede modificar y eliminar un estado de ánimo que ya ha registrado.\n\n Las acciones de modificación y eliminación de un estado de ánimo se pueden realizar en la columna de Acciones de la tabla.\n\n ![Modal](https://github.com/lucassmaniotto/Moody/assets/101435037/dd50f1d4-07f0-4b86-8d2b-80e1e504415f)\n\n Para modificar un estado de ánimo, el usuario debe hacer clic en el botón de modificación y completar los datos que desea cambiar en el cuadro de diálogo SweetAlert2. Cuando el usuario confirma la eliminación, los datos se envían a la API, que los elimina de la base de datos y de la tabla.",
+    "tags": [
+      {
+        "id": 5,
+        "name": "React",
+        "type": "frontend"
+      },
+      {
+        "id": 6,
+        "name": "Node",
+        "type": "backend"
+      },
+      {
+        "id": 7,
+        "name": "Express",
+        "type": "backend"
+      },
+      {
+        "id": 8,
+        "name": "SQL Server",
+        "type": "database"
+      },
+      {
+        "id": 9,
+        "name": "Insomnia",
+        "type": "tools"
+      },
+      {
+        "id": 10,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 13,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Javadéx",
+    "text": "> Puedes consultar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/Javadex)\n\nProyecto realizado para el Trabajo Final de la materia de Programación I de la [Universidad Federal de la Frontera Sur - Chapecó/SC](https://cc.uffs.edu.br)\n\n 🏷️ Tecnologías: java, swing, sql, sqlite, regex, netbeans, vscode\n\n📄 Tarea: [https://encr.pw/5vNT6](https://encr.pw/5vNT6)\n\n🎓 Curso: [https://cc.uffs.edu.br](https://cc.uffs.edu.br)\n\n![](https://i.pinimg.com/originals/74/c2/f0/74c2f0be552806e0b686e1396751f4a9.gif)\n\n## Detalles del proyecto\n\nJavadéx es un proyecto *100% en Java* que consiste en la implementación de una Pokédex del anime Pokémon, utilizando conceptos de Herencia, Polimorfismo, Clases Abstractas, arquitectura MVC, NetBeans para Front-end, bibliotecas de SQL, Swing y Regex, y una Base de Datos con tablas relacionadas.\n\n### ▶️ Ejecución del proyecto\n\nPara ejecutar el proyecto, simplemente ejecuta el archivo Main.java en los IDEs NetBeans o VSCode, que se encuentra en la carpeta src.\n\n### 🛠️ Diagrama de Clases\n\n![project-uml](https://user-images.githubusercontent.com/101435037/220891568-0aec3022-6cd4-4d01-8e75-f69994cb5edb.jpeg)\n\n### 💾 Esquema de la Base de Datos\n\n![dbPokedexSchema](https://user-images.githubusercontent.com/101435037/220702828-7acd45-4d01-8da0-e3cbebf22c51.png)\n\n### 💡 Funcionalidades\n\n## *Pokédex*\n\nEl programa consiste en una pantalla principal de Pokédex, que incluye una tabla que lista todos los Pokémon salvajes guardados en la base de datos y un filtro para facilitar las búsquedas.\n\n![imagen](https://user-images.githubusercontent.com/101435037/219979827-d4a233d5-a526-4cc4-9bd2-e3920ebd927d.png)\n\n## *Detalles del Pokémon*\n\nPuedes ver la imagen del Pokémon cuando la fila recibe el enfoque y, al hacer doble clic, se muestran los detalles del Pokémon en cuestión.\n\n![imagen](https://user-images.githubusercontent.com/101435037/219979976-b1774116-502f-4c43-8840-55e5a0d48721.png)\n\n## *Añadir Pokémon Salvaje*\n\nTambién puedes agregar nuevos Pokémon al presionar el botón 'Añadir Pokémon', que abre una pantalla con un pequeño formulario.\n\n![imagen](https://user-images.githubusercontent.com/101435037/219980121-5c48b8c0-3f02-4b44-9442-c6367abfa3b0.png)\n\nSi se registra un Pokémon que no sea uno de los 151 primeros, su imagen se establecerá como la de MissingNo en la tabla de la Pokédex y en los detalles.\n\n![missingno](https://user-images.githubusercontent.com/101435037/220159675-8fe55a6c-7d1d-4c3b-b3c5-0c509a62b958.png)\n\n## *Entrenadores*\n\nLa segunda pantalla se puede acceder mediante el botón 'Ver Entrenadores', que también tiene funcionalidades similares a las de la Pokédex, con filtros y una tabla de entrenadores.\n\n![imagen](https://user-images.githubusercontent.com/101435037/219980630-4814c035-23c3-404b-aa4a-d63ddc8da923.png)\n\n## *Imagen de los Entrenadores*\n\nCuando se selecciona una fila de un entrenador, su imagen se muestra de la misma manera que la de los Pokémon en la pantalla anterior.\n\n![imagen](https://user-images.githubusercontent.com/101435037/219980696-985b3fd5-f63f-4ea5-a8a0-141db3eb86cd.png)\n\nSi algún entrenador no tiene su nombre en el paquete de imágenes/trainers, recibirá la imagen de Bug Catcher.\n\n![imagen](https://user-images.githubusercontent.com/101435037/219980735-88649c32-18f7-4295-bf9c-c0d7c063c0d8.png)\n\n## *Registro de Entrenadores*\n\nAl presionar el botón 'Añadir Entrenador', se abre la pantalla de registro con un pequeño formulario que debe completarse.\n\n![imagen](https://user-images.githubusercontent.com/101435037/219980913-e92d6e53-7c60-4df3-a6f3-674ce063b88b.png)\n\n## *Editar un Entrenador*\n\nPara las próximas funcionalidades, primero debes seleccionar una fila de la tabla para continuar.\n\n![imagen](https://user-images.githubusercontent.com/101435037/219980990-42acfde0-c131-4511-a9ac-bf0c52ae9734.png)\n\nSeleccionando un entrenador de la lista y presionando el botón 'Editar Entrenador' (o haciendo doble clic en un registro de la tabla), puedes cambiar su Región, Edad e Insignias, además de administrar su equipo de Pokémon Entrenados.\n\n![imagen](https://user-images.githubusercontent.com/101435037/220160470-11cb9858-f574-4c79-b4e5-5d1493c9753e.png)\n\n## *Vincular Pokémon a los Entrenadores*\n\nSeleccionando un entrenador de la lista y presionando el botón 'Vincular Pokémon a los Entrenadores', puedes capturar los Pokémon salvajes disponibles y convertirlos en Pokémon Entrenados, o liberarlos en la naturaleza, convirtiéndolos en Pokémon salvajes.\n\n![imagen](https://user-images.githubusercontent.com/101435037/220160510-48de3e5a-2aa2-438a-be6b-4f3b452ecf4e.png)\n\n## *Eliminar Entrenador*\n\nAl seleccionar un registro de la tabla y presionar el botón 'Eliminar Entrenador', se elimina su registro y sus Pokémon Entrenados se convierten en Pokémon salvajes.\n\n![imagen](https://user-images.githubusercontent.com/101435037/220163133-84dac79d-740c-4908-96bd-08c0c373daf9.png)",
+    "tags": [
+      {
+        "id": 14,
+        "name": "Java",
+        "type": "backend"
+      },
+      {
+        "id": 15,
+        "name": "Swing",
+        "type": "desktop"
+      },
+      {
+        "id": 16,
+        "name": "SQL Lite",
+        "type": "database"
+      },
+      {
+        "id": 17,
+        "name": "NetBeans",
+        "type": "tools"
+      },
+      {
+        "id": 18,
+        "name": "Desktop",
+        "type": "desktop"
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "AudioTag",
+    "text": "> Puedes seguir el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/AudioTag)\n\nAudioTag es una plataforma para compartir bandas y sus videoclips desarrollada durante el curso práctico de React.js en Alura. Consume datos de una API ficticia y utiliza ContextAPI y React Router Dom.\n\n🏷️ Tecnologías: javascript, html, css, css modular, npm, react, jsx\n\n🚀 URL: [https://audio-tag.vercel.app/](https://audio-tag.vercel.app/)\n\n📚 Curso: [https://cursos.alura.com.br/course/react-praticando-react-js](https://cursos.alura.com.br/course/react-praticando-react-js)\n\n![logo](https://user-images.githubusercontent.com/101435037/215464885-f5d1fc83-25a0-46a1-8fa6-b274338740fa.png#vitrinedev)\n\n## Detalles del proyecto\n\nEste proyecto es una Aplicación de Página Única (SPA) desarrollada en ReactJS utilizando React Router y ContextAPI para compartir datos entre las páginas de la aplicación.\n\n### ⚙️ Configuración del proyecto\n\nPara que el proyecto funcione correctamente, debes instalar las dependencias del proyecto. Para hacerlo, simplemente ejecuta el siguiente comando en la terminal:\n\n```bash\nnpm install\n```\n\n### ▶️ Ejecución del proyecto\n\nEn el directorio del proyecto, puedes ejecutar:\n```bash\nnpm start\n\n```\n\nCon el comando anterior, ejecutarás el proyecto en modo de desarrollo, el cual estará disponible en [http://localhost:3000](http://localhost:3000) en tu navegador.\n\n### 📚 Bibliotecas\n* [react-router-dom](https://reactrouter.com/en/main)\n* [react-icons](https://react-icons.github.io/react-icons/)\n\n### 💡 Funcionalidades\n\n*Rutas*\n\nDado que el proyecto es una SPA, funciona como una sola página a través de rutas gestionadas por React Router:\n\n![image](https://user-images.githubusercontent.com/101435037/215462254-cdd6fe8f-1eb2-4da9-9df5-1128b2e4f1b4.png)\n\nLas rutas constan de dos pestañas, una pestaña de Página de Inicio que contiene tarjetas de bandas, las cuales se consumen a través de una [API](https://my-json-server.typicode.com/lucassmaniotto/api-audiotag/videos) utilizada con Mock por [My-JSON-Server](https://my-json-server.typicode.com/lucassmaniotto/api-audiotag/videos), cuyo repositorio puedes acceder [haciendo clic aquí](https://github.com/lucassmaniotto/api-audiotag).\n\n![image](https://user-images.githubusercontent.com/101435037/215462104-47f030b0-c144-4b14-8dbf-a191a4f72a67.png)\n\n*Renderización de tarjetas*\n\nPara cada página de artículo, el contenido se renderiza en una ruta dinámica *videos/:id* con el contenido del JSON consumido por la falsa API de My-JSON-Server, lo que permite una variedad de bandas:\n\n![image](https://user-images.githubusercontent.com/101435037/215463422-4993cd52-2e8b-4657-9471-72b1ee3fbd9b.png)\n\nCada tarjeta tiene un botón de favorito, donde se comparte el contexto entre las páginas de Inicio y Favoritos. Además, al hacer clic en la imagen de la banda, puedes acceder a sus videoclips proporcionados por la falsa API. Cuando se marca una tarjeta como favorita, se agrega a la lista de favoritos en la pestaña de Favoritos y se guarda en el almacenamiento local del navegador.\n\n![image](https://user-images.githubusercontent.com/101435037/215467835-b112746f-14c0-4782-93ec-d1d50a41ed7b.png)\n\n![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/215462995-663de24d-b1b1-4318-a72d-238bf11c16ff.gif)",
+    "tags": [
+      {
+        "id": 19,
+        "name": "React",
+        "type": "frontend"
+      },
+      {
+        "id": 21,
+        "name": "CSS Modules",
+        "type": "frontend"
+      },
+      {
+        "id": 24,
+        "name": "Node",
+        "type": "backend"
+      },
+      {
+        "id": 20,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 23,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+
+  {
+    "id": 1,
+    "title": "Hello World!",
+    "text": "> Puedes consultar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/Hello-World)\n\nPortafolio implementado con [Create React App](https://github.com/facebook/create-react-app) en el curso de [React Router](https://www.alura.com.br/curso-online-React-desenvolvendo-react-router-javaScript) de Alura.\n\n 🏷️ Tecnologías: javascript, html, styled-components, npm, react, jsx\n\n🚀 URL: [https://hello-world-lucassmaniotto.vercel.app/](https://hello-world-lucassmaniotto.vercel.app/)\n\n📚 Curso: [https://www.alura.com.br/curso-online-React-desenvolvendo-react-router-javaScript](https://www.alura.com.br/curso-online-React-desenvolvendo-react-router-javaScript)\n\n![image](https://user-images.githubusercontent.com/101435037/212450714-100b5e9c-fe52-41c1-a83d-1fc2024ad079.png#vitrinedev)\n\n## Detalles del proyecto\n\nEste proyecto es una Aplicación de Página Única (SPA) desarrollada en ReactJS utilizando React Router durante el curso React: desarrollando con React Router y JavaScript de Alura.\n\n### ⚙️ Configuración del proyecto\n\nPara asegurarte de que el proyecto funcione correctamente, es necesario instalar las dependencias del proyecto. Para ello, simplemente ejecuta el siguiente comando en la terminal:\n\n```bash\nnpm install\n```\n\n### ▶️ Ejecución del proyecto\n\nEn el directorio del proyecto, puedes ejecutar:\n```bash\nnpm start\n\n```\n\nCon el comando anterior, ejecutarás el proyecto en modo de desarrollo, al cual podrás acceder en [http://localhost:3000](http://localhost:3000) en tu navegador.\n\n### 📚 Bibliotecas\n* [react-router-dom](https://reactrouter.com/en/main)\n* [react-markdown]()\n\n### 💡 Funcionalidades\n\n## *Rutas*\n\nDado que el proyecto es una SPA, funciona como una única página a través de rutas gestionadas por React Router:\n\n![image](https://user-images.githubusercontent.com/101435037/212456617-7a4a15e6-9650-418c-8cc6-3e3fd2a99b15.png)\n\nLas rutas constan de dos pestañas, una pestaña de la página de inicio que contiene mis principales proyectos desarrollados y disponibles en [Github](https://github.com/lucassmaniotto), y una página Sobre Mí que cuenta un poco de mi historia en la programación, además de cosas que me gustan mucho.\n\n![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/212456753-e2013e6d-89ce-4c52-a105-71e0d5bbfa4f.gif)\n\n## *Renderización de artículos*\n\nPara cada página de artículo, el contenido se renderiza en una ruta dinámica *projects/:id* con el contenido JSON de cada proyecto, en el cual se realizan iteraciones y se transforma en Markdown con React Markdown:\n\n![image](https://user-images.githubusercontent.com/101435037/212456886-15e3f74f-e496-4c3f-8693-8f835f53a255.png)\n\n![image](https://user-images.githubusercontent.com/101435037/212456929-bcd24b26-5ccb-4650-9d70-5ceabd984e5c.png)\n\n![image](https://user-images.githubusercontent.com/101435037/212457579-7b6d2503-557b-4aad-9c61-d673723b5796.png)\n\n## *Manejo de rutas*\n\nEn caso de que ocurra una redirección errónea de la ruta, se renderiza una página 404 con un perro salchicha que informa posibles causas y un botón para volver a la página anterior, ya sea la página de inicio, la página Sobre Mí o un proyecto cualquiera.\n\n![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/212457678-36a7f64c-ff5f-4c2e-934f-9dbd5ded9db9.gif)\n\n## *Tarjeta de sugerencias*\n\nAl final de cada artículo de proyecto, la página ofrece una ruta diferente a un proyecto posterior, mediante métodos de JavaScript como filter, sort y slice:\n\n![image](https://user-images.githubusercontent.com/101435037/212457766-0261e42b-ea59-4570-8190-84ea88c311ad.png)\n",
+    "tags": [
+      {
+        "id": 35,
+        "name": "React",
+        "type": "frontend"
+      },
+      {
+        "id": 36,
+        "name": "Styled-Components",
+        "type": "frontend"
+      },
+      {
+        "id": 37,
+        "name": "Node",
+        "type": "backend"
+      },
+      {
+        "id": 38,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 39,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Organo",
+    "text": "> Puedes consultar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/Organo-App)\n\n# Organo v2.0\n\nEste es un proyecto React creado con [Create React App](https://github.com/facebook/create-react-app) sobre la organización de equipos y grupos, desarrollado durante el curso de formación de React de [Alura](https://cursos.alura.com.br/formacao-react-javascript)\n\n🏷️ Tecnologías: react, jsx, css, html, npm\n\n🚀 URL: [https://organo-app-blond.vercel.app/](https://organo-app-blond.vercel.app/)\n\n📚 Cursos:\n\n[https://cursos.alura.com.br/course/react-desenvolvendo-javascript](https://cursos.alura.com.br/course/react-desenvolvendo-javascript)\n\n[https://cursos.alura.com.br/course/react-componentes-funcionam](https://cursos.alura.com.br/course/react-componentes-funcionam)\n\n## Detalles del proyecto\n\nOrgano es un proyecto de estudio de React donde el usuario puede crear equipos y grupos, y agregar miembros a ellos, con el objetivo de organizar mejor el trabajo en equipo.\n\n### ⚙️ Configuración del proyecto\n\nPara asegurarte de que el proyecto funcione correctamente, es necesario instalar las dependencias del proyecto. Para ello, simplemente ejecuta el siguiente comando en la terminal:\n\n```bash\nnpm install\n```\n\n### ▶️ Ejecución del proyecto\n\nEn el directorio del proyecto, puedes ejecutar:\n```bash\nnpm start\n```\n\nCon el comando anterior, ejecutarás el proyecto en modo de desarrollo que puede ser accedido en [http://localhost:3000](http://localhost:3000) en tu navegador.\n\n### 📚 Bibliotecas\n\nPara el desarrollo se utilizaron algunas bibliotecas de npm, entre ellas:\n\n* [hex-to-rba](https://www.npmjs.com/package/hex-to-rgba)\n* [uuid](https://www.npmjs.com/package/uuid)\n* [sweetalert2](https://sweetalert2.github.io/)\n\n### 💡 Funcionalidades\n\n## *Agregando miembros a equipos - Organo v1.0*\n\nEl usuario puede agregar miembros de su equipo a través del formulario a continuación, vinculándolos a un equipo, con su nombre, cargo y foto.\n\n![image](https://user-images.githubusercontent.com/101435037/209827854-9fbcf40e-6f17-4b38-a029-767950098494.png)\n\nEs importante destacar que la imagen debe ser proporcionada a través de una URL para que el programa pueda acceder a ella y mostrarla en la página:\n\n![image](https://user-images.githubusercontent.com/101435037/209828098-a9e14d03-5c86-46ec-92a8-25abd18f4f3a.png)\n\nDespués de agregar a sus miembros, cada uno se muestra en secciones seleccionadas por el formulario.\n\n![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/209831596-035d911c-0e15-40c2-bf04-674a726c42ec.gif)\n\n## *Ocultar formulario - Organo v1.0*\n\nDespués de tener al menos un registro de equipo, se muestra la sección de grupos junto con el botón para ocultar el formulario para una mejor visualización:\n\n![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/101435037/209832752-db6f7bf9-708d-45ca-bacf-bcfcedc23a13.gif)\n\n## *Creación de nuevos equipos - Organo v2.0*\n\nEl usuario, a través del formulario de equipos, puede crear una nueva sección para vincular las tarjetas de los miembros en el primer formulario, pudiendo elegir su nombre y color:\n\n![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/211048759-49f5d4e7-9b41-4af6-97b5-b9ef1acaf241.gif)\n\n## *Cambiar colores de las secciones - Organo v2.0*\n\nEn cada sección de la organización, en la esquina hay una entrada de color que se puede modificar, cambiando el color de las tarjetas y el fondo de la sección:\n\n![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/101435037/211050003-aa0bc832-4da3-47f4-8292-637aebb9e0dd.gif)\n\n## *Eliminación de tarjetas - Organo v2.0*\n\nEn cada tarjeta creada, hay un ícono de eliminación que, al presionarlo, elimina la tarjeta correspondiente, siempre que no sea una tarjeta marcada como favorita:\n\n![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/101435037/211051233-cad59f85-7d92-46f7-89ad-273bba2b2058.gif)\n\n## *Persistencia de datos en el almacenamiento local - Organo v2.0*\n\nCon cada envío de formulario, al agregar miembros y equipos, cambiar sus colores y eliminarlos, la información se almacena en el almacenamiento local (Local Storage) para que el organigrama no se pierda cuando se actualiza o cierra la página.",
+    "tags": [
+      {
+        "id": 25,
+        "name": "React",
+        "type": "frontend"
+      },
+      {
+        "id": 34,
+        "name": "Javascript",
+        "type": "frontend"
+      },
+      {
+        "id": 45,
+        "name": "Typescript",
+        "type": "frontend"
+      },
+      {
+        "id": 26,
+        "name": "CSS",
+        "type": "frontend"
+      },
+      {
+        "id": 27,
+        "name": "Node",
+        "type": "backend"
+      },
+      {
+        "id": 29,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 26,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "HZC Skate Blog",
+      "text": "> Puedes consultar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/HZC-Skate-Blog)\n\nSitio web desarrollado en el curso de FlexBox y Grid de Alura.\n\n 🏷️ Tecnologías: html, css, javascript \n\n 🚀 URL: [https://hzc-skate-blog-n4ps.vercel.app/](https://hzc-skate-blog-n4ps.vercel.app/)\n\n 📚 Curso: [https://cursos.alura.com.br/formacao-html-e-css](https://cursos.alura.com.br/formacao-html-e-css) \n\n ## Detalles del proyecto\n\nEl proyecto fue desarrollado con la metodología Mobile-First y de forma Responsiva a diferentes pantallas durante el curso [CSS: disponiendo elementos con Flexbox y Grid](https://cursos.alura.com.br/course/css-dispondo-elementos-flexbox-grid), incluyendo 3 páginas y 2 artículos basados en la plantilla [Figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358), que se proporcionó durante las clases.\n\n### Inicio\nLa página principal presenta los principales videos del blog y sus productos, junto con enlaces a artículos en las tarjetas\n\n![Inicio - HZC](https://user-images.githubusercontent.com/101435037/203368808-fc0c6c50-45c4-4617-b88e-d1eb306610f0.png)\n\n### Videos\nLa página de videos muestra las tarjetas con los videos más vistos, junto con un video destacado que puede redirigir a un artículo con un video disponible para ver\n\n![Videos - HZC](https://user-images.githubusercontent.com/101435037/203369348-4f071db6-3c08-4f9a-8000-29bd64cbb098.png)\n\n#### Artículo de Video\n\nEn esta página se puede ver una plantilla de artículo y el video de la tarjeta como encabezado en un iframe de YouTube\n> Créditos del video: https://www.youtube.com/@ThrasherMag\n![HZC - Life is...](https://user-images.githubusercontent.com/101435037/203369693-cbeafd12-e5f9-46bc-922e-a98c3f0e05e2.png)\n\n### Lugares para Patinar (Picos)\nLa página de lugares para patinar es una simulación de lugares interesantes para patinar con artículos sobre ellos, donde el primero se puede hacer clic y redirigir al usuario a un artículo sobre el lugar\n![Picos - HZC](https://user-images.githubusercontent.com/101435037/203370566-3291151a-6b44-4e8b-af7c-747635fb4dc9.png)\n\n#### Artículo del Lugar para Patinar (Pico)\nEn esta página se puede ver una plantilla de artículo y su imagen como encabezado sobre el texto del redactor\n> ![Gap do Itaú da Voluntários da Pátria](https://user-images.githubusercontent.com/101435037/203370713-16735605-a580-4672-9186-b13cdc6fb2f9.png)\n\n### Responsividad\nEl proyecto es 100% responsivo y está diseñado pensando en el usuario de diversos dispositivos, adaptándose a cada uno:\n\n[![Ver el video](https://user-images.githubusercontent.com/101435037/212350066-bd4d41d9-8715-4b6e-89f7-fce88536887d.png)](https://user-images.githubusercontent.com/101435037/203374085-491051a4-d6c2-456c-8e00-f7d3a634177f.mp4)",
+    "tags": [
+      {
+        "id": 28,
+        "name": "Javascript",
+        "type": "frontend"
+      },
+      {
+        "id": 30,
+        "name": "CSS",
+        "type": "frontend"
+      },
+      {
+        "id": 31,
+        "name": "HTML",
+        "type": "frontend"
+      },
+      {
+        "id": 33,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 32,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Dungeons & Comics",
+      "text": "> Puedes consultar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/Dungeons-And-Comics)\n\n# Dungeons & Comics 🎲🐲\n\nSitio web de Libros y Comics desarrollado en el curso de responsividad con enfoque en móviles de Alura\n\n 🏷️ Tecnologías: html, css, javascript\n\n🚀 URL: [https://dungeons-and-comics.vercel.app/](https://dungeons-and-comics.vercel.app/)\n\n📚 Cursos:\n\n[https://cursos.alura.com.br/formacao-html-e-css](https://cursos.alura.com.br/formacao-html-e-css)\n\n[https://cursos.alura.com.br/formacao-javascript-front-end](https://cursos.alura.com.br/formacao-javascript-front-end) \n\n## Detalles del proyecto\n\nDungeons & Comics es un proyecto de un sitio web de venta de libros, cómics y artículos de juegos de rol inspirado en el sitio [Casa do Código](https://www.casadocodigo.com.br/), utilizando la plantilla de [Figma](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=37%3A94&t=qgTpN8c9LQ6xyvqa-0) proporcionada en el curso de Alura [HTML y CSS: responsividad enfocada en móviles](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first). Como sugiere el nombre del curso, este proyecto se desarrolló siguiendo el enfoque Mobile-First, con disposiciones para pantallas de 1728px, 1024px y otras pantallas móviles, utilizando HTML y CSS, además de un poco de JavaScript.\n\n### Responsividad\n\nEl sitio es 100% responsivo y proporciona accesibilidad en cualquier pantalla que el usuario elija.\n\n![image](https://user-images.githubusercontent.com/101435037/207893280-e9bf8f94-d0e8-4920-84c4-8ef5c7aa0c35.png) \n\n ![image](https://user-images.githubusercontent.com/101435037/207893526-6275f232-c891-4b99-aeab-95b33330de11.png) \n\n ![image](https://user-images.githubusercontent.com/101435037/207893610-1c7713f8-f626-4678-a5bd-fa62bae2d2e9.png) \n\n### Funcionalidades\n\nEl sitio incluye algunas características dinámicas, como carruseles y un formulario de registro que consume datos de una API:\n\n#### Carrusel\n\n![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/207896227-7d9c78ad-9d4c-4a53-a165-987e2b216d2d.gif)\n\n#### Formulario de registro\n\nEl formulario de registro está disponible en la pestaña *Mi Perfil* y consume la API de [ViaCEP](https://viacep.com.br/) para buscar Códigos Postales (CEP).\n\n![image](https://user-images.githubusercontent.com/101435037/207906444-d6a6f08a-4718-4b21-b02c-0597e8f3f9f2.png)\n\n\nAl consumir la API ViaCEP, si se proporciona un CEP válido, varios campos del formulario se completan automáticamente. Si el CEP proporcionado no es válido, se maneja el error y se informa al usuario que el CEP no es correcto.\n\n![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/207904136-e350ddf8-4b6e-4d55-9b55-1c0801a634d4.gif)",
+    "tags": [
+      {
+        "id": 40,
+        "name": "Javascript",
+        "type": "frontend"
+      },
+      {
+        "id": 41,
+        "name": "CSS",
+        "type": "frontend"
+      },
+      {
+        "id": 42,
+        "name": "HTML",
+        "type": "frontend"
+      },
+      {
+        "id": 43,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 44,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "title": "Web Speech Game",
+      "text": "> Puedes consultar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/Web-Speech-Game)\n\n# Web Speech Guessing Game\n\nProyecto de juego de adivinanza por voz que consume datos de la Web Speech API.\n\n 🏷️ Tecnologías: html, css, javascript\n\n 🚀 URL: [https://web-speech-game.vercel.app/](https://web-speech-game.vercel.app/)\n\n 📚 Curso: [https://cursos.alura.com.br/formacao-javascript-front-end](https://cursos.alura.com.br/formacao-javascript-front-end)\n\n## Detalles del proyecto\n\n![banner](https://user-images.githubusercontent.com/101435037/207368715-e640c3e5-bf46-4807-bad7-43561aa7d0ad.png)\n\nEl proyecto se realizó como parte del curso de [JavaScript para Frontend](https://cursos.alura.com.br/formacao-javascript-front-end) de Alura, utilizando la [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API).\n\nLa aplicación es un juego de adivinanza de números con oportunidades ilimitadas. Para jugar, simplemente utiliza tu micrófono y pronuncia tu suposición. Los algoritmos de la aplicación eligen un número al azar y validan los datos enviados desde el micrófono, mostrando mensajes específicos para cada caso.\n\n### Funcionamiento\nPara cada suposición, si el número no se adivina, se proporcionan pistas en pantalla para ayudar al usuario a encontrar el número secreto\n\n![chute](https://user-images.githubusercontent.com/101435037/207372538-544ff108-8dca-4e1a-b396-1165edd722b1.png)\n\nEn caso de que los datos sean incoherentes, el algoritmo los maneja de diferentes formas:\n* Para valores fuera del rango, se muestra un mensaje indicando el intervalo correcto:\n\n![a](https://user-images.githubusercontent.com/101435037/207373186-5ff794dd-5d60-4dc2-97df-35e1c0e13a46.png)\n\n* Para valores no numéricos, se muestra un mensaje informando que los datos no son válidos:\n\n![13](https://user-images.githubusercontent.com/101435037/207373929-8df26b57-4d24-4a4a-9969-95bcc1fe586c.png)\n\n### Efectos CSS\nEl proyecto también incluye efectos visuales cuando ocurre una victoria, simulando fuegos artificiales con keyframes, todo realizado con CSS puro:\n\n![aa](https://user-images.githubusercontent.com/101435037/207378283-be7a6bfd-e95c-4235-b8de-8b4ade66cdd3.gif)\n\n### Responsividad\nEl juego se puede jugar en una computadora, tablet o smartphone por igual.",
+    "tags": [
+      {
+        "id": 46,
+        "name": "Javascript",
+        "type": "frontend"
+      },
+      {
+        "id": 47,
+        "name": "CSS",
+        "type": "frontend"
+      },
+      {
+        "id": 48,
+        "name": "HTML",
+        "type": "frontend"
+      },
+      {
+        "id": 49,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 50,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+
+  {
+    "id": 8,
+    "title": "PomoApp",
+      "text": "> Puedes consultar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/Pomodoro)\n\n# PomoApp 🍅\n\nAplicación web que implementa la técnica del Pomodoro para controlar tus ciclos de trabajo e informar las horas trabajadas.\n\n🏷️ Tecnologías: React, TypeScript, HTML5, CSS3, Visual Studio Code, ESLint, Prettier\n\n🚀 URL: [https://pomodoro-lucassmaniotto.vercel.app/](https://pomodoro-lucassmaniotto.vercel.app/)\n\n📚 Curso: [https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)\n\n![Banner](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/226b070c-d1a4-4bbb-9c9c-7d283ad465bd#vitrinedev)\n\n## Detalles del proyecto\n\nPomoApp fue desarrollado en TypeScript y utiliza React para implementar la técnica de gestión del tiempo conocida como Pomodoro. Esta técnica es ampliamente utilizada para aumentar la productividad y evitar la procrastinación. El proyecto se realizó como parte del curso de Udemy de [Luiz Otávio Miranda](https://www.udemy.com/user/luiz-otavio-miranda/), [Curso de JavaScript y TypeScript de lo básico a avanzado](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/#instructor-1).\n\n ### ⚙️ Configuración del proyecto\nPara que el proyecto funcione correctamente, es necesario instalar las dependencias del proyecto. Para ello, simplemente ejecuta el siguiente comando en la terminal: \n\n```bash\nnpm install\n``` \n\n ### ▶️ Ejecución del proyecto \nEn el directorio del proyecto, puedes ejecutar:\n```bash\nnpm start\n```\nCon el comando anterior, ejecutarás el proyecto en modo de desarrollo y podrás acceder a él en [http://localhost:3000](http://localhost:3000) en tu navegador. \n\n ### 📚 Bibliotecas\nPara el desarrollo se utilizaron algunas bibliotecas de npm, entre ellas:\n * [React](https://www.npmjs.com/package/react)\n * [TypeScript](https://www.npmjs.com/package/typescript)\n * [ESLint](https://www.npmjs.com/package/eslint)\n * [Prettier](https://www.npmjs.com/package/prettier)\n * [React Router DOM](https://www.npmjs.com/package/react-router-dom)\n * [SweetAlert2](https://www.npmjs.com/package/sweetalert2)\n * [React Icons](https://www.npmjs.com/package/react-icons)\n\n### 🍅 Técnica Pomodoro\n\n El Pomodoro es una técnica de gestión del tiempo desarrollada por Francesco Cirillo a finales de la década de 1980. El método se llama Pomodoro (tomate en italiano) porque Cirillo usaba un temporizador de cocina con forma de tomate para controlar su tiempo mientras estudiaba. El objetivo del método Pomodoro es aumentar la productividad, dividiendo el trabajo en períodos de tiempo cortos y cronometrados, llamados pomodoros.\n\nLa técnica Pomodoro funciona de la siguiente manera:\n1. Elige una tarea que desees realizar.\n2. Configura un temporizador para 25 minutos, que es la duración de un pomodoro.\n3. Trabaja intensamente en la tarea elegida hasta que suene el temporizador.\n4. Haz un breve descanso de unos 5 minutos después de cada pomodoro.\n5. Después de completar cuatro pomodoros, toma un descanso más largo de unos 15 a 30 minutos. ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n\n El ciclo de trabajo (pomodoro) de 25 minutos seguido de un breve descanso y luego un largo descanso se repite a lo largo del día. La idea es que los breves intervalos de descanso ayuden a mantener la concentración durante el período de trabajo. Además, el método Pomodoro promueve la conciencia de cómo se utiliza el tiempo, lo que ayuda a identificar cuánto tiempo lleva completar diferentes tipos de tareas.\n\nLa técnica Pomodoro se utiliza ampliamente como un enfoque efectivo para aumentar la productividad, evitar la procrastinación y mejorar la gestión del tiempo. Incluso hay aplicaciones y herramientas en línea disponibles que pueden ayudarte a implementar la técnica Pomodoro en tu rutina diaria.\n\n### 💡 Características\n\n#### Ciclos Pomodoro\n\nCuando accedes al sitio por primera vez, el Pomodoro se encuentra en estado de Descanso y muestra 25 minutos en su contador, informando el próximo ciclo.\n\n![Estado inicial](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/53acf20c-0ef7-470a-8fde-f558ddda9445)\n\nEl control de los Pomodoros se realiza mediante botones de acción. Al presionar el botón 'Trabajar', se escucha un sonido de campana, comienza la cuenta regresiva de tiempo de trabajo y se actualiza la información de 'Horas trabajadas'. Además, el tema de la página cambia a colores más vibrantes, mostrando un nuevo botón que permite pausar o reanudar el temporizador. El título de la página también muestra el tiempo restante de trabajo, lo que te permite controlar el tiempo de trabajo o descanso si minimizas la aplicación.\n\n![Título de la página - Trabajo](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/c600a911-543a-4eed-bdab-f0833a822295)\n\n![Pomodoro - Trabajo](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/830b2767-561e-42a6-a4f9-3ab713488a52)\n\nCuando finaliza el tiempo de trabajo, se escucha un doble sonido de campana y comienza el tiempo de descanso. El tema de la página y el estado cambian nuevamente, otorgando 5 minutos de descanso o para realizar otras actividades no relacionadas con el tiempo de enfoque. En la información, se pausa 'Horas trabajadas', se incrementa 'Pomodoros completados' y se actualiza el próximo ciclo a 'Trabajo'.\n\n![Pomodoro - Descanso](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/df81d2ca-b0ae-43a6-b47b-70a2c0c546a3)\n\nDespués de completar 4 Pomodoros, se otorgan 15 minutos de descanso como recompensa:\n\n![4 Pomodoros](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/0a33080e-1e2e-498b-9bba-4fad1f7e6300)\n\n#### Configuración del tiempo\n\nPomoApp tiene una ruta '/configurations' que permite a los usuarios configurar los tiempos de Pomodoro según sus preferencias, accesible desde el encabezado de la página.\n\n![Rutas](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/f2925c78-ec76-45da-8975-c6c717d195ee)\n\nAntes de cambiar de ruta, aparece una alerta de Sweet Alert que informa que acceder a la configuración reiniciará el temporizador Pomodoro. El usuario debe confirmar si desea continuar con la acción o no. \n\n![Confirmación](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/23ccccdf-607e-4a96-b476-d44b310dc8ae)\n\nAl acceder a la ruta de Configuraciones, los usuarios pueden cambiar los tiempos de Pomodoro en los cuadros de texto, ingresando los valores en segundos. Al guardar los cambios, los datos se almacenan en el almacenamiento local del navegador y se utilizan en la ruta de la página de inicio \n\n![Configuraciones](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/b5a13153-cec0-4003-8ed4-a860769ead21)\n\n![LocalStorage](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/323ba20a-b57d-4877-84cf-3fb35fd35051)\n\n![Datos consumidos](https://github.com/lucassmaniotto/Pomodoro/assets/101435037/8e1c96ac-ffa5-4db0-bfbf-e7c9d3639208)",
+    "tags": [
+      {
+        "id": 25,
+        "name": "React",
+        "type": "frontend"
+      },
+      {
+        "id": 45,
+        "name": "Typescript",
+        "type": "frontend"
+      },
+      {
+        "id": 26,
+        "name": "CSS",
+        "type": "frontend"
+      },
+      {
+        "id": 27,
+        "name": "Node",
+        "type": "backend"
+      },
+      {
+        "id": 29,
+        "name": "Vercel",
+        "type": "tools"
+      },
+      {
+        "id": 26,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  }
+]

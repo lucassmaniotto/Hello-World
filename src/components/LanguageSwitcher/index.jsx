@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import br from '../../assets/flags/br.svg';
 import us from '../../assets/flags/us.svg';
-import fr from '../../assets/flags/fr.svg';
+import mx from '../../assets/flags/mx.png';
 
 import { LanguageButton, LanguageSwitcherWrapper } from './styles';
 
@@ -20,9 +20,9 @@ const languageOptions = [
     flag: us,
   },
   {
-    name: 'FR-FR',
-    value: 'fr',
-    flag: fr,
+    name: 'ES-LA',
+    value: 'es',
+    flag: mx,
   },
 ];
 

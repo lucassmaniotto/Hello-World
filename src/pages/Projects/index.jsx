@@ -11,7 +11,7 @@ import Card from 'components/Card/CardProjects';
 
 import projects_ptBR from 'json/projects_ptBR.json';
 import projects_en from 'json/projects_en.json';
-import projects_fr from 'json/projects_fr.json';
+import projects_es from 'json/projects_es.json';
 import { TitleOtherProjects, RecommendedProjectsUl } from './styles';
 import PageMarkdownContainer from './markdown-styles';
 
@@ -26,7 +26,7 @@ export default function Projects() {
       ? projects_ptBR
       : selectedLanguage === 'en'
       ? projects_en
-      : projects_fr;
+      : projects_es;
 
   const project = projectsData.find(
     (project) => project.id === Number(params.id),

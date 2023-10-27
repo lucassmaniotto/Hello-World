@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 import MainButton from 'components/Button/MainButton';
 
@@ -11,6 +12,8 @@ import {
 } from './styles';
 
 export default function Card({ project }) {
+  const { t } = useTranslation();
+
   return (
     <Link to={`/projects/${project.id}`}>
       <CardProjectContainer>
@@ -30,7 +33,7 @@ export default function Card({ project }) {
         ) : (
           <label>?</label>
         )}
-        <MainButton>Ver projeto</MainButton>
+        <MainButton>{t('see-projects')}</MainButton>
       </CardProjectContainer>
     </Link>
   );

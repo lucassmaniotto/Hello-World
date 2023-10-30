@@ -9,9 +9,9 @@ import PagesModel from 'components/PagesModel';
 import DefaultPage from 'components/DefaultPage';
 import Card from 'components/Card/CardProjects';
 
-import projects_ptBR from 'json/projects_ptBR.json';
-import projects_en from 'json/projects_en.json';
-import projects_es from 'json/projects_es.json';
+import projects_ptBR from 'i18n/translations/projects_ptBR.json';
+import projects_en from 'i18n/translations/projects_en.json';
+import projects_es from 'i18n/translations/projects_es.json';
 import { TitleOtherProjects, RecommendedProjectsUl } from './styles';
 import PageMarkdownContainer from './markdown-styles';
 

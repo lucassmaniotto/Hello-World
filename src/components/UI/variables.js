@@ -10,3 +10,4 @@ export const whiteMarkdown = '#EAEAEA';
 export const blackMarkdown = '#363031';
 export const mainFont = "'Raleway', sans-serif";
 export const secondaryFont = "'Playfair Display', sans-serif";
+export const grayColor = '#ccc';

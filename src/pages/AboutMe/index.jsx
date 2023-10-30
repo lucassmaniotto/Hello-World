@@ -2,11 +2,14 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import PagesModel from 'components/PagesModel';
 import TecnologiesGrid from 'components/Grid/TecnologiesGrid';
-import CertificatesGrid from 'components/Grid/CertificatesGrid';
+import CardCertificates from 'components/Grid/CardCertificates';
+
+import qualifications from 'json/qualifications.json';
+import certificates from 'json/certificates.json';
 
 import photoCover from 'assets/about_me_cover.jpg';
 import photoAboutMe from 'assets/about_me_photo.jpg';
-import QualificationsGrid from 'components/Grid/QualificationsGrid';
+
 import {
   AboutMePhoto,
   AboutMeSubTitle,
@@ -64,9 +67,15 @@ export default function AboutMe() {
       </section>
       <section>
         <AboutMeSubTitle>{t('about-section-qualifications')}</AboutMeSubTitle>
-        <QualificationsGrid />
+        <CardCertificates
+          json={qualifications}
+          searchPlaceholder="Buscar formação..."
+        />
         <AboutMeSubTitle>{t('about-section-certificates')}</AboutMeSubTitle>
-        <CertificatesGrid />
+        <CardCertificates
+          json={certificates}
+          searchPlaceholder="Buscar certificado..."
+        />
       </section>
     </PagesModel>
   );

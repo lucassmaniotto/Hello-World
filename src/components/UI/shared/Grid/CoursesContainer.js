@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { grayColor } from 'components/UI/variables';
 
 const CoursesContainer = styled.div`
   display: grid;
@@ -24,4 +25,44 @@ const CoursesContainer = styled.div`
   }
 `;
 
-export default CoursesContainer;
+const SearchInput = styled.input`
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid ${grayColor};
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    font-size: 13px;
+  }
+`;
+
+const SearchSelect = styled.select`
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid ${grayColor};
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  color: #828482;
+
+  &:focus {
+    outline: none;
+  }
+
+  option {
+    font-size: 13px;
+  }
+`;
+
+const SearchContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+`;
+
+export { CoursesContainer, SearchInput, SearchSelect, SearchContainer };

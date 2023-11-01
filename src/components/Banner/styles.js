@@ -3,7 +3,7 @@ import {
   primaryColor,
   whiteColor,
   secondaryFont,
-} from 'components/UI/variables';
+} from '../UI/variables';
 
 const BannerContainer = styled.div`
   padding: 3rem 7.5rem 6.25rem;

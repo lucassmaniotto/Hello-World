@@ -1,4 +1,4 @@
-import { whiteColor } from 'components/UI/variables';
+import { whiteColor } from '../UI/variables';
 import styled from 'styled-components';
 
 const Nav = styled.nav`

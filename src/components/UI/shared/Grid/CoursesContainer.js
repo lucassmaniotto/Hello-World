@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { grayColor } from 'components/UI/variables';
+import { grayColor } from '../../variables';
 
 const CoursesContainer = styled.div`
   display: grid;

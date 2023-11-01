@@ -5,7 +5,7 @@ import {
   tertiaryColor,
   fifthColor,
   blackMarkdown,
-} from 'components/UI/variables';
+} from '../../UI/variables';
 
 const CardAncorContainer = styled.a`
   display: grid;

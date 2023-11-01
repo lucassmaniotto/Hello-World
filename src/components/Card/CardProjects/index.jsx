@@ -1,15 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
-import MainButton from 'components/Button/MainButton';
+import MainButton from "../../Button/MainButton";
 
 import {
   CardProjectContainer,
   CardProjectCover,
   CardProjectTitle,
   Tag,
-} from './styles';
+} from "./styles";
 
 export default function Card({ project }) {
   const { t } = useTranslation();
@@ -33,7 +32,7 @@ export default function Card({ project }) {
         ) : (
           <label>?</label>
         )}
-        <MainButton>{t('see-projects')}</MainButton>
+        <MainButton>{t("see-projects")}</MainButton>
       </CardProjectContainer>
     </Link>
   );

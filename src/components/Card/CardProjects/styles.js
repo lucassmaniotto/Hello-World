@@ -3,7 +3,7 @@ import {
   secondaryFont,
   primaryColor,
   whiteColor,
-} from 'components/UI/variables';
+} from '../../UI/variables';
 
 const CardProjectContainer = styled.div`
   text-align: center;

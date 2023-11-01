@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { primaryColor, whiteColor } from 'components/UI/variables';
+import { primaryColor, whiteColor } from '../UI/variables';
 
 const FooterStyled = styled.div`
   background-color: ${primaryColor};

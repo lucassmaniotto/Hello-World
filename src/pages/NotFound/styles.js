@@ -4,7 +4,7 @@ import {
   whiteColor,
   secondaryFont,
   fourthColor,
-} from 'components/UI/variables';
+} from '../../components/UI/variables';
 
 const ContentContainer = styled.div`
   position: relative;

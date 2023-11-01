@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { secondaryFont, blackMarkdown } from 'components/UI/variables';
+import { secondaryFont, blackMarkdown } from '../../components/UI/variables';
 
 const TitleOtherProjects = styled.h2`
   font-family: ${secondaryFont};

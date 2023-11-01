@@ -67,12 +67,14 @@ export default function AboutMe() {
         <AboutMeSubTitle>{t('about-section-qualifications')}</AboutMeSubTitle>
         <CardCertificates
           json={qualifications}
-          searchPlaceholder="Buscar formação..."
+          searchPlaceholder={t('about-section-qualifications-search-placeholder')}
+          defaultOption={t('about-section-qualifications-default-option')}
         />
         <AboutMeSubTitle>{t('about-section-certificates')}</AboutMeSubTitle>
         <CardCertificates
           json={certificates}
-          searchPlaceholder="Buscar certificado..."
+          searchPlaceholder={t('about-section-certificates-search-placeholder')}
+          defaultOption={t('about-section-certificates-default-option')}
         />
       </section>
     </PagesModel>

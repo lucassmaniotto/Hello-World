@@ -8,7 +8,7 @@ import {
 } from '../../UI/shared/Grid/CoursesContainer';
 import CardAncor from '../../Card/CardAncor';
 
-export default function CardCertificates({ json, searchPlaceholder }) {
+export default function CardCertificates({ json, searchPlaceholder, defaultOption }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedTag, setSelectedTag] = useState('all');
 
@@ -51,7 +51,7 @@ export default function CardCertificates({ json, searchPlaceholder }) {
           value={selectedTag}
           onChange={(e) => setSelectedTag(e.target.value)}
         >
-          <option value="all">Todas</option>
+          <option value="all">{defaultOption}</option>
           {tags.map((tag) => (
             <option key={tag} value={tag}>
               {tag}

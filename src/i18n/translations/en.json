@@ -27,6 +27,10 @@
     "404Alt": "Dachshund dog wearing eyeglasses and using a computer.",
     "footer-1": "Developed by",
     "footer-2": "myself",
-    "see-projects": "See project"
+    "see-projects": "See project",
+    "about-section-qualifications-default-option": "All qualifications",
+    "about-section-certificates-default-option": "All certificates",
+    "about-section-qualifications-search-placeholder": "Search qualifications...",
+    "about-section-certificates-search-placeholder": "Search certificates..."
   }
 }

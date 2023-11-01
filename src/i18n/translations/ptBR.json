@@ -27,6 +27,10 @@
     "404Alt": "Cachorro Salsicha usando óculos de grau e mexendo no computador",
     "footer-1": "Desenvolvido por",
     "footer-2": "mim mesmo",
-    "see-projects": "Ver projeto"
+    "see-projects": "Ver projeto",
+    "about-section-qualifications-default-option": "Todas formações",
+    "about-section-certificates-default-option": "Todos certificados",
+    "about-section-qualifications-search-placeholder": "Buscar formações...",
+    "about-section-certificates-search-placeholder": "Buscar certificados..."
   }
 }

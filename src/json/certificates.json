@@ -8,8 +8,8 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-introducao-a-linguagem.svg",
     "tags": [
       "Python",
-      "Lógica de Programação",
-      "Programação",
+      "Programming Logic",
+      "Programming",
       "Back-end"
     ]
   },
@@ -22,8 +22,8 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-3-avancando-na-linguagem.svg",
     "tags":[
       "Python",
-      "Lógica de Programação",
-      "Programação",
+      "Programming Logic",
+      "Programming",
       "Back-end"
     ]
   },
@@ -113,8 +113,8 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/introducao-a-programacao-com-c-parte-1.svg",
     "tags":[
       "C",
-      "Lógica de Programação",
-      "Programação",
+      "Programming Logic",
+      "Programming",
       "Back-end"
     ]
   },
@@ -127,8 +127,8 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/introducao-a-programacao-com-c-parte-2.svg",
     "tags":[
       "C",
-      "Lógica de Programação",
-      "Programação",
+      "Programming Logic",
+      "Programming",
       "Back-end"
     ]
   },
@@ -141,7 +141,7 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/sql-server-microsoft-sql-server-2019.svg",
     "tags":[
       "SQL",
-      "Banco de Dados",
+      "Database",
       "Back-end"
     ]
   },
@@ -154,7 +154,7 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/consultas-sql-server-2017.svg",
     "tags":[
       "SQL",
-      "Banco de Dados",
+      "Database",
       "Back-end"
     ]
   },
@@ -167,7 +167,7 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/quality-assurance-plano-testes-gestao-bugs.svg",
     "tags":[
       "QA",
-      "Testes",
+      "Tests",
       "Back-end"
     ]
   },
@@ -193,7 +193,7 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/cypress-automacao-testes-e2e.svg",
     "tags":[
       "QA",
-      "Testes",
+      "Test",
       "Cypress",
       "JavaScript"
     ]
@@ -208,7 +208,7 @@
     "tags":[
       "Git",
       "GitHub",
-      "Controle de Versão",
+      "Version Control",
       "Back-end"
     ]
   },
@@ -222,7 +222,7 @@
     "tags":[
       "Git",
       "GitHub",
-      "Controle de Versão",
+      "Version Control",
       "Back-end"
     ]
   },
@@ -249,7 +249,7 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação"
+      "Programming"
     ]
   },
   {
@@ -262,7 +262,7 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação"
+      "Programming"
     ]
   },
   {
@@ -275,7 +275,7 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação"
+      "Programming"
     ]
   },
   {
@@ -288,7 +288,7 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação"
+      "Programming"
     ]
   },
   {
@@ -301,7 +301,7 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação"
+      "Programming"
     ]
   },
   {
@@ -314,7 +314,7 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação"
+      "Programming"
     ]
   },
   {
@@ -327,7 +327,7 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação"
+      "Programming"
     ]
   },
   {
@@ -340,7 +340,7 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação"
+      "Programming"
     ]
   },
   {
@@ -353,9 +353,9 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programação",
+      "Programming",
       "Selenium",
-      "Testes",
+      "Test",
       "QA"
     ]
   },
@@ -556,7 +556,8 @@
     "tags":[
       "React",
       "JavaScript",
-      "Front-end"
+      "Front-end",
+      "Styled Components"
     ]
   },
   {

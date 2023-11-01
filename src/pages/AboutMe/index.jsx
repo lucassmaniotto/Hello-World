@@ -1,14 +1,12 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import PagesModel from 'components/PagesModel';
-import TecnologiesGrid from 'components/Grid/TecnologiesGrid';
-import CardCertificates from 'components/Grid/CardCertificates';
+import PagesModel from '../../components/PagesModel';
+import TecnologiesGrid from '../../components/Grid/TecnologiesGrid';
+import CardCertificates from '../../components/Grid/CardCertificates';
 
-import qualifications from 'json/qualifications.json';
-import certificates from 'json/certificates.json';
+import qualifications from '../../json/qualifications.json';
+import certificates from '../../json/certificates.json';
 
-import photoCover from 'assets/about_me_cover.jpg';
-import photoAboutMe from 'assets/about_me_photo.jpg';
+import IMAGES from '../../assets/Images';
 
 import {
   AboutMePhoto,
@@ -21,10 +19,10 @@ export default function AboutMe() {
   const { t } = useTranslation();
 
   return (
-    <PagesModel photoCover={photoCover} title={t('about-title').toString()}>
+    <PagesModel photoCover={IMAGES.aboutMeCover} title={t('about-title').toString()}>
       <section>
         <AboutMeSubTitle>{t('about-subtitle')}</AboutMeSubTitle>
-        <AboutMePhoto src={photoAboutMe} alt="Foto de Lucas Smaniotto Schuch" />
+        <AboutMePhoto src={IMAGES.aboutMePhoto} alt="Foto de Lucas Smaniotto Schuch" />
         <AboutMeText>{t('about-paragraph-1')}</AboutMeText>
         <AboutMeText>
           {t('about-paragraph-2')}{' '}

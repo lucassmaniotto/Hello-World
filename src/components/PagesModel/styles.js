@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { pageFontColor, secondaryFont } from 'components/UI/variables';
+import { pageFontColor, secondaryFont } from '../UI/variables';
 
 const PageModelContainer = styled.article`
   color: ${pageFontColor};

@@ -3,7 +3,7 @@ import {
   secondaryFont,
   primaryColor,
   tertiaryColor,
-} from 'components/UI/variables';
+} from '../../components/UI/variables';
 
 const AboutMePhoto = styled.img`
   margin-bottom: 0.5rem;

@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import {
   CoursesContainer,
   SearchInput,
   SearchSelect,
   SearchContainer,
-} from 'components/UI/shared/Grid/CoursesContainer';
+} from '../../UI/shared/Grid/CoursesContainer';
 import CardAncor from '../../Card/CardAncor';
 
 export default function CardCertificates({ json, searchPlaceholder }) {

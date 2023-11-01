@@ -1,8 +1,7 @@
-import React from 'react';
 import Button from './styles';
 
-function LargeButton({ children }) {
+function MainButton({ children }) {
   return <Button>{children}</Button>;
 }
 
-export default LargeButton;
+export default MainButton;

@@ -1,5 +1,4 @@
-import React from 'react';
-import Badge from 'components/Badge/TechBadge';
+import Badge from '../../Badge/TechBadge';
 
 import TechContainer from './styles';
 

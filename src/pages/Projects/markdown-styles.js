@@ -3,7 +3,7 @@ import {
   secondaryFont,
   fifthColor,
   whiteMarkdown,
-} from 'components/UI/variables';
+} from '../../components/UI/variables';
 
 const PageMarkdownContainer = styled.div`
   h3,

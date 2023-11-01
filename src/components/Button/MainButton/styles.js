@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { fourthColor, whiteColor, primaryColor } from 'components/UI/variables';
+import { fourthColor, whiteColor, primaryColor } from '../../UI/variables';
 
 const Button = styled.button`
   display: inline-block;

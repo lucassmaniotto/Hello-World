@@ -1,7 +1,6 @@
-import React from 'react';
 import { Outlet } from 'react-router-dom';
 
-import Banner from 'components/Banner';
+import Banner from '../Banner';
 
 export default function DefaultPage() {
   return (

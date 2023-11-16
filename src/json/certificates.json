@@ -574,6 +574,20 @@
     ]
   },
   {
+    "id": 49,
+    "title": "React: estilize componentes com Styled Components e manipule arquivos estáticos",
+    "paragraph": "Alura",
+    "date": "16/11/2023",
+    "link": "https://cursos.alura.com.br/certificate/9a6850ea-1c24-42d7-afe3-575f71f7f9fb?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/react-estilize-componentes-styled-components-manipule-arquivos-estaticos.svg",
+    "tags":[
+      "React",
+      "JavaScript",
+      "Front-end",
+      "Styled Components"
+    ]
+  },
+  {
     "id": 45,
     "title": "React: migrando para TypeScript",
     "paragraph": "Alura",

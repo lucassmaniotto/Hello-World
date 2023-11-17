@@ -588,6 +588,20 @@
     ]
   },
   {
+    "id": 50,
+    "title": "React: comece seu projeto full stack",
+    "paragraph": "Alura",
+    "date": "17/11/2023",
+    "link": "https://cursos.alura.com.br/certificate/d5ee5d24-3ac2-4e66-b4a5-8aacaa0de38b?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/react-crie-primeira-pagina-web.svg",
+    "tags":[
+      "React",
+      "JavaScript",
+      "Front-end",
+      "Styled Components"
+    ]
+  },
+  {
     "id": 45,
     "title": "React: migrando para TypeScript",
     "paragraph": "Alura",

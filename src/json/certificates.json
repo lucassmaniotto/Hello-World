@@ -360,6 +360,19 @@
     ]
   },
   {
+    "id": 51,
+    "title": "Java Collections: Dominando Listas, Sets e Mapas",
+    "paragraph": "Alura",
+    "date": "20/11/2023",
+    "link": "https://cursos.alura.com.br/certificate/7a997f5d-65b7-485a-9bfb-db2ba9948730?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/java-collections.svg",
+    "tags":[
+      "Java",
+      "Back-end",
+      "Programming"
+    ]
+  },
+  {
     "id": 28,
     "title": "HTTP: Entendendo a web por baixo dos panos",
     "paragraph": "Alura",

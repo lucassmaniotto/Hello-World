@@ -26,6 +26,14 @@ function TecnologiesGrid() {
         name="React"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        name="Node.js"
+      />
+      <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        name="Express"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
         name="Java"
       />
@@ -36,14 +44,6 @@ function TecnologiesGrid() {
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
         name="Python"
-      />
-      <Badge
-        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-        name="Node.js"
-      />
-      <Badge
-        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-        name="Express"
       />
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"

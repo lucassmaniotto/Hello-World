@@ -42,6 +42,20 @@
     ]
   },
   {
+    "id": 53,
+    "title": "Python: avançando na orientação a objetos",
+    "paragraph": "Alura",
+    "date": "18/12/2023",
+    "link": "https://cursos.alura.com.br/certificate/2a7f050a-9624-4a6e-8cd8-e20bbc2b78bc?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/python-3-avancando-orientacao-objetos.svg",
+    "tags":[
+      "Python",
+      "Programming Logic",
+      "Programming",
+      "Back-end"
+    ]
+  },
+  {
     "id": 3,
     "title": "HTML5 e CSS3 parte 1: crie uma página da Web",
     "paragraph": "Alura",

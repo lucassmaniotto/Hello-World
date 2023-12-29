@@ -98,6 +98,20 @@
     ]
   },
   {
+    "id": 57,
+    "title": "Python Brasil: validação de dados no padrão nacional",
+    "paragraph": "Alura",
+    "date": "29/12/2023",
+    "link": "https://cursos.alura.com.br/certificate/93196844-0204-4c2b-b274-b22e72b06ebb?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/python-validacao-dados.svg",
+    "tags":[
+      "Python",
+      "Programming Logic",
+      "Programming",
+      "Back-end"
+    ]
+  },
+  {
     "id": 3,
     "title": "HTML5 e CSS3 parte 1: crie uma página da Web",
     "paragraph": "Alura",

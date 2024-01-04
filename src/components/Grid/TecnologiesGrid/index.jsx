@@ -1,5 +1,7 @@
 import Badge from '../../Badge/TechBadge';
 
+import ICONS from '../../../assets/techIcons/TechIcons';
+
 import TechContainer from './styles';
 
 function TecnologiesGrid() {
@@ -66,12 +68,16 @@ function TecnologiesGrid() {
         name="Git"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
+        name="GitLab"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
         name="GitHub"
       />
       <Badge
-        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
-        name="GitLab"
+        icon={ICONS.cypress}
+        name="Cypress"
       />
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"

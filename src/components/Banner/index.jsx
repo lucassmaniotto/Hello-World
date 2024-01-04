@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { BannerContainer, BannerText, BannerImage } from "./styles";
 
-import IMAGES from "../../assets/Images";
+import IMAGES from "../../assets/images/Images";
 
 export default function Banner() {
   const { t } = useTranslation();

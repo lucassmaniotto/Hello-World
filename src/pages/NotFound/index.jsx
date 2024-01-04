@@ -13,7 +13,7 @@ import {
   BlankSpace,
 } from "./styles";
 
-import IMAGES from '../../assets/Images';
+import IMAGES from '../../assets/images/Images';
 
 export default function NotFound() {
   const navegate = useNavigate();

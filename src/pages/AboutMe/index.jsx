@@ -6,7 +6,7 @@ import CardCertificates from '../../components/Grid/CardCertificates';
 import qualifications from '../../json/qualifications.json';
 import certificates from '../../json/certificates.json';
 
-import IMAGES from '../../assets/Images';
+import IMAGES from '../../assets/images/Images';
 
 import {
   AboutMePhoto,

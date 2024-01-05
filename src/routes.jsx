@@ -8,6 +8,7 @@ import GlobalStyle from './components/GlobalStyle';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Menu from './components/Menu';
+import ScrollToCertificates from './hooks/ScrollToCertificates';
 
 function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ function AppRoutes() {
       <GlobalStyle />
       <BrowserRouter>
         <ScrollToTop />
+        <ScrollToCertificates />
         <Menu />
         <Routes>
           <Route path="/" element={<DefaultPage />}>

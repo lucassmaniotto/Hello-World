@@ -7,10 +7,12 @@ export default function ScrollToTop() {
 
   useEffect(() => {
     setTimeout(() => {
-      if (title) {
-        title.scrollIntoView({ behavior: 'smooth' });
-      } else {
-        window.scrollTo(0, 0);
+      if (pathname !== '/about') {
+        if (title) {
+          title.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          window.scrollTo(0, 0);
+        }
       }
     }, 100);
   }, [pathname, title]);

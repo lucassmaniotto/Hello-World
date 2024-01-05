@@ -2,8 +2,10 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 export default function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { pathname, search } = useLocation();
   const title = document.querySelector('#root > main > article > h2');
+  const urlParams = new URLSearchParams(search);
+  const scrollToElement = urlParams.get('scrollToElement');
 
   useEffect(() => {
     setTimeout(() => {
@@ -13,9 +15,12 @@ export default function ScrollToTop() {
         } else {
           window.scrollTo(0, 0);
         }
+      } else if (scrollToElement) {
+        const element = document.querySelector(`#${scrollToElement}`);
+        element.scrollIntoView({ behavior: 'smooth' });
       }
     }, 100);
-  }, [pathname, title]);
+  }, [pathname, title, scrollToElement]);
 
   return null;
 }

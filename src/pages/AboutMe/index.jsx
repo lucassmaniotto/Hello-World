@@ -63,7 +63,7 @@ export default function AboutMe() {
         <AboutMeSubTitle>{t('about-section-tech')}</AboutMeSubTitle>
         <TecnologiesGrid />
       </section>
-      <section>
+      <section id="certificates-section">
         <AboutMeSubTitle>{t('about-section-qualifications')}</AboutMeSubTitle>
         <CardCertificates
           json={qualifications}

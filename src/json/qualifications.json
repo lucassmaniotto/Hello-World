@@ -96,5 +96,17 @@
       "Java",
       "Back-end"
     ]
+  },
+  {
+    "id": 9,
+    "title": "Aprenda a programar em Python com Orientação a Objetos",
+    "paragraph": "Alura",
+    "date": "05/01/2024",
+    "link": "https://cursos.alura.com.br/degree/certificate/42831c27-555c-4d79-ae57-f70ac6e14d70?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+    "tags": [
+      "Python",
+      "Back-end"
+    ]
   }
 ]

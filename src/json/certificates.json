@@ -112,6 +112,23 @@
     ]
   },
   {
+    "id": 58,
+    "title": "Python e TDD: explorando testes unitários",
+    "paragraph": "Alura",
+    "date": "05/01/2024",
+    "link": "https://cursos.alura.com.br/certificate/321e6648-d4e2-41db-a50f-949acd4f4e4c?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/python-tdd-explorando-testes-unitarios.svg",
+    "tags":[
+      "Python",
+      "Programming Logic",
+      "Programming",
+      "Back-end",
+      "QA",
+      "Tests",
+      "TDD"
+    ]
+  },
+  {
     "id": 3,
     "title": "HTML5 e CSS3 parte 1: crie uma página da Web",
     "paragraph": "Alura",
@@ -424,7 +441,10 @@
     "tags":[
       "Java",
       "Back-end",
-      "Programming"
+      "Programming",
+      "QA",
+      "Tests",
+      "TDD"
     ]
   },
   {

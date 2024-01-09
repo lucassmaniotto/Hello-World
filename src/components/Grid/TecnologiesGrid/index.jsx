@@ -80,6 +80,10 @@ function TecnologiesGrid() {
         name="Cypress"
       />
       <Badge
+        icon={ICONS.robotframework}
+        name="Robot Framework"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
         name="Figma"
       />

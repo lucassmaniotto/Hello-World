@@ -300,6 +300,21 @@
     ]
   },
   {
+    "id": 59,
+    "title": "Robot Framework: automatizando testes no padrão BDD",
+    "paragraph": "Alura",
+    "date": "09/01/2024",
+    "link": "https://cursos.alura.com.br/certificate/f4b8a81e-c988-4130-b839-09f2f9c201dc?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/robot-framework-testes-padrao-bdd.svg",
+    "tags":[
+      "Robot Framework",
+      "Back-end",
+      "QA",
+      "Tests",
+      "BDD"
+    ]
+  },
+  {
     "id": 16,
     "title": "Git e Github: controle e compartilhe seu código",
     "paragraph": "Alura",

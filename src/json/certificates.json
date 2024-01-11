@@ -8,7 +8,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-introducao-a-linguagem.svg",
     "tags": [
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -22,7 +21,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-3-avancando-na-linguagem.svg",
     "tags":[
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -36,7 +34,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-entendendo-orientacao-objetos.svg",
     "tags":[
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -50,7 +47,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-3-avancando-orientacao-objetos.svg",
     "tags":[
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -64,7 +60,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/string-python-extraindo-informacoes-url.svg",
     "tags":[
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -78,7 +73,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-collections-listas-e-tuplas.svg",
     "tags":[
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -92,7 +86,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-collections-conjuntos-e-dicionarios.svg",
     "tags":[
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -106,7 +99,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-validacao-dados.svg",
     "tags":[
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -120,7 +112,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/python-tdd-explorando-testes-unitarios.svg",
     "tags":[
       "Python",
-      "Programming Logic",
       "Programming",
       "Back-end",
       "QA",
@@ -214,7 +205,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/introducao-a-programacao-com-c-parte-1.svg",
     "tags":[
       "C",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -228,7 +218,6 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/introducao-a-programacao-com-c-parte-2.svg",
     "tags":[
       "C",
-      "Programming Logic",
       "Programming",
       "Back-end"
     ]
@@ -489,6 +478,20 @@
       "Java",
       "Back-end",
       "Programming"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Java e refatoração: melhorando códigos com boas práticas",
+    "paragraph": "Alura",
+    "date": "10/01/2024",
+    "link": "https://cursos.alura.com.br/certificate/4df8d516-7ae0-48f1-b75b-1cb0512959ee?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/java-refatoracao-melhorando-codigos-boas-praticas.svg",
+    "tags":[
+      "Java",
+      "Back-end",
+      "Programming",
+      "Tests"
     ]
   },
   {

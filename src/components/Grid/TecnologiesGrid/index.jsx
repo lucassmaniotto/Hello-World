@@ -40,6 +40,10 @@ function TecnologiesGrid() {
         name="Java"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+        name="Spring"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
         name="C"
       />

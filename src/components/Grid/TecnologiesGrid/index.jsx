@@ -64,6 +64,10 @@ function TecnologiesGrid() {
         name="PostgreSQL"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        name="MySQL"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
         name="Docker"
       />

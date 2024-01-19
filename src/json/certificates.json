@@ -805,5 +805,20 @@
       "Spring Boot",
       "API"
     ]
+  },
+  {
+    "id": 62,
+    "title": "Spring Boot 3: aplique boas práticas e proteja uma API Rest",
+    "paragraph": "Alura",
+    "date": "19/01/2024",
+    "link": "https://cursos.alura.com.br/certificate/19067c4e-f052-484f-9ba3-0c764a3f453c?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/spring-boot-aplique-boas-praticas-proteja-api-rest.svg",
+    "tags":[
+      "Java",
+      "Back-end",
+      "Programming",
+      "Spring Boot",
+      "API"
+    ]
   }
 ]

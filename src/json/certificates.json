@@ -836,5 +836,20 @@
       "API",
       "Tests"
     ]
+  },
+  {
+    "id": 64,
+    "title": "Boas práticas de programação: melhore o código de uma API Java",
+    "paragraph": "Alura",
+    "date": "02/02/2024",
+    "link": "https://cursos.alura.com.br/certificate/e4bb0793-e470-406f-8b28-b715d327eb1e?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/boas-praticas-programacao-melhore-codigo-api-java.svg",
+    "tags":[
+      "Java",
+      "Back-end",
+      "Programming",
+      "API",
+      "Spring Boot"
+    ]
   }
 ]

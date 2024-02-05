@@ -851,5 +851,19 @@
       "API",
       "Spring Boot"
     ]
+  },
+  {
+    "id": 65,
+    "title": "Boas práticas de programação: automatizando testes com Java",
+    "paragraph": "Alura",
+    "date": "05/02/2024",
+    "link": "https://cursos.alura.com.br/certificate/511e1d8a-8f3a-4d80-91dd-46e105859f98?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/boas-praticas-programacao-testes-java.svg",
+    "tags":[
+      "Java",
+      "Back-end",
+      "Programming",
+      "Tests"
+    ]
   }
 ]

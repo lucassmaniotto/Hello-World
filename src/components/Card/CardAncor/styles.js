@@ -11,6 +11,7 @@ const CardAncorContainer = styled.a`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.75fr;
+  min-height: 18rem;
 
   align-items: center;
   justify-content: center;

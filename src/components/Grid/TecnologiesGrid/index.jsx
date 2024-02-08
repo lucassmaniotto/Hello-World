@@ -28,6 +28,10 @@ function TecnologiesGrid() {
         name="React"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+        name="Angular"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
         name="Node.js"
       />
@@ -68,6 +72,10 @@ function TecnologiesGrid() {
         name="MySQL"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dbeaver/dbeaver-original.svg"
+        name="DBeaver"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
         name="Docker"
       />
@@ -84,7 +92,7 @@ function TecnologiesGrid() {
         name="GitHub"
       />
       <Badge
-        icon={ICONS.cypress}
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg"
         name="Cypress"
       />
       <Badge

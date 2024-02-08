@@ -865,5 +865,20 @@
       "Programming",
       "Tests"
     ]
+  },
+  {
+    "id": 66,
+    "title": "Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD",
+    "paragraph": "Alura",
+    "date": "08/02/2024",
+    "link": "https://cursos.alura.com.br/certificate/50aeb2e9-6d81-4df7-8dc7-ea127dbd5c0e?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/angular-explorando-framework.svg",
+    "tags":[
+      "Angular",
+      "Front-end",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ]
   }
 ]

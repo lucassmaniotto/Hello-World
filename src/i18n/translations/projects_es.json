@@ -1,5 +1,42 @@
 [
   {
+    "id": 12,
+    "title": "Memoteca 💭",
+    "text": "> Puedes consultar el desarrollo del proyecto en mi [repositorio de Github](https://github.com/lucassmaniotto/Memoteca)\n\nProyecto desarrollado en Angular 14 durante la formación [Explora el Marco Angular](https://www.alura.com.br/formacao-angular-14) de Alura.\n\n 🏷️ Tecnologías: angular, typescript, html, css, json-server\n\n 📚 Curso: [https://www.alura.com.br/formacao-angular-14](https://www.alura.com.br/formacao-angular-14)\n\n## Detalles del Proyecto\n\nEste proyecto fue desarrollado durante la formación [Explora el Marco Angular](https://www.alura.com.br/formacao-angular-14) de Alura. El proyecto consiste en una aplicación para almacenar frases y pensamientos que son importantes para el usuario. La aplicación permite que el usuario agregue, edite, liste y elimine frases y pensamientos.\n\n### ⚙️ Configurando el Proyecto\nEl proyecto utiliza Angular en el frontend y json-server en el backend para simular una API REST.\n Para instalar las dependencias del proyecto, ejecuta el siguiente comando:\n```shell script\n npm install\n```\n\nPara instalar json-server, ejecuta el siguiente comando:\n\n```shell script\ncd backend\n npm install\n```\n\n ### ▶️ Ejecutando el Proyecto\n\nPara ejecutar el proyecto, ejecuta el siguiente comando:\n```shell script\nnpm start\n```\nEl frontend estará disponible en http://localhost:4200/.\n\nPara ejecutar json-server, ejecuta el siguiente comando:\n```shell script\ncd backend\n npm start\n```\nEl backend estará disponible en http://localhost:3001/. y para acceder a la API, utiliza la ruta http://localhost:3001/thoughts.\n\n### 💡 Funcionalidades\n\n#### Registro de Pensamientos\n\nPara registrar un pensamiento, el usuario debe completar el formulario con su frase, autoría y el modelo que le gustaría mostrar en su tarjeta, accediendo a la ruta http://localhost:4200/createThought\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/17821a45-74fd-4daf-9c60-d8607cf10a06)\n\nEl formulario tiene validación de campos obligatorios y longitud máxima de caracteres, así como patrón de escritura.\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/4a092200-5f71-4d14-98ca-18863b55aa0d)\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/56d271a3-5d00-41ef-803f-1de847740874)\n\n#### Listado de Pensamientos\n\nEl usuario puede ver todos los pensamientos registrados, que pueden filtrarse buscando una palabra clave, así como listar pensamientos favoritos, accediendo a la ruta http://localhost:4200/listThought.\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/aa23e1db-5ba6-4768-9d60-298e039da41b)\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/dc27c2fa-3672-43f1-ad1c-8e8ed76745ce)\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/706bc8f5-ea0f-4dc2-b7d1-1c91381b78c1)\n\nExiste paginación para el listado de pensamientos, mostrando 6 pensamientos por página. El usuario puede cargar más pensamientos haciendo clic en el botón 'Cargar más' al final de la lista.\n\n- Favoritar Pensamientos\n\nEl usuario puede marcar como favorito o quitar como favorito un pensamiento haciendo clic en el botón de corazón en la tarjeta del pensamiento.\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/d7339bcd-4829-49aa-959e-d33e399be8ce)\n\n#### Edición de Pensamientos\n\nEl usuario puede editar un pensamiento registrado accediendo a la ruta http://localhost:4200/editThought/:id, donde :id es el id del pensamiento que desea editar. El usuario accede a la ruta haciendo clic en el botón 'Editar' en una tarjeta listada en http://localhost:4200/listThought.\n\nAl ser redirigido, el usuario puede realizar los mismos cambios que en el registro, sin embargo, los campos ya estarán completados con los datos actuales del pensamiento.\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/0a1b3f58-9791-49dd-87c9-ac801789bbd5)\n\n#### Eliminación de Pensamientos\n\nEl usuario puede eliminar un pensamiento registrado accediendo a la ruta http://localhost:4200/listThought.\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/d7339bcd-4829-49aa-959e-d33e399be8ce)\n\nAl hacer clic en el botón 'Eliminar' en una tarjeta listada, el pensamiento se eliminará de la lista después de la confirmación del usuario.\n\n![imagen](https://github.com/lucassmaniotto/Memoteca/assets/101435037/9c7b033e-05fe-48f3-9761-e9a4bc74f387)\n\n## 📝 Licencia\n\nProyecto desarrollado por [Alura](https://www.alura.com.br) y utilizado en cursos de Angular 14.\n\nInstructora: [Nayanne Batista](https://cursos.alura.com.br/user/nayanne-batista)",
+    "tags": [
+      {
+        "id": 50,
+        "name": "Angular",
+        "type": "frontend"
+      },
+      {
+        "id": 51,
+        "name": "TypeScript",
+        "type": "frontend"
+      },
+      {
+        "id": 52,
+        "name": "HTML",
+        "type": "frontend"
+      },
+      {
+        "id": 53,
+        "name": "CSS",
+        "type": "frontend"
+      },
+      {
+        "id": 54,
+        "name": "JSON Server",
+        "type": "backend"
+      },
+      {
+        "id": 32,
+        "name": "Web",
+        "type": "web"
+      }
+    ]
+  },
+  {
     "id": 11,
     "title": "Voll.med API 🏥",
     "text": "> Puedes consultar el desarrollo del proyecto en mi repositorio de [Github](https://github.com/lucassmaniotto/API-Voll-Med)\n\nAPI Rest para la gestión de consultas médicas de la clínica ficticia Voll.med, construida durante el curso de Spring Boot de Alura.\n\n 🏷️ Tecnologías: java 21, spring boot 3, maven, mysql, hibernate, flyway, lombok\n\n 🚀 URL: **Próximamente**\n\n📚 Curso: [https://cursos.alura.com.br/formacao-spring-boot-3](https://cursos.alura.com.br/formacao-spring-boot-3)\n\n![Banner](https://raw.githubusercontent.com/lucassmaniotto/API-Voll-Med/main/banner-README.png#vitrinedev)\n\n## Detalles del Proyecto\n\nVoll.med es una clínica médica ficticia que necesita una aplicación para la gestión de citas. La aplicación cuenta con funciones que permiten el registro de médicos y pacientes, así como la programación y cancelación de consultas. El proyecto se desarrolló utilizando el lenguaje Java con el framework Spring Boot y la base de datos MySQL.\n\n### ⚙️ Configuración del Proyecto\n- [JDK 21: Necesario para ejecutar el proyecto Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)\n- [Maven 3.8.1: Necesario para construir el proyecto Java](https://maven.apache.org/download.cgi)\n- [MySQL 8.0: Para la base de datos](https://dev.mysql.com/downloads/installer/)\n- [Insomnia: Para probar la API Rest](https://insomnia.rest/download)\n\n### ▶️ Ejecución del Proyecto\n\nPara inicializar la API, simplemente ejecuta la clase ApiApplication.java ubicada en el paquete med.voll.api o con el siguiente comando:\n```shell script\nmvn spring-boot:run\n```\nDespués de ejecutar el comando anterior, la API estará disponible en: http://localhost:8081\n\n### 📚 Tecnologías\n* [Java 21](https://www.oracle.com/java)\n* [Spring Boot 3](https://spring.io/projects/spring-boot)\n* [Maven](https://maven.apache.org)\n* [MySQL](https://www.mysql.com)\n* [Hibernate](https://hibernate.org)\n* [Flyway](https://flywaydb.org)\n* [Lombok](https://projectlombok.org)\n\n### 💡 Funcionalidades\n\n- [x] CRUD de médicos;\n- [x] CRUD de pacientes;\n- [x] Programación de citas;\n- [x] Cancelación de citas;\n\n### 🎨 Diseño\n\nEl diseño de la aplicación móvil está disponible en este enlace: [Figma](https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med)\n\n### 📄 Documentación\n\nLa documentación de las funciones de la aplicación se puede acceder en este enlace: [Trello](https://trello.com/b/O0lGCsKb/api-voll-med)\n\n## 📝 Licencia\n\nProyecto desarrollado por [Alura](https://www.alura.com.br) y utilizado en los cursos de Spring Boot.\n\nInstructor: [Rodrigo Ferreira](https://cursos.alura.com.br/user/rodrigo-ferreira)",

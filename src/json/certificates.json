@@ -880,5 +880,20 @@
       "HTML",
       "CSS"
     ]
+  },
+  {
+    "id": 67,
+    "title": "Angular 14: evoluindo a aplicação",
+    "paragraph": "Alura",
+    "date": "09/02/2024",
+    "link": "https://cursos.alura.com.br/certificate/c17fdf89-6388-4975-83aa-05e16ec94d1a?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/angular-evoluindo-aplicacao.svg",
+    "tags":[
+      "Angular",
+      "Front-end",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ]
   }
 ]

@@ -6,11 +6,7 @@
     "date": "18/04/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/python-introducao-a-linguagem/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/python-introducao-a-linguagem.svg",
-    "tags": [
-      "Python",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["Python", "Programming", "Back-end"]
   },
   {
     "id": 2,
@@ -19,11 +15,7 @@
     "date": "20/04/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/python-3-avancando-na-linguagem/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/python-3-avancando-na-linguagem.svg",
-    "tags":[
-      "Python",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["Python", "Programming", "Back-end"]
   },
   {
     "id": 52,
@@ -32,11 +24,7 @@
     "date": "14/12/2023",
     "link": "https://cursos.alura.com.br/certificate/3807f922-57b4-47c1-9766-e6bc266cc42c?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/python-entendendo-orientacao-objetos.svg",
-    "tags":[
-      "Python",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["Python", "Programming", "Back-end"]
   },
   {
     "id": 53,
@@ -45,11 +33,7 @@
     "date": "18/12/2023",
     "link": "https://cursos.alura.com.br/certificate/2a7f050a-9624-4a6e-8cd8-e20bbc2b78bc?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/python-3-avancando-orientacao-objetos.svg",
-    "tags":[
-      "Python",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["Python", "Programming", "Back-end"]
   },
   {
     "id": 54,
@@ -58,11 +42,7 @@
     "date": "21/12/2023",
     "link": "https://cursos.alura.com.br/certificate/b02d6ded-ba8a-4c19-be7a-caed2a4210a9?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/string-python-extraindo-informacoes-url.svg",
-    "tags":[
-      "Python",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["Python", "Programming", "Back-end"]
   },
   {
     "id": 55,
@@ -71,11 +51,7 @@
     "date": "26/12/2023",
     "link": "https://cursos.alura.com.br/certificate/43122835-2b38-4148-bd46-b9a75e21491e?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/python-collections-listas-e-tuplas.svg",
-    "tags":[
-      "Python",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["Python", "Programming", "Back-end"]
   },
   {
     "id": 56,
@@ -84,11 +60,7 @@
     "date": "27/12/2023",
     "link": "https://cursos.alura.com.br/certificate/e7ddf9bc-faf7-48ad-9990-1f19ed384e21?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/python-collections-conjuntos-e-dicionarios.svg",
-    "tags":[
-      "Python",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["Python", "Programming", "Back-end"]
   },
   {
     "id": 57,
@@ -97,11 +69,7 @@
     "date": "29/12/2023",
     "link": "https://cursos.alura.com.br/certificate/93196844-0204-4c2b-b274-b22e72b06ebb?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/python-validacao-dados.svg",
-    "tags":[
-      "Python",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["Python", "Programming", "Back-end"]
   },
   {
     "id": 58,
@@ -110,14 +78,7 @@
     "date": "05/01/2024",
     "link": "https://cursos.alura.com.br/certificate/321e6648-d4e2-41db-a50f-949acd4f4e4c?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/python-tdd-explorando-testes-unitarios.svg",
-    "tags":[
-      "Python",
-      "Programming",
-      "Back-end",
-      "QA",
-      "Tests",
-      "TDD"
-    ]
+    "tags": ["Python", "Programming", "Back-end", "QA", "Tests", "TDD"]
   },
   {
     "id": 3,
@@ -126,11 +87,7 @@
     "date": "03/05/2022",
     "link": "https://cursos.alura.com.br/certificate/696d39e0-db92-4b0b-b28d-3ca5989a9bd3",
     "icon": "https://www.alura.com.br/assets/api/cursos/html5-css3-primeiros-passos.svg",
-    "tags":[
-      "HTML",
-      "CSS",
-      "Front-end"
-    ]
+    "tags": ["HTML", "CSS", "Front-end"]
   },
   {
     "id": 4,
@@ -139,11 +96,7 @@
     "date": "26/10/2022",
     "link": "https://cursos.alura.com.br/certificate/3617a492-505f-4063-bf10-66fd65f433f0",
     "icon": "https://www.alura.com.br/assets/api/cursos/html5-css3-posicionamento-listas-navegacao.svg",
-    "tags":[
-      "HTML",
-      "CSS",
-      "Front-end"
-    ]
+    "tags": ["HTML", "CSS", "Front-end"]
   },
   {
     "id": 5,
@@ -152,11 +105,7 @@
     "date": "31/10/2022",
     "link": "https://cursos.alura.com.br/certificate/d4f694ae-0ee4-440e-9610-b858264858a9",
     "icon": "https://www.alura.com.br/assets/api/cursos/html5-css3-formularios-tabelas.svg",
-    "tags":[
-      "HTML",
-      "CSS",
-      "Front-end"
-    ]
+    "tags": ["HTML", "CSS", "Front-end"]
   },
   {
     "id": 6,
@@ -165,11 +114,7 @@
     "date": "03/11/2022",
     "link": "https://cursos.alura.com.br/certificate/4de75dbd-a1ea-4d96-a0dd-db1fac794d61",
     "icon": "https://www.alura.com.br/assets/api/cursos/html5-css3-avancando-css.svg",
-    "tags":[
-      "HTML",
-      "CSS",
-      "Front-end"
-    ]
+    "tags": ["HTML", "CSS", "Front-end"]
   },
   {
     "id": 7,
@@ -178,10 +123,7 @@
     "date": "17/11/2022",
     "link": "https://cursos.alura.com.br/certificate/605f300a-6431-449a-ae45-727dc0352616",
     "icon": "https://www.alura.com.br/assets/api/cursos/css-dispondo-elementos-flexbox-grid.svg",
-    "tags":[
-      "CSS",
-      "Front-end"
-    ]
+    "tags": ["CSS", "Front-end"]
   },
   {
     "id": 8,
@@ -190,11 +132,7 @@
     "date": "29/11/2022",
     "link": "https://cursos.alura.com.br/certificate/a6d715be-86f3-4e9c-b6c4-78bd09b9cf4b",
     "icon": "https://www.alura.com.br/assets/api/cursos/html-css-responsividade-mobile-first.svg",
-    "tags":[
-      "HTML",
-      "CSS",
-      "Front-end"
-    ]
+    "tags": ["HTML", "CSS", "Front-end"]
   },
   {
     "id": 9,
@@ -203,11 +141,7 @@
     "date": "07/06/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/introducao-a-programacao-com-c-parte-1/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/introducao-a-programacao-com-c-parte-1.svg",
-    "tags":[
-      "C",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["C", "Programming", "Back-end"]
   },
   {
     "id": 10,
@@ -216,11 +150,7 @@
     "date": "02/11/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/introducao-a-programacao-com-c-parte-2/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/introducao-a-programacao-com-c-parte-2.svg",
-    "tags":[
-      "C",
-      "Programming",
-      "Back-end"
-    ]
+    "tags": ["C", "Programming", "Back-end"]
   },
   {
     "id": 11,
@@ -229,11 +159,7 @@
     "date": "12/06/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/sql-server-microsoft-sql-server-2019/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/sql-server-microsoft-sql-server-2019.svg",
-    "tags":[
-      "SQL",
-      "Database",
-      "Back-end"
-    ]
+    "tags": ["SQL", "Database", "Back-end"]
   },
   {
     "id": 12,
@@ -242,11 +168,7 @@
     "date": "22/06/2022",
     "link": "https://cursos.alura.com.br/certificate/8bc90011-3027-41e6-a5b6-6f2cd3b3bb2d",
     "icon": "https://www.alura.com.br/assets/api/cursos/consultas-sql-server-2017.svg",
-    "tags":[
-      "SQL",
-      "Database",
-      "Back-end"
-    ]
+    "tags": ["SQL", "Database", "Back-end"]
   },
   {
     "id": 13,
@@ -255,11 +177,7 @@
     "date": "02/08/2022",
     "link": "https://cursos.alura.com.br/certificate/edc3619b-888f-4b91-8140-9abe736172d8",
     "icon": "https://www.alura.com.br/assets/api/cursos/quality-assurance-plano-testes-gestao-bugs.svg",
-    "tags":[
-      "QA",
-      "Tests",
-      "Back-end"
-    ]
+    "tags": ["QA", "Tests", "Back-end"]
   },
   {
     "id": 14,
@@ -268,11 +186,7 @@
     "date": "03/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/organizando-equipes-ageis/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/organizando-equipes-ageis.svg",
-    "tags":[
-      "Agile",
-      "Scrum",
-      "Back-end"
-    ]
+    "tags": ["Agile", "Scrum", "Back-end"]
   },
   {
     "id": 15,
@@ -281,12 +195,7 @@
     "date": "04/08/2022",
     "link": "https://cursos.alura.com.br/certificate/96dced62-c27a-497b-af03-dab231e64f7c",
     "icon": "https://www.alura.com.br/assets/api/cursos/cypress-automacao-testes-e2e.svg",
-    "tags":[
-      "QA",
-      "Tests",
-      "Cypress",
-      "JavaScript"
-    ]
+    "tags": ["QA", "Tests", "Cypress", "JavaScript"]
   },
   {
     "id": 59,
@@ -295,13 +204,7 @@
     "date": "09/01/2024",
     "link": "https://cursos.alura.com.br/certificate/f4b8a81e-c988-4130-b839-09f2f9c201dc?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/robot-framework-testes-padrao-bdd.svg",
-    "tags":[
-      "Robot Framework",
-      "Back-end",
-      "QA",
-      "Tests",
-      "BDD"
-    ]
+    "tags": ["Robot Framework", "Back-end", "QA", "Tests", "BDD"]
   },
   {
     "id": 16,
@@ -310,12 +213,7 @@
     "date": "03/08/2022",
     "link": "https://cursos.alura.com.br/certificate/2b01e06e-0141-4005-ade0-3d3329884c62",
     "icon": "https://www.alura.com.br/assets/api/cursos/git-github-controle-de-versao.svg",
-    "tags":[
-      "Git",
-      "GitHub",
-      "Version Control",
-      "Back-end"
-    ]
+    "tags": ["Git", "GitHub", "Version Control", "Back-end"]
   },
   {
     "id": 17,
@@ -324,12 +222,7 @@
     "date": "14/11/2022",
     "link": "https://cursos.alura.com.br/certificate/507a72c0-b9f9-417e-9701-ad1d6e4a9c9e",
     "icon": "https://www.alura.com.br/assets/api/cursos/git-github-repositorio-commit-versoes.svg",
-    "tags":[
-      "Git",
-      "GitHub",
-      "Version Control",
-      "Back-end"
-    ]
+    "tags": ["Git", "GitHub", "Version Control", "Back-end"]
   },
   {
     "id": 18,
@@ -338,11 +231,7 @@
     "date": "23/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/maven-gerenciamento-dependencias-build-aplicacoes-java/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/maven-gerenciamento-dependencias-build-aplicacoes-java.svg",
-    "tags":[
-      "Maven",
-      "Java",
-      "Back-end"
-    ]
+    "tags": ["Maven", "Java", "Back-end"]
   },
   {
     "id": 19,
@@ -351,11 +240,7 @@
     "date": "05/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/java-introducao-orientacao-objetos/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/java-introducao-orientacao-objetos.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming"
-    ]
+    "tags": ["Java", "Back-end", "Programming"]
   },
   {
     "id": 20,
@@ -364,11 +249,7 @@
     "date": "09/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/java-heranca-interfaces-polimorfismo/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/java-heranca-interfaces-polimorfismo.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming"
-    ]
+    "tags": ["Java", "Back-end", "Programming"]
   },
   {
     "id": 21,
@@ -377,11 +258,7 @@
     "date": "15/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/java-excecoes/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/java-excecoes.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming"
-    ]
+    "tags": ["Java", "Back-end", "Programming"]
   },
   {
     "id": 22,
@@ -390,11 +267,7 @@
     "date": "17/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/java-pacotes-e-java-lang/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/java-pacotes-e-java-lang.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming"
-    ]
+    "tags": ["Java", "Back-end", "Programming"]
   },
   {
     "id": 23,
@@ -403,11 +276,7 @@
     "date": "18/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/java-util-lambdas/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/java-util-lambdas.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming"
-    ]
+    "tags": ["Java", "Back-end", "Programming"]
   },
   {
     "id": 24,
@@ -416,11 +285,7 @@
     "date": "22/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/java-trabalhando-com-io/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/java-trabalhando-com-io.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming"
-    ]
+    "tags": ["Java", "Back-end", "Programming"]
   },
   {
     "id": 25,
@@ -429,11 +294,7 @@
     "date": "21/12/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/java8-lambdas/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/java8-lambdas.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming"
-    ]
+    "tags": ["Java", "Back-end", "Programming"]
   },
   {
     "id": 26,
@@ -442,14 +303,7 @@
     "date": "22/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/tdd-java-testes-automatizados-junit/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/tdd-java-testes-automatizados-junit.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming",
-      "QA",
-      "Tests",
-      "TDD"
-    ]
+    "tags": ["Java", "Back-end", "Programming", "QA", "Tests", "TDD"]
   },
   {
     "id": 27,
@@ -458,14 +312,7 @@
     "date": "31/08/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/selenium-testes-automatizados-aceitacao-java/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/selenium-testes-automatizados-aceitacao-java.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming",
-      "Selenium",
-      "Tests",
-      "QA"
-    ]
+    "tags": ["Java", "Back-end", "Programming", "Selenium", "Tests", "QA"]
   },
   {
     "id": 51,
@@ -474,11 +321,7 @@
     "date": "20/11/2023",
     "link": "https://cursos.alura.com.br/certificate/7a997f5d-65b7-485a-9bfb-db2ba9948730?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/java-collections.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming"
-    ]
+    "tags": ["Java", "Back-end", "Programming"]
   },
   {
     "id": 60,
@@ -487,12 +330,7 @@
     "date": "10/01/2024",
     "link": "https://cursos.alura.com.br/certificate/4df8d516-7ae0-48f1-b75b-1cb0512959ee?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/java-refatoracao-melhorando-codigos-boas-praticas.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming",
-      "Tests"
-    ]
+    "tags": ["Java", "Back-end", "Programming", "Tests"]
   },
   {
     "id": 28,
@@ -501,10 +339,7 @@
     "date": "21/06/2022",
     "link": "https://cursos.alura.com.br/certificate/14c5a3ee-32e7-45e4-a885-a04cc55ac91d",
     "icon": "https://www.alura.com.br/assets/api/cursos/http-fundamentos.svg",
-    "tags":[
-      "HTTP",
-      "Back-end"
-    ]
+    "tags": ["HTTP", "Back-end"]
   },
   {
     "id": 29,
@@ -513,11 +348,7 @@
     "date": "08/09/2022",
     "link": "https://cursos.alura.com.br/certificate/5eba2943-bc59-467b-895d-8930512a4d35",
     "icon": "https://www.alura.com.br/assets/api/cursos/fundamentos-javascript-tipos-variaveis-funcoes.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end",
-      "Back-end"
-    ]
+    "tags": ["JavaScript", "Front-end", "Back-end"]
   },
   {
     "id": 30,
@@ -526,11 +357,7 @@
     "date": "21/09/2022",
     "link": "https://cursos.alura.com.br/certificate/bbf24af3-d4d2-4721-a3ab-1a475f567529",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-arrays.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end",
-      "Back-end"
-    ]
+    "tags": ["JavaScript", "Front-end", "Back-end"]
   },
   {
     "id": 31,
@@ -539,11 +366,7 @@
     "date": "03/10/2022",
     "link": "https://cursos.alura.com.br/certificate/64ca163c-685c-4e43-8441-390d7334e8c5",
     "icon": "https://www.alura.com.br/assets/api/cursos/fundamentos-javascript-objetos.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end",
-      "Back-end"
-    ]
+    "tags": ["JavaScript", "Front-end", "Back-end"]
   },
   {
     "id": 32,
@@ -552,11 +375,7 @@
     "date": "03/10/2022",
     "link": "https://cursos.alura.com.br/certificate/dc9836c5-7b14-47cf-a9be-635d0f4ffba2",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-passos-programacao-orientada-objetos.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end",
-      "Back-end"
-    ]
+    "tags": ["JavaScript", "Front-end", "Back-end"]
   },
   {
     "id": 33,
@@ -565,10 +384,7 @@
     "date": "09/11/2022",
     "link": "https://cursos.alura.com.br/certificate/60b53aa5-aa88-4c1a-a935-d0256e56e650",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-web-paginas-dinamicas.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["JavaScript", "Front-end"]
   },
   {
     "id": 34,
@@ -577,10 +393,7 @@
     "date": "30/11/2022",
     "link": "https://cursos.alura.com.br/certificate/c7d95980-571a-4a19-9c78-bc1ad68269a7",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-manipulando-dom.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["JavaScript", "Front-end"]
   },
   {
     "id": 35,
@@ -589,10 +402,7 @@
     "date": "06/12/2022",
     "link": "https://cursos.alura.com.br/certificate/105b0f9d-26ea-4243-8387-29820b7f75df",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-web-armazenando-dados-navegador.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["JavaScript", "Front-end"]
   },
   {
     "id": 36,
@@ -601,10 +411,7 @@
     "date": "13/12/2022",
     "link": "https://cursos.alura.com.br/certificate/986b1de7-3d25-4f0b-968e-1fb05f045d30",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-validacoes-reconhecimento-voz.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["JavaScript", "Front-end"]
   },
   {
     "id": 37,
@@ -613,11 +420,7 @@
     "date": "22/12/2022",
     "link": "https://cursos.alura.com.br/certificate/101b27c1-d559-436b-9bc3-9b41f13403bc",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-metodos-array.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end",
-      "Back-end"
-    ]
+    "tags": ["JavaScript", "Front-end", "Back-end"]
   },
   {
     "id": 38,
@@ -626,11 +429,7 @@
     "date": "15/12/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/javascript-consumindo-tratando-dados-api/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-consumindo-tratando-dados-api.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end",
-      "API"
-    ]
+    "tags": ["JavaScript", "Front-end", "API"]
   },
   {
     "id": 39,
@@ -639,11 +438,7 @@
     "date": "30/12/2022",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/javascript-criando-requisicoes/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-criando-requisicoes.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end",
-      "API"
-    ]
+    "tags": ["JavaScript", "Front-end", "API"]
   },
   {
     "id": 40,
@@ -652,11 +447,7 @@
     "date": "02/02/2023",
     "link": "https://cursos.alura.com.br/certificate/fe460514-9cfa-47bd-bd70-9bfabe36a2b5",
     "icon": "https://www.alura.com.br/assets/api/cursos/javascript-validando-formularios.svg",
-    "tags":[
-      "JavaScript",
-      "Front-end",
-      "API"
-    ]
+    "tags": ["JavaScript", "Front-end", "API"]
   },
   {
     "id": 41,
@@ -665,11 +456,7 @@
     "date": "10/01/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/react-javascript-arquivos-estaticos/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/react-javascript-arquivos-estaticos.svg",
-    "tags":[
-      "React",
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["React", "JavaScript", "Front-end"]
   },
   {
     "id": 42,
@@ -678,11 +465,7 @@
     "date": "13/01/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/React-desenvolvendo-react-router-javaScript/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/React-desenvolvendo-react-router-javaScript.svg",
-    "tags":[
-      "React",
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["React", "JavaScript", "Front-end"]
   },
   {
     "id": 43,
@@ -691,12 +474,7 @@
     "date": "17/01/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/react-styled-components/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/react-styled-components.svg",
-    "tags":[
-      "React",
-      "JavaScript",
-      "Front-end",
-      "Styled Components"
-    ]
+    "tags": ["React", "JavaScript", "Front-end", "Styled Components"]
   },
   {
     "id": 44,
@@ -705,11 +483,7 @@
     "date": "23/01/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/react-context-estados-globais-contextapi/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/react-context-estados-globais-contextapi.svg",
-    "tags":[
-      "React",
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["React", "JavaScript", "Front-end"]
   },
   {
     "id": 49,
@@ -718,12 +492,7 @@
     "date": "16/11/2023",
     "link": "https://cursos.alura.com.br/certificate/9a6850ea-1c24-42d7-afe3-575f71f7f9fb?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/react-estilize-componentes-styled-components-manipule-arquivos-estaticos.svg",
-    "tags":[
-      "React",
-      "JavaScript",
-      "Front-end",
-      "Styled Components"
-    ]
+    "tags": ["React", "JavaScript", "Front-end", "Styled Components"]
   },
   {
     "id": 50,
@@ -732,12 +501,7 @@
     "date": "17/11/2023",
     "link": "https://cursos.alura.com.br/certificate/d5ee5d24-3ac2-4e66-b4a5-8aacaa0de38b?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/react-crie-primeira-pagina-web.svg",
-    "tags":[
-      "React",
-      "JavaScript",
-      "Front-end",
-      "Styled Components"
-    ]
+    "tags": ["React", "JavaScript", "Front-end", "Styled Components"]
   },
   {
     "id": 45,
@@ -746,11 +510,7 @@
     "date": "31/01/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/react-migrando-typescript/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/react-migrando-typescript.svg",
-    "tags":[
-      "React",
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["React", "JavaScript", "Front-end"]
   },
   {
     "id": 46,
@@ -759,11 +519,7 @@
     "date": "02/02/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/typescript-evoluindo-javascript/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/typescript-evoluindo-javascript.svg",
-    "tags":[
-      "TypeScript",
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["TypeScript", "JavaScript", "Front-end"]
   },
   {
     "id": 47,
@@ -772,11 +528,7 @@
     "date": "28/10/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/typescript-avancando-linguagem/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/typescript-avancando-linguagem.svg",
-    "tags":[
-      "TypeScript",
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["TypeScript", "JavaScript", "Front-end"]
   },
   {
     "id": 48,
@@ -785,11 +537,7 @@
     "date": "27/10/2023",
     "link": "https://cursos.alura.com.br/user/lucassmaniotto/course/typescript-tecnicas-boas-praticas/certificate",
     "icon": "https://www.alura.com.br/assets/api/cursos/typescript-tecnicas-boas-praticas.svg",
-    "tags":[
-      "TypeScript",
-      "JavaScript",
-      "Front-end"
-    ]
+    "tags": ["TypeScript", "JavaScript", "Front-end"]
   },
   {
     "id": 61,
@@ -798,13 +546,7 @@
     "date": "17/01/2024",
     "link": "https://cursos.alura.com.br/certificate/97e9cd68-04c5-43e8-be04-9d70b9a5399c?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/spring-boot-3-desenvolva-api-rest-java.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming",
-      "Spring Boot",
-      "API"
-    ]
+    "tags": ["Java", "Back-end", "Programming", "Spring Boot", "API"]
   },
   {
     "id": 62,
@@ -813,13 +555,7 @@
     "date": "19/01/2024",
     "link": "https://cursos.alura.com.br/certificate/19067c4e-f052-484f-9ba3-0c764a3f453c?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/spring-boot-aplique-boas-praticas-proteja-api-rest.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming",
-      "Spring Boot",
-      "API"
-    ]
+    "tags": ["Java", "Back-end", "Programming", "Spring Boot", "API"]
   },
   {
     "id": 63,
@@ -828,14 +564,7 @@
     "date": "30/01/2024",
     "link": "https://cursos.alura.com.br/certificate/783c0834-5c70-40c3-b2a2-25cd22b42fd8?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/spring-boot-3-documente-teste-prepare-api-deploy.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming",
-      "Spring Boot",
-      "API",
-      "Tests"
-    ]
+    "tags": ["Java", "Back-end", "Programming", "Spring Boot", "API", "Tests"]
   },
   {
     "id": 64,
@@ -844,13 +573,7 @@
     "date": "02/02/2024",
     "link": "https://cursos.alura.com.br/certificate/e4bb0793-e470-406f-8b28-b715d327eb1e?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/boas-praticas-programacao-melhore-codigo-api-java.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming",
-      "API",
-      "Spring Boot"
-    ]
+    "tags": ["Java", "Back-end", "Programming", "API", "Spring Boot"]
   },
   {
     "id": 65,
@@ -859,12 +582,7 @@
     "date": "05/02/2024",
     "link": "https://cursos.alura.com.br/certificate/511e1d8a-8f3a-4d80-91dd-46e105859f98?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/boas-praticas-programacao-testes-java.svg",
-    "tags":[
-      "Java",
-      "Back-end",
-      "Programming",
-      "Tests"
-    ]
+    "tags": ["Java", "Back-end", "Programming", "Tests"]
   },
   {
     "id": 66,
@@ -873,13 +591,7 @@
     "date": "08/02/2024",
     "link": "https://cursos.alura.com.br/certificate/50aeb2e9-6d81-4df7-8dc7-ea127dbd5c0e?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/angular-explorando-framework.svg",
-    "tags":[
-      "Angular",
-      "Front-end",
-      "TypeScript",
-      "HTML",
-      "CSS"
-    ]
+    "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
   },
   {
     "id": 67,
@@ -888,12 +600,15 @@
     "date": "09/02/2024",
     "link": "https://cursos.alura.com.br/certificate/c17fdf89-6388-4975-83aa-05e16ec94d1a?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/angular-evoluindo-aplicacao.svg",
-    "tags":[
-      "Angular",
-      "Front-end",
-      "TypeScript",
-      "HTML",
-      "CSS"
-    ]
+    "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
+  },
+  {
+    "id": 68,
+    "title": "Angular: formulários orientados a templates",
+    "paragraph": "Alura",
+    "date": "13/02/2024",
+    "link": "https://cursos.alura.com.br/certificate/004a7e96-d28b-4663-a2c7-ae905a10173f?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/angular-formularios-orientados-templates.svg",
+    "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
   }
 ]

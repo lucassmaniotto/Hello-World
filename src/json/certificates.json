@@ -610,5 +610,14 @@
     "link": "https://cursos.alura.com.br/certificate/004a7e96-d28b-4663-a2c7-ae905a10173f?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/angular-formularios-orientados-templates.svg",
     "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
+  },
+  {
+    "id": 69,
+    "title": "Angular: ciclo de vida",
+    "paragraph": "Alura",
+    "date": "13/02/2024",
+    "link": "https://cursos.alura.com.br/certificate/c779af9d-922d-4820-a825-b095e9c13a15?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/angular-ciclo-vida.svg",
+    "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
   }
 ]

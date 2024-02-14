@@ -1,20 +1,12 @@
-import Badge from '../../Badge/TechBadge';
+import Badge from "../../Badge/TechBadge";
 
-import ICONS from '../../../assets/techIcons/TechIcons';
+import ICONS from "../../../assets/techIcons/TechIcons";
 
-import TechContainer from './styles';
+import TechContainer from "./styles";
 
 function TecnologiesGrid() {
   return (
     <TechContainer>
-      <Badge
-        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-        name="HTML5"
-      />
-      <Badge
-        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-        name="CSS3"
-      />
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
         name="JavaScript"
@@ -22,6 +14,14 @@ function TecnologiesGrid() {
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
         name="TypeScript"
+      />
+      <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        name="HTML5"
+      />
+      <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        name="CSS3"
       />
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -32,16 +32,16 @@ function TecnologiesGrid() {
         name="Angular"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg"
+        name="RxJS"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
         name="Node.js"
       />
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
         name="Express"
-      />
-      <Badge
-        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg"
-        name="RxJS"
       />
       <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
@@ -96,17 +96,14 @@ function TecnologiesGrid() {
         name="GitHub"
       />
       <Badge
-        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg"
-        name="Cypress"
-      />
-      <Badge
-        icon={ICONS.robotframework}
-        name="Robot Framework"
-      />
-      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
         name="Figma"
       />
+      <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg"
+        name="Cypress"
+      />
+      <Badge icon={ICONS.robotframework} name="Robot Framework" />
     </TechContainer>
   );
 }

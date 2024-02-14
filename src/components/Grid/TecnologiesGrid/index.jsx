@@ -40,6 +40,10 @@ function TecnologiesGrid() {
         name="Express"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg"
+        name="RxJS"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
         name="Java"
       />

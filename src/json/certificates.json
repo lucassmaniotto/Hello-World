@@ -620,4 +620,14 @@
     "icon": "https://www.alura.com.br/assets/api/cursos/angular-ciclo-vida.svg",
     "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
   }
+  ,
+  {
+    "id": 70,
+    "title": "RxJS e Angular: programando de forma reativa",
+    "paragraph": "Alura",
+    "date": "14/02/2024",
+    "link": "https://cursos.alura.com.br/certificate/65b48f8b-1d02-49df-9505-caf7d66573bd?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/rxjs-angular-programando-forma-reativa.svg",
+    "tags": ["Angular", "Front-end", "TypeScript", "RxJS", "HTML", "CSS"]
+  }
 ]

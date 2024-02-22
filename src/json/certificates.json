@@ -585,6 +585,15 @@
     "tags": ["Java", "Back-end", "Programming", "Tests"]
   },
   {
+    "id": 71,
+    "title": "Java e Clean Architecture: descomplicando arquitetura de software",
+    "paragraph": "Alura",
+    "date": "22/02/2024",
+    "link": "https://cursos.alura.com.br/certificate/bac6f937-24cf-42ea-975d-51af756debcb?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/java-clean-architecture.svg",
+    "tags": ["Java", "Back-end", "Programming", "Clean Architecture", "Tests"]
+  },
+  {
     "id": 66,
     "title": "Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD",
     "paragraph": "Alura",

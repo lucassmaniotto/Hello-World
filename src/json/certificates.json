@@ -646,5 +646,14 @@
     "link": "https://cursos.alura.com.br/certificate/d4679bde-4339-4799-9db4-db21efd64bb4?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/angular-aplicacao-interativa-personalizada-animacoes.svg",
     "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
+  },
+  {
+    "id": 73,
+    "title": "Angular: aprimore suas técnicas de animação e crie interfaces ainda mais atraentes",
+    "paragraph": "Alura",
+    "date": "28/03/2024",
+    "link": "https://cursos.alura.com.br/certificate/9873765a-b8d9-4e24-b5fa-ad69364c475a?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/angular-tecnicas-animacao-interfaces-atraentes.svg",
+    "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
   }
 ]

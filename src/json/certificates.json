@@ -655,5 +655,14 @@
     "link": "https://cursos.alura.com.br/certificate/9873765a-b8d9-4e24-b5fa-ad69364c475a?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/angular-tecnicas-animacao-interfaces-atraentes.svg",
     "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS"]
+  },
+  {
+    "id": 74,
+    "title": "Acessibilidade no Angular: aprimorando formulários, modais e rotas",
+    "paragraph": "Alura",
+    "date": "02/04/2024",
+    "link": "https://cursos.alura.com.br/certificate/533f5899-e705-475d-98b6-2fe6dfafabca?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/acessibilidade-angular-formularios-modais-rotas.svg",
+    "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS", "Accessibility"]
   }
 ]

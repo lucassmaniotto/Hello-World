@@ -135,5 +135,18 @@
       "Back-end",
       "Tests"
     ]
+  },
+  {
+    "id": 12,
+    "title": "Formação Explore o Framework Angular",
+    "paragraph": "Alura",
+    "date": "02/04/2024",
+    "link": "https://cursos.alura.com.br/degree/certificate/667b39f9-eab6-42cd-8e3b-5903e66c4835?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "Front-end"
+    ]
   }
 ]

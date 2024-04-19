@@ -504,6 +504,15 @@
     "tags": ["React", "JavaScript", "Front-end", "Styled Components"]
   },
   {
+    "id": 75,
+    "title": "Node.js: continue seu projeto full stack criando uma API com Express",
+    "paragraph": "Alura",
+    "date": "19/04/2024",
+    "link": "https://cursos.alura.com.br/certificate/e58de624-e936-4afc-a019-adab7f5bab29?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/node-primeira-api-express.svg",
+    "tags": ["Node.js", "Back-end", "JavaScript", "API"]
+  },
+  {
     "id": 45,
     "title": "React: migrando para TypeScript",
     "paragraph": "Alura",

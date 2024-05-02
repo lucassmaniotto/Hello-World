@@ -148,5 +148,18 @@
       "TypeScript",
       "Front-end"
     ]
+  },
+  {
+    "id": 13,
+    "title": "Formação Full stack JavaScript: crie um projeto com React e Node.js",
+    "paragraph": "Alura",
+    "date": "02/05/2024",
+    "link": "https://cursos.alura.com.br/degree/certificate/9b1a310e-fe89-4ee5-8ba6-baf409b15463?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg",
+    "tags": [
+      "React",
+      "Node.js",
+      "JavaScript"
+    ]
   }
 ]

@@ -513,6 +513,15 @@
     "tags": ["Node.js", "Back-end", "JavaScript", "API"]
   },
   {
+    "id": 76,
+    "title": "React e Node.js: consumindo APIs no React no projeto full stack",
+    "paragraph": "Alura",
+    "date": "02/05/2024",
+    "link": "https://cursos.alura.com.br/certificate/2d07ad1b-8e90-4b7b-a414-8c01553881ea?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/react-node-consumindo-apis-react.svg",
+    "tags": ["Node.js", "Back-end", "JavaScript", "API", "React", "Front-end"]
+  },
+  {
     "id": 45,
     "title": "React: migrando para TypeScript",
     "paragraph": "Alura",

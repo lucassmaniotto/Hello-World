@@ -28,6 +28,10 @@ function TecnologiesGrid() {
         name="React"
       />
       <Badge
+        icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+        name="Next.js"
+      />
+      <Badge
         icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
         name="Angular"
       />

@@ -682,5 +682,14 @@
     "link": "https://cursos.alura.com.br/certificate/533f5899-e705-475d-98b6-2fe6dfafabca?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/acessibilidade-angular-formularios-modais-rotas.svg",
     "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS", "Accessibility"]
+  },
+  {
+    "id": 77,
+    "title": "Next.js: explorando o framework",
+    "paragraph": "Alura",
+    "date": "09/05/2024",
+    "link": "https://cursos.alura.com.br/certificate/6a6c82a2-5735-4d7b-9266-d55ef74150c1?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/next-js-iniciando-framework.svg",
+    "tags": ["Next.js", "Front-end", "TypeScript", "HTML", "CSS"]
   }
 ]

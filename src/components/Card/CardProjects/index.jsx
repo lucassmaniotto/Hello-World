@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 
 import MainButton from "../../Button/MainButton";
 
+import { PROJECTS_IMAGES } from "../../../assets/images/Images";
+
 import {
   CardProjectContainer,
   CardProjectCover,
@@ -17,7 +19,7 @@ export default function Card({ project }) {
     <Link to={`/projects/${project.id}`}>
       <CardProjectContainer>
         <CardProjectCover
-          src={`/assets/image/projects/${project.id}/cover.png`}
+          src={PROJECTS_IMAGES(project.id).cover_card}
           alt={project.title}
         />
         <CardProjectTitle>{project.title}</CardProjectTitle>

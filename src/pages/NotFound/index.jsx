@@ -13,7 +13,7 @@ import {
   BlankSpace,
 } from "./styles";
 
-import IMAGES from '../../assets/images/Images';
+import { GENERAL_IMAGES } from "../../assets/images/Images";
 
 export default function NotFound() {
   const navegate = useNavigate();
@@ -29,7 +29,7 @@ export default function NotFound() {
         <ButtonContainer onClick={() => navegate(-1)}>
           <LargeButton>{t("404Button")}</LargeButton>
         </ButtonContainer>
-        <ImageDog src={IMAGES.error404} alt="Dog" />
+        <ImageDog src={GENERAL_IMAGES.error404} alt="Dog" />
       </ContentContainer>
       <BlankSpace />
     </>

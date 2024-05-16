@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { BannerContainer, BannerText, BannerImage } from "./styles";
 
-import IMAGES from "../../assets/images/Images";
+import { GENERAL_IMAGES } from "../../assets/images/Images";
 
 export default function Banner() {
   const { t } = useTranslation();
@@ -15,7 +15,7 @@ export default function Banner() {
       <BannerImage>
         <img
           className="colored-circle"
-          src={IMAGES.circle}
+          src={GENERAL_IMAGES.circle}
           aria-hidden="true"
           alt="Círculo colorido atrás da foto"
         />

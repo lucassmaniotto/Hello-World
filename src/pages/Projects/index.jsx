@@ -11,6 +11,9 @@ import Card from '../../components/Card/CardProjects';
 import projects_ptBR from '../../i18n/translations/projects_ptBR.json';
 import projects_en from '../../i18n/translations/projects_en.json';
 import projects_es from '../../i18n/translations/projects_es.json';
+
+import { PROJECTS_IMAGES } from '../../assets/images/Images';
+
 import { TitleOtherProjects, RecommendedProjectsUl } from './styles';
 import PageMarkdownContainer from './markdown-styles';
 
@@ -47,7 +50,7 @@ export default function Projects() {
           index
           element={
             <PagesModel
-              photoCover={`/assets/image/projects/${project.id}/cover_projects.jpg`}
+              photoCover={PROJECTS_IMAGES(project.id).cover_header}
               title={project.title}
             >
               <PageMarkdownContainer>

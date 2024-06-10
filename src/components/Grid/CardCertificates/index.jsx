@@ -60,7 +60,7 @@ export default function CardCertificates({ json, searchPlaceholder, defaultOptio
         </SearchSelect>
       </SearchContainer>
 
-      <CoursesContainer json={filteredCards}>
+      <CoursesContainer>
         {filteredCards.map((json) => (
           <CardAncor
             key={json.id}

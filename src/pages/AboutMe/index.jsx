@@ -3,8 +3,8 @@ import PagesModel from "../../components/PagesModel";
 import TecnologiesGrid from "../../components/Grid/TecnologiesGrid";
 import CardCertificates from "../../components/Grid/CardCertificates";
 
-import qualifications from "../../json/qualifications.json";
-import certificates from "../../json/certificates.json";
+import qualifications from "./json/qualifications.json";
+import certificates from "./json/certificates.json";
 
 import { GENERAL_IMAGES } from "../../assets/images/Images";
 

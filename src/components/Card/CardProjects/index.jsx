@@ -26,7 +26,7 @@ export default function Card({ project }) {
         {project.tags ? (
           <label>
             {project.tags.map((tag) => (
-              <Tag key={tag.id} type={tag.type}>
+              <Tag key={tag.name} type={tag.type}>
                 {tag.name}
               </Tag>
             ))}

@@ -161,5 +161,49 @@
       "Node.js",
       "JavaScript"
     ]
+  },
+  {
+    "id": 14,
+    "title": "Formação: Melhore sua aplicação React com o Next.js",
+    "paragraph": "Alura",
+    "date": "04/06/2024",
+    "link": "https://cursos.alura.com.br/degree/certificate/7475bf1d-d0de-4bc9-9571-0849941d8222?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Next.js"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Formação Next.js e Tailwind: construindo um design system",
+    "paragraph": "Alura",
+    "date": "03/07/2024",
+    "link": "https://cursos.alura.com.br/degree/certificate/fbca0abb-d2f8-4671-88ee-13b5addcb181?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS",
+      "Storybook"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Formação: Performe sua aplicação React com Next.js Full stack",
+    "paragraph": "Alura",
+    "date": "17/07/2024",
+    "link": "https://cursos.alura.com.br/degree/certificate/e3b22b5a-e8af-4102-bf93-2ff241164071?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg",
+    "tags": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Next.js"
+    ]
   }
 ]

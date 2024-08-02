@@ -198,6 +198,15 @@
     "tags": ["QA", "Tests", "Cypress", "JavaScript"]
   },
   {
+    "id": 89,
+    "title": "Cypress: automatizando testes E2E",
+    "paragraph": "Alura",
+    "date": "22/07/2024",
+    "link": "https://cursos.alura.com.br/certificate/ae9a6d12-ae45-4fd3-9a99-5ec4c313c3f3?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/cypress-automatizando-testes-e2e.svg",
+    "tags": ["QA", "Tests", "Cypress", "JavaScript"]
+  },
+  {
     "id": 59,
     "title": "Robot Framework: automatizando testes no padrão BDD",
     "paragraph": "Alura",
@@ -531,6 +540,70 @@
     "tags": ["React", "JavaScript", "Front-end"]
   },
   {
+    "id": 82,
+    "title": "React: criando um Design System com TailwindCSS",
+    "paragraph": "Alura",
+    "date": "10/06/2024",
+    "link": "https://cursos.alura.com.br/certificate/e42b55c9-b7a4-4704-a673-5d4a57fd5ddc?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/react-criando-design-system-tailwind.svg",
+    "tags": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Front-end",
+      "TailwindCSS",
+      "Storybook"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "React: evolua o seu Design System com TailwindCSS",
+    "paragraph": "Alura",
+    "date": "24/06/2024",
+    "link": "https://cursos.alura.com.br/certificate/50c572f8-7f75-4ba0-9343-22ca8d264e80?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/react-evolua-design-system-tailwindcss.svg",
+    "tags": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Front-end",
+      "TailwindCSS",
+      "Storybook"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "React: versione e publique o seu Design System",
+    "paragraph": "Alura",
+    "date": "03/07/2024",
+    "link": "https://cursos.alura.com.br/certificate/7dda087b-74ab-437d-852c-fca40653eb15?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/react-versione-publique-design-system.svg",
+    "tags": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Front-end",
+      "TailwindCSS",
+      "Storybook"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "React: eleve o nível da sua documentação no Storybook",
+    "paragraph": "Alura",
+    "date": "03/07/2024",
+    "link": "https://cursos.alura.com.br/certificate/50c572f8-7f75-4ba0-9343-22ca8d264e80?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/react-eleve-nivel-documentacao-storybook.svg",
+    "tags": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Front-end",
+      "TailwindCSS",
+      "Storybook"
+    ]
+  },
+  {
     "id": 46,
     "title": "TS I: evoluindo seu JavaScript",
     "paragraph": "Alura",
@@ -681,7 +754,14 @@
     "date": "02/04/2024",
     "link": "https://cursos.alura.com.br/certificate/533f5899-e705-475d-98b6-2fe6dfafabca?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/acessibilidade-angular-formularios-modais-rotas.svg",
-    "tags": ["Angular", "Front-end", "TypeScript", "HTML", "CSS", "Accessibility"]
+    "tags": [
+      "Angular",
+      "Front-end",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Accessibility"
+    ]
   },
   {
     "id": 77,
@@ -691,5 +771,68 @@
     "link": "https://cursos.alura.com.br/certificate/6a6c82a2-5735-4d7b-9266-d55ef74150c1?lang=pt_BR",
     "icon": "https://www.alura.com.br/assets/api/cursos/next-js-iniciando-framework.svg",
     "tags": ["Next.js", "Front-end", "TypeScript", "HTML", "CSS"]
+  },
+  {
+    "id": 78,
+    "title": "Next.js: tour pelo Next.js",
+    "paragraph": "Alura",
+    "date": "16/05/2024",
+    "link": "https://cursos.alura.com.br/certificate/1ca1e722-14c8-4730-8c2e-92794b1a0469?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/next-js-tour-next-js.svg",
+    "tags": ["Next.js", "Front-end", "TypeScript", "HTML", "CSS"]
+  },
+  {
+    "id": 79,
+    "title": "Next.js: autenticação e gerenciamento de Tokens",
+    "paragraph": "Alura",
+    "date": "21/05/2024",
+    "link": "https://cursos.alura.com.br/certificate/5aa6bd8d-95a6-4c38-96d1-a77a8429f903?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/nextjs-autenticacao-gerenciamento-tokens.svg",
+    "tags": ["Next.js", "Front-end", "TypeScript"]
+  },
+  {
+    "id": 80,
+    "title": "Next.js: trabalhando com arquitetura Front-end",
+    "paragraph": "Alura",
+    "date": "03/06/2024",
+    "link": "https://cursos.alura.com.br/certificate/8b5c5d56-697d-441a-b44b-9df785d3313d?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/nextjs-arquitetura-front-end.svg",
+    "tags": ["Next.js", "Front-end", "TypeScript"]
+  },
+  {
+    "id": 81,
+    "title": "Next.js: documentando seu Front-end com o Storybook",
+    "paragraph": "Alura",
+    "date": "04/06/2024",
+    "link": "https://cursos.alura.com.br/certificate/c1f13a44-14d1-46a0-8777-c054a766d2d9?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/nextjs-documentando-front-end-storybook.svg",
+    "tags": ["Next.js", "Front-end", "TypeScript", "Storybook"]
+  },
+  {
+    "id": 86,
+    "title": "Next.js Full stack: arquitetura de componentes Front-end",
+    "paragraph": "Alura",
+    "date": "02/07/2024",
+    "link": "https://cursos.alura.com.br/certificate/50c572f8-7f75-4ba0-9343-22ca8d264e80?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/nextjs-fullstack-arquitetura-componentes-front-end.svg",
+    "tags": ["Next.js", "Front-end", "TypeScript"]
+  },
+  {
+    "id": 87,
+    "title": "Next.JS: full stack com lambdas",
+    "paragraph": "Alura",
+    "date": "16/07/2024",
+    "link": "https://cursos.alura.com.br/certificate/9199056a-83f5-468f-8379-1af186ccc887?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/nextjs-full-stack-lambdas.svg",
+    "tags": ["Next.js", "Front-end", "TypeScript"]
+  },
+  {
+    "id": 88,
+    "title": "Next.js Full stack: gerenciando conteúdo em build time com File System",
+    "paragraph": "Alura",
+    "date": "17/07/2024",
+    "link": "https://cursos.alura.com.br/certificate/34edca4a-a91c-489f-bb92-dfec59eea671?lang=pt_BR",
+    "icon": "https://www.alura.com.br/assets/api/cursos/nextjs-fullstack-conteudo-build-time-file-system.svg",
+    "tags": ["Next.js", "Front-end", "TypeScript"]
   }
 ]
